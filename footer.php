@@ -20,43 +20,17 @@
             <div class="flex-item">
                 <div class="title">Navigation</div>
                 <div class="nav-list">
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Home
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Couples therapy
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Individual counseling
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Meet our team
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            What we do
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            FAQ
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Blog
-                        </a>
-                    </div>
+                <?php
+                    wp_nav_menu(
+                        array(
+                            'menu' => 'footer',
+                            'container' => '',
+                            'theme_location' => 'footer',
+                            'items_wrap' => '%3$s'
+                        )
+                    );
+                ?>
                 </div>
-
             </div>
             <div class="flex-item">
                 <div class="title">Stay connected</div>

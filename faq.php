@@ -1,0 +1,40 @@
+<?php
+/*
+Template Name: faq
+*/
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Couples Collective - FAQ</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FAQ">
+    <?php 
+        wp_head();
+    ?>
+</head>
+
+
+<body data-page="faq">
+    <!-- <section id="media-level"></section> -->
+    <?php
+        get_header()
+    ?>
+    <div id="faq-one">
+        <div class="title">FAQ</div>
+        <div class="subtitle">Our counselors offer a variety of expertise, whether you’re looking for yourself or you
+            and your partner, we can find the right match for you.</div>
+    </div>
+    <div id="faq-two">
+    </div>
+    <?php
+        get_footer()
+    ?>
+</body>
+
+</html>
