@@ -5,27 +5,34 @@
                     The Couples Collective
                 </div>
                 <div class="right-nav-desktop">
-                    <a href="/wordpress/wp-content/themes/couples-collective/team">Meet our team</a>
-                    <a href="/home.html">What we do</a>
-                    <a href="/faq.html">FAQ
-                    </a>
+                    <?php
+                        wp_nav_menu(
+                            array(
+                                'menu' => 'primary',
+                                'container' => '',
+                                'theme_location' => 'primary',
+                                'items_wrap' => '%3$s'
+                            )
+                        );
+                    ?>
                     <buton class="fill-button">Call Now</buton>
                 </div>
                 <div class="tablet-mobile-nav-row">
                     <div class="topnav">
-                        <div class="icon" onclick="myFunction()">
+                        <div class="icon" onclick="responsiveNav()">
                             <i class="fa fa-bars"></i>
                         </div>
                         <div id="myLinks">
-                            <div>
-                                <a href="/team.html">Meet our team</a>
-                            </div>
-                            <div>
-                                <a href="/home.html">What we do</a>
-                            </div>
-                            <div>
-                                <a href="/faq.html">FAQ</a>
-                            </div>
+                            <?php
+                                wp_nav_menu(
+                                    array(
+                                        'menu' => 'primary',
+                                        'container' => '',
+                                        'theme_location' => 'primary',
+                                        'items_wrap' => '%3$s'
+                                    )
+                                );
+                            ?>
                             <div>
                                 <buton class="fill-button">Call Now</buton>
                             </div>

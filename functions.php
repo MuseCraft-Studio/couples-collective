@@ -7,6 +7,18 @@ function cc_theme_support() {
 
 add_action('after_setup_theme', 'cc_theme_support');
 
+function cc_menus() {
+    $locations = array(
+        'primary' => 'Destop Primary Top',
+        'footer' => 'Footer Menu Items'
+    );
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'cc_menus');
+
+
 function cc_register_styles() {
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style('cc-styles', get_template_directory_uri() . "/style.css", array(), $version, 'all');

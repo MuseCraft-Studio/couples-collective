@@ -584,10 +584,16 @@ a:visited:hover {
 
 /* ==================== MEET OUR TEAM PAGE ==================== */
 
+
+
 #navigation {
     position: relative;
     top: 0;
     width: 100%;
+
+    & .menu-item::marker {
+        content: "";
+    }
 
     & .header-flex {
         color: black;
