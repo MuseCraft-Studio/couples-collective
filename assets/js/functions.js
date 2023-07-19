@@ -11,15 +11,25 @@ function signup() {
     alert("bloop");
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+function onReady() {
     const currentPage = document.body.dataset.page;
-
+    if (currentPage === 'home') {
+        var header = document.getElementById("navigation");
+        header.style.position = 'absolute'
+    }
     if (currentPage === 'team') {
         fetchTeamData();
     } else if (currentPage === 'faq') {
         fetchFAQData();
     }
-});
+}
+
+if (document.readyState !== "loading") {
+    onReady(); // Or setTimeout(onReady, 0); if you want it consistently async
+} else {
+    document.addEventListener("DOMContentLoaded", onReady);
+}
+
 
 function fetchTeamData() {
     fetch('/assets/team_info.json')

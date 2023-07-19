@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>The Couples Collective</title>
+    <!-- <title>The Couples Collective - Home</title> -->
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Couples Collective">
+    <meta name="description" content="Home">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
     <!-- <link rel="shortcut icon" href="images/logo.png">  -->
     <!-- <link rel="stylesheet" href="css/style.css"> -->
@@ -18,50 +18,18 @@
 </head>
 
 <body data-page="home">
+
     <!-- <section id="media-level"></section> -->
     <div id="section-one">
         <div class="container">
             <div class="video-container">
                 <video autoplay muted loop id="myVideo">
-                    <source src="/wordpress/wp-content/themes/cjtest/assets/images/Stocksy_txp43f09b8fmIk300_h264_1080p_4516097.mp4" type="video/mp4">
+                    <source src="/wordpress/wp-content/themes/couples-collective/assets/images/Stocksy_txp43f09b8fmIk300_h264_1080p_4516097.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="header">
-                <div class="header-flex">
-                    <div class="title">
-                        The Couples Collective
-                    </div>
-                    <div class="right-nav-desktop">
-                        <a href="/team.html">Meet our team</a>
-                        <a href="/home.html">What we do</a>
-                        <a href="/faq.html">FAQ
-                        </a>
-                        <buton class="fill-button">Call Now</buton>
-                    </div>
-                    <div class="tablet-mobile-nav-row">
-                        <div class="topnav">
-                            <div class="icon" onclick="myFunction()">
-                                <i class="fa fa-bars"></i>
-                            </div>
-                            <div id="myLinks">
-                                <div>
-                                    <a href="/team.html">Meet our team</a>
-                                </div>
-                                <div>
-                                    <a href="/home.html">What we do</a>
-                                </div>
-                                <div>
-                                    <a href="/faq.html">FAQ</a>
-                                </div>
-                                <div>
-                                    <buton class="fill-button">Call Now</buton>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+            <?php
+                get_header()
+            ?>
             <div class="left-content">
                 <div class="tag">
                     Building stronger relationships
@@ -78,10 +46,7 @@
     </div>
     <div id="section-two">
         <div class="flex-container">
-            <!-- <div class="flex-content"> -->
             <div class="image"></div>
-            <!-- <img src="/assets/Stocksy_txp2c7f6af1x1k200_Small_148595.jpg" /> -->
-            <!-- </div> -->
             <div class="learn-more">
                 <div class="title">
                     Providing expert EFT relationship counseling
@@ -300,101 +265,14 @@
                 </div>
             </div>
             <div class="image"></div>
-            <!-- <img src="/assets/Stocksy_txp2c7f6af1x1k200_Small_2750090.jpg" /> -->
         </div>
     </div>
-    <div id="footer">
-        <div class="container">
-            <div class="flex-item about">
-                <div class="title">The Couples Collective</div>
-                <div class="description">
-                    <p>
-                        Using emotionally focused couples therapy to build stronger bonds with your loved one. We work
-                        with
-                        couples and individuals to support their growth and life goals by matching you with the right
-                        therapist.
-                    </p>
-                    <p>
-                        The Couples Collective was started in the San Francisco Bay Area and now services more couples
-                        across California remotely.
-                    </p>
-                </div>
-                <button class="footer-outline-button">Call now (510) 373-9995</button>
-                <button class="footer-fill-button">Schedule a free consultation</button>
-            </div>
-            <div class="flex-item">
-                <div class="title">Navigation</div>
-                <div class="nav-list">
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Home
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Couples therapy
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Individual counseling
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Meet our team
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            What we do
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            FAQ
-                        </a>
-                    </div>
-                    <div class="nav-link">
-                        <a href="home.html">
-                            Blog
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="flex-item">
-                <div class="title">Stay connected</div>
-                <div class="logo-links">
-                    <div>
-                        <img src="/assets/footer-facebook.svg" />
-                    </div>
-                    <div>
-                        <img src="/assets/footer-linkedin.svg" />
-                    </div>
-                    <div>
-                        <img src="/assets/footer-yelp.svg" />
-                    </div>
-                </div>
-            </div>
-            <div class="flex-item">
-                <form action="javascript:" onsubmit="signup()" class="sign-up">
-                    <div class="title">Sign up for our newsletter</div>
-                    <div class="description">
-                        <p>
-                            Want to know when we get a new blog post or release new resources that can help you grow at
-                            home? Sign up below!
-                        </p>
-                    </div>
-                    <input #bloop class="input" type="email" placeholder="Email address" name="mail" required>
-                    <div>
-                        <input type="submit" class="footer-fill-button" value="Subscribe">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
+    <?php
+        the_content();
+    ?>
+    <?php
+    get_footer()
+    ?>
 </body>
 
 </html>

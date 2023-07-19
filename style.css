@@ -1,30 +1,28 @@
 /*
-Theme Name: Big Bloop
-Text Domain: Bloop
+Theme Name: Couples Collective
 Version: 1.0
-Description: a quick test to see if this works...
+Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
-Author: CJ and Angel
-AuthorURI: https://www.youtube.com
+Author: Angel Damion Robles and CJ Garcia
 */
 
 @font-face {
     font-family: 'Work Sans Normal';
-    src: url('../cjtest/assets/fonts/WorkSans/WorkSans-Regular.ttf');
+    src: url('../couples-collective/assets/fonts/WorkSans/WorkSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Work Sans Bold';
-    src: url('../cjtest/assets/fonts/WorkSans/WorkSans-Bold.ttf');
+    src: url('../couples-collective/assets/fonts/WorkSans/WorkSans-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Libre Baskerville Bold';
-    src: url('../cjtest/assets/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf');
+    src: url('../couples-collective/assets/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -42,7 +40,6 @@ AuthorURI: https://www.youtube.com
     --standard-padding: 156px;
 }
 
-/* http://localhost/wordpress/wp-content/themes/cjtest/assets/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf */
 html,
 body {
     width: 100%;
@@ -203,20 +200,6 @@ a:visited:hover {
 #section-one .container {
     color: white;
     font-family: var(--font-work-sans-regular);
-}
-
-#section-one .header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-#section-one .header-flex {
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px var(--standard-padding);
 }
 
 #section-one .left-content {
@@ -598,223 +581,21 @@ a:visited:hover {
     }
 }
 
-@media only screen and (max-width: 745px) {
-    #media-level::before {
-        content: "Tablet";
-    }
-
-    #section-one .header-flex {
-        align-items: start;
-    }
-
-    .right-nav-desktop {
-        display: none;
-    }
-
-    .tablet-mobile-nav-row {
-        display: block;
-    }
-
-    #section-one .banner {
-        align-items: start;
-    }
-
-    #section-one .bottom-left {
-        bottom: 0px;
-    }
-
-    #section-two .flex-container {
-        display: block;
-        padding: 60px 15%;
-    }
-
-    #section-two .flex-content {
-        max-width: 100%;
-    }
-
-    #section-two img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
-        margin: 15px 0;
-    }
-
-    #section-two .learn-more,
-    .get-started {
-        margin: 15px 15%;
-    }
-
-    #section-three .cover-img {
-        width: 100%;
-    }
-
-    #section-three .flex-container {
-        display: block;
-        margin: 0;
-    }
-
-    #section-three .flex-item {
-        padding: 10%;
-    }
-
-    #section-four .flex-container {
-        display: block;
-    }
-
-    #section-four .flex-item {
-        max-width: 100%;
-        padding: 10%;
-    }
-
-    #footer .container {
-        min-height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    #footer .flex-item {
-        max-width: 100%;
-        margin-bottom: 60px;
-    }
-
-    #footer .container>div {
-        display: flex;
-        flex-basis: calc(50% - 40px);
-        justify-content: start;
-        flex-direction: column;
-    }
-
-    #footer .container>div>div {
-        justify-content: start;
-    }
-
-    #footer .logo-links {
-        flex-direction: row;
-        justify-content: start;
-        column-gap: 15px;
-    }
-}
-
-@media only screen and (max-width: 390px) {
-    #media-level::before {
-        content: "Mobile";
-    }
-
-    #section-one .video-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        overflow: hidden;
-    }
-
-    #section-one video {
-        height: 100%;
-        width: auto;
-    }
-
-    .right-nav-desktop {
-        display: none;
-    }
-
-    .tablet-mobile-nav-row {
-        display: block;
-    }
-
-    #section-one .banner {
-        align-items: start;
-    }
-
-    #section-one .bottom-left {
-        bottom: 0px;
-    }
-
-    #section-one .title {
-        font-size: 16px;
-    }
-
-    #section-one .tag {
-        font-size: 32px;
-    }
-
-    #section-one .description {
-        font-size: 14px;
-    }
-
-    #section-two .flex-container {
-        display: block;
-        padding: 60px 0;
-    }
-
-    #section-two .flex-content {
-        max-width: 100%;
-    }
-
-    #section-two img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
-        margin: 15px 0;
-        border-radius: 0;
-    }
-
-    #section-two .learn-more,
-    .get-started {
-        margin: 15px 0;
-    }
-
-    #section-two .title {
-        font-size: 20px;
-    }
-
-    #section-three .cover-img {
-        width: 100%;
-    }
-
-    #section-three .flex-container {
-        display: block;
-        margin: 0;
-    }
-
-    #section-three .flex-item {
-        padding: 10% 0;
-    }
-
-    #section-four .flex-container {
-        display: block;
-    }
-
-    #section-four .flex-item {
-        max-width: 100%;
-        padding: 15% 0;
-    }
-
-    #footer .container {
-        display: block;
-    }
-
-    #footer .flex-item {
-        max-width: 100%;
-        margin-bottom: 15%;
-    }
-
-    #footer .nav-link {
-        margin-bottom: 30px;
-    }
-
-    #footer .logo-links {
-        flex-direction: row;
-        justify-content: start;
-        column-gap: 15px;
-    }
-}
 
 /* ==================== MEET OUR TEAM PAGE ==================== */
 
-#second-navigation {
-    padding: 40px var(--standard-padding);
+#navigation {
+    position: relative;
+    top: 0;
+    width: 100%;
+
+    & .header-flex {
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px var(--standard-padding);
+    }
 
     & .container {
         display: flex;
@@ -826,26 +607,6 @@ a:visited:hover {
         font-family: var(--font-work-sans-bold);
         color: #333;
     }
-
-    /* & .right-nav-desktop {
-        display: block;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        column-gap: 40px;
-        justify-content: end;
-        font-size: 14px;
-        font-family: var(--font-work-sans-regular);
-
-        & a {
-            color: black;
-            text-decoration: none;
-        }
-
-        & a:visited {
-            color: var(--standard-purple);
-        }
-    } */
 }
 
 #team-one {
@@ -1110,5 +871,218 @@ a:visited:hover {
         font-family: var(--font-work-sans-regular);
         font-size: 16px;
         color: #4E4E4E;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    #media-level::before {
+        content: "Tablet";
+    }
+
+    #navigation .header-flex {
+        align-items: start;
+    }
+
+    .right-nav-desktop {
+        display: none;
+    }
+
+    .tablet-mobile-nav-row {
+        display: block;
+    }
+
+    #section-one .banner {
+        align-items: start;
+    }
+
+    #section-one .bottom-left {
+        bottom: 0px;
+    }
+
+    #section-two .flex-container {
+        display: block;
+        padding: 60px 15%;
+    }
+
+    #section-two .flex-content {
+        max-width: 100%;
+    }
+
+    #section-two img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #section-two .learn-more,
+    .get-started {
+        margin: 15px 15%;
+    }
+
+    #section-three .cover-img {
+        width: 100%;
+    }
+
+    #section-three .flex-container {
+        display: block;
+        margin: 0;
+    }
+
+    #section-three .flex-item {
+        padding: 10%;
+    }
+
+    #section-four .flex-container {
+        display: block;
+    }
+
+    #section-four .flex-item {
+        max-width: 100%;
+        padding: 10%;
+    }
+
+    #footer .container {
+        min-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #footer .flex-item {
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+
+    #footer .container>div {
+        display: flex;
+        flex-basis: calc(50% - 40px);
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    #footer .container>div>div {
+        justify-content: start;
+    }
+
+    #footer .logo-links {
+        flex-direction: row;
+        justify-content: start;
+        column-gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #media-level::before {
+        content: "Mobile";
+    }
+
+    #section-one .video-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #section-one video {
+        height: 100%;
+        width: auto;
+    }
+
+    .right-nav-desktop {
+        display: none;
+    }
+
+    .tablet-mobile-nav-row {
+        display: block;
+    }
+
+    #section-one .banner {
+        align-items: start;
+    }
+
+    #section-one .bottom-left {
+        bottom: 0px;
+    }
+
+    #section-one .title {
+        font-size: 16px;
+    }
+
+    #section-one .tag {
+        font-size: 32px;
+    }
+
+    #section-one .description {
+        font-size: 14px;
+    }
+
+    #section-two .flex-container {
+        display: block;
+        padding: 60px 0;
+    }
+
+    #section-two .flex-content {
+        max-width: 100%;
+    }
+
+    #section-two img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+        margin: 15px 0;
+        border-radius: 0;
+    }
+
+    #section-two .learn-more,
+    .get-started {
+        margin: 15px 0;
+    }
+
+    #section-two .title {
+        font-size: 20px;
+    }
+
+    #section-three .cover-img {
+        width: 100%;
+    }
+
+    #section-three .flex-container {
+        display: block;
+        margin: 0;
+    }
+
+    #section-three .flex-item {
+        padding: 10% 0;
+    }
+
+    #section-four .flex-container {
+        display: block;
+    }
+
+    #section-four .flex-item {
+        max-width: 100%;
+        padding: 15% 0;
+    }
+
+    #footer .container {
+        display: block;
+    }
+
+    #footer .flex-item {
+        max-width: 100%;
+        margin-bottom: 15%;
+    }
+
+    #footer .nav-link {
+        margin-bottom: 30px;
+    }
+
+    #footer .logo-links {
+        flex-direction: row;
+        justify-content: start;
+        column-gap: 15px;
     }
 }

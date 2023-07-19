@@ -1,5 +1,12 @@
 <?php 
 
+function cc_theme_support() {
+    // sets title from the field at Wordpress.com > admin > Settings > General Site Title
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'cc_theme_support');
+
 function cc_register_styles() {
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style('cc-styles', get_template_directory_uri() . "/style.css", array(), $version, 'all');
@@ -9,7 +16,7 @@ function cc_register_styles() {
 add_action('wp_enqueue_scripts', 'cc_register_styles');
 
 function cc_register_scripts() {
-    wp_enqueue_script('cc-functions', get_template_directory_uri() . "/assets/js/functions.js", array(), '1.0');
+    wp_enqueue_script('cc-functions', get_template_directory_uri() . "/assets/js/functions.js", array(), '1.0', false);
 }
 
 add_action('wp_enqueue_scripts', 'cc_register_scripts');
