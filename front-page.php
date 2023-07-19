@@ -85,7 +85,7 @@
     <div id="section-three">
         <div class="background">
 
-            <img src="assets/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg" class="cover-img" />
+            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg" class="cover-img" />
             <div class="title">
                 Reviews on Yelp
             </div>
@@ -93,19 +93,19 @@
                 <div class="flex-item">
                     <div class="svg-container">
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                     </div>
                     <div class="review">
@@ -116,19 +116,19 @@
                 <div class="flex-item">
                     <div class="svg-container">
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                     </div>
                     <div class="review">
@@ -140,19 +140,19 @@
                 <div class="flex-item">
                     <div class="svg-container">
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                     </div>
                     <div class="review">
@@ -165,19 +165,19 @@
                 <div class="flex-item">
                     <div class="svg-container">
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                         <div>
-                            <img src="assets/yelp_star.svg" alt="yel-star">
+                            <img src="/wordpress/wp-content/themes/couples-collective/assets/images/yelp_star.svg" alt="yel-star">
                         </div>
                     </div>
                     <div class="review">
@@ -188,7 +188,7 @@
             </div>
             <div class="yelp">
                 <a href="https://www.yelp.com/biz/grady-fort-mft-oakland" target="_blank">
-                    <img src="/assets/Yelp.svg" />
+                    <img src="/wordpress/wp-content/themes/couples-collective/assets/images/Yelp.svg" />
                     <div>
                         See more
                     </div>
@@ -267,9 +267,9 @@
             <div class="image"></div>
         </div>
     </div>
-    <?php
+    <!-- <?php
         the_content();
-    ?>
+    ?> -->
     <?php
     get_footer()
     ?>

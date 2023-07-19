@@ -62,13 +62,13 @@
                 <div class="title">Stay connected</div>
                 <div class="logo-links">
                     <div>
-                        <img src="/assets/footer-facebook.svg" />
+                        <img src="/wordpress/wp-content/themes/couples-collective/assets/images/footer-facebook.svg" />
                     </div>
                     <div>
-                        <img src="/assets/footer-linkedin.svg" />
+                        <img src="/wordpress/wp-content/themes/couples-collective/assets/images/footer-linkedin.svg" />
                     </div>
                     <div>
-                        <img src="/assets/footer-yelp.svg" />
+                        <img src="/wordpress/wp-content/themes/couples-collective/assets/images/footer-yelp.svg" />
                     </div>
                 </div>
             </div>

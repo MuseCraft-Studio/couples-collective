@@ -1,16 +1,3 @@
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
-
-function signup() {
-    alert("bloop");
-}
-
 function onReady() {
     const currentPage = document.body.dataset.page;
     if (currentPage === 'home') {
@@ -25,10 +12,24 @@ function onReady() {
 }
 
 if (document.readyState !== "loading") {
-    onReady(); // Or setTimeout(onReady, 0); if you want it consistently async
+    onReady();
 } else {
     document.addEventListener("DOMContentLoaded", onReady);
 }
+
+function responsiveNav() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function signup() {
+    alert("bloop");
+}
+
 
 
 function fetchTeamData() {
