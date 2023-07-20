@@ -8,21 +8,21 @@ Author: Angel Damion Robles and CJ Garcia
 
 @font-face {
     font-family: 'Work Sans Normal';
-    src: url('../couples-collective/assets/fonts/WorkSans/WorkSans-Regular.ttf');
+    src: url('/assets/fonts/WorkSans/WorkSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Work Sans Bold';
-    src: url('../couples-collective/assets/fonts/WorkSans/WorkSans-Bold.ttf');
+    src: url('/assets/fonts/WorkSans/WorkSans-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Libre Baskerville Bold';
-    src: url('../couples-collective/assets/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf');
+    src: url('/assets/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
