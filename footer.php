@@ -36,13 +36,13 @@
                 <div class="title">Stay connected</div>
                 <div class="logo-links">
                     <div>
-                        <img src="/wp-content/themes/couples-collective/assets/images/footer-facebook.svg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/footer-facebook.svg" />
                     </div>
                     <div>
-                        <img src="/wp-content/themes/couples-collective/assets/images/footer-linkedin.svg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/footer-linkedin.svg" />
                     </div>
                     <div>
-                        <img src="/wp-content/themes/couples-collective/assets/images/footer-yelp.svg" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/footer-yelp.svg" />
                     </div>
                 </div>
             </div>
