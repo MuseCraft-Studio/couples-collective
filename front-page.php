@@ -41,7 +41,7 @@
     </div>
     <div id="section-two">
         <div class="flex-container">
-            <div class="image"></div>
+            <div class="image" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_148595.jpg');"></div>
             <div class="learn-more">
                 <div class="title">
                     Providing expert EFT relationship counseling
