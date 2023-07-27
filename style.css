@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.3
+Version: 0.1
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -8,27 +8,27 @@ Author: Angel Damion Robles and CJ Garcia
 
 @font-face {
     font-family: 'Work Sans Normal';
-    src: url('/wp-content/themes/couples-collective/assets/fonts/WorkSans/WorkSans-Regular.ttf');
+    src: url('../couples-collective/assets/fonts/WorkSans/WorkSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Work Sans Bold';
-    src: url('/wp-content/themes/couples-collective/assets/fonts/WorkSans/WorkSans-Bold.ttf');
+    src: url('../couples-collective/assets/fonts/WorkSans/WorkSans-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Libre Baskerville Bold';
-    src: url('/wp-content/themes/couples-collective/assets/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf');
+    src: url('../couples-collective/assets/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
-    --font-work-sans-regular: 'Work Sans Normal', sans-serif;
+    --font-work-sans-regular: 'Work Sans', sans-serif;
     --font-work-sans-bold: 'Work Sans Bold', sans-serif;
     --font-libre-serif: 'Libre Baskerville Bold', serif;
     --standard-green: #4e8d6b;
