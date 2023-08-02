@@ -35,7 +35,8 @@ Author: Angel Damion Robles and CJ Garcia
     --standard-light-gray: #e0e0e0;
     --standard-gray: #3F4447;
     --standard-purple: #91639B;
-    --standard-red: #CB6948;
+    --standard-red: #CD4F26;
+    --standard-black: #1b1c1e;
     --standard-radius: 27px;
     --standard-padding: 156px;
 }
@@ -316,7 +317,7 @@ a:visited:hover {
 
 #section-two .description {
     font-size: 16px;
-    color: #4E4E4E;
+    color: #2D2D2D;
 }
 
 #section-two .image {
@@ -402,6 +403,7 @@ a:visited:hover {
 #section-three .review {
     text-align: start;
     margin-top: 10px;
+    font-family: var(--font-work-sans-regular);
 }
 
 #section-three .yelp {
@@ -439,9 +441,9 @@ a:visited:hover {
 }
 
 #section-four .description {
-    font-size: 12px;
-    font-weight: 500;
-    color: #333;
+    font-size: 16px;
+    font-family: var(--font-work-sans-regular);
+    color: var(--standard-black);
 }
 
 #section-five {
@@ -461,13 +463,11 @@ a:visited:hover {
     justify-content: space-between;
     text-align: center;
     padding: 75px 45px 35px 45px;
-    border: solid 2px var(--standard-green);
+    border: solid 2px var(--standard-red);
     border-radius: var(--standard-radius);
     align-self: stretch;
     flex: 1;
-    overflow-y: scroll;
     max-width: 567px;
-
 }
 
 #section-five .title {
@@ -520,14 +520,14 @@ a:visited:hover {
 
 #footer .title {
     font-family: var(--font-libre-serif);
-    font-size: 12px;
+    font-size: 14px;
     color: #FFFFFF;
     /* margin: 20px 0; */
 }
 
 #footer .description {
     font-family: var(--font-work-sans-regular);
-    font-size: 10px;
+    font-size: 12px;
     color: #FFFFFF;
 }
 
