@@ -22,7 +22,7 @@ Template Name: contact
     <?php
         get_header()
     ?>
-    <div #contact>
+    <div id="contact">
         <?php
             the_content()
         ?>
