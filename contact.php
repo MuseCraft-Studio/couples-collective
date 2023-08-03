@@ -8,3 +8,4 @@ Template Name: contact
 the_content()
 ?>
 </div>
+<? php wp_footer (); ?>
