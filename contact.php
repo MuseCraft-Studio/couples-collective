@@ -18,16 +18,18 @@ Template Name: contact
     ?>
 </head>
 <body data-page="contact">
-<?php
-    get_header()
-?>
+
+    <?php
+        get_header()
+    ?>
 
 <?php
     the_content()
 ?>
 
-
-<?php
-    get_footer()
-?>
+    <?php
+        get_footer()
+    ?>
 </body>
+
+</html>
