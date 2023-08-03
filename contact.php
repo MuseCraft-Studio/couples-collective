@@ -22,10 +22,11 @@ Template Name: contact
     <?php
         get_header()
     ?>
-
-<?php
-    the_content()
-?>
+    <div #contact>
+        <?php
+            the_content()
+        ?>
+    </div>
 
     <?php
         get_footer()

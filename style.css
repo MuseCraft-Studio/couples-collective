@@ -905,6 +905,13 @@ a:visited:hover {
     }
 }
 
+#contact {
+    max-width: 1440px;
+    padding: 200px var(--standard-padding);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width: 745px) {
     #media-level::before {
         content: "Tablet";
