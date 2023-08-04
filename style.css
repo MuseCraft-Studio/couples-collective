@@ -532,7 +532,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
+    text-align: start;
     padding: 75px 45px 35px 45px;
     border: solid 2px var(--standard-red);
     border-radius: var(--standard-radius);

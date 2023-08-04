@@ -28,6 +28,7 @@ Template Name: contact
         <?php
             the_content()
         ?>
+        <?php echo apply_shortcodes( '[hubspot type="form" portal="42794038" id="c8d4e5f5-1e29-4646-8302-a40d835135ff"]' ); ?>
     </div>        
     <?php
         get_footer()
