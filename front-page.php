@@ -31,7 +31,7 @@
                             Building stronger relationships
                         </div>
                         <div class="description">
-                            Using emotionally focused couples therapy to build stronger bonds with your loved one.
+                        Using emotionally focused couples therapy to build stronger bonds with your loved one by remote counseling across California or in offices across the east bay.
                         </div>
                         <div class=".button-row">
                             <button class="fill-button">Couples</button>
@@ -215,10 +215,10 @@
                     </div>
                     <div class="description">
                         <p>
-                            This is stuff and words and things and more stuff said about things and stuff
+                            Sliding scale services are available as needed if you qualify, and we can find the right match.
                         </p>
                         <p>
-                            This is stuff and words and things and more stuff said about things and stuff
+                            Reach out to find out what options might be available for you.
                         </p>
                     </div>
                 </div>
@@ -228,10 +228,10 @@
                     </div>
                     <div class="description">
                         <p>
-                            This is stuff and words and things and more stuff said about things and stuff
+                            Our licensed couples counselors offer in-person couples counseling in the Bay Area or remote couples counseling in all of California.
                         </p>
                         <p>
-                            This is stuff and words and things and more stuff said about things and stuff
+                            We understand that every couple is different, so we offer a variety of therapy styles to fit your needs.
                         </p>
                     </div>
                 </div>

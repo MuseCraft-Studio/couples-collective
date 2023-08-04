@@ -2,7 +2,9 @@
     <div class="header">
         <div class="header-flex">
             <div class="title">
-                The Couples Collective
+                <a href="/">
+                    The Couples Collective
+                </a>
             </div>
             <div class="right-nav-desktop">
                 <?php
@@ -15,7 +17,7 @@
                         )
                     );
                 ?>
-                <button class="fill-button">Call Now</button>
+                <button class="fill-button">Call now: (510) 373-9995</button>
             </div>
             <div class="tablet-mobile-nav-row">
                 <div class="topnav">
@@ -34,7 +36,8 @@
                             );
                         ?>
                         <div>
-                            <button class="fill-button">Call Now</button>
+                        <a class="fill-button" href="tel:8882192787">Call Now</a>
+                            <!-- <button class="fill-button">Call Now</button> -->
                         </div>
                     </div>
                 </div>

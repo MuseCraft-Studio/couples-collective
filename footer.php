@@ -55,6 +55,7 @@
                             home? Sign up below!
                         </p>
                     </div>
+                    <!-- <?php echo apply_shortcodes( '[contact-form-7 id="1234" title="Contact form 1"]' ); ?> -->
                     <input #bloop class="input" type="email" placeholder="Email address" name="mail" required>
                     <div>
                         <input type="submit" class="footer-fill-button" value="Subscribe">
