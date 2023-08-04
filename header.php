@@ -17,7 +17,9 @@
                         )
                     );
                 ?>
-                <button class="fill-button">Call now: (510) 373-9995</button>
+                <div>
+                    <a class="fill-button" style="color: white;" href="tel:5103739995">Call now: (510) 373-9995</a>
+                </div>
             </div>
             <div class="tablet-mobile-nav-row">
                 <div class="topnav">
@@ -36,8 +38,7 @@
                             );
                         ?>
                         <div>
-                        <a class="fill-button" href="tel:8882192787">Call Now</a>
-                            <!-- <button class="fill-button">Call Now</button> -->
+                            <a class="fill-button" style="color: white;" href="tel:5103739995">Call Now</a>
                         </div>
                     </div>
                 </div>

@@ -223,6 +223,10 @@ a:hover {
         color: #333;
     }
 
+    & .call {
+        color: #FFF;
+    }
+
     & a {
         text-decoration: none;
         color: var(--standard-black);
