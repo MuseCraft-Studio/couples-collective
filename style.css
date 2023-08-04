@@ -956,6 +956,11 @@ a:hover {
     margin-right: auto;
 }
 
+.hubspot-link__container.sproket {
+    display: none;
+    /* sorry hubspot */
+}
+
 @media only screen and (max-width: 1010px) {
     #media-level::before {
         content: "Tablet";
