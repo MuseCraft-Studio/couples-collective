@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.8
+Version: 0.6
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -39,6 +39,8 @@ Author: Angel Damion Robles and CJ Garcia
     --standard-black: #1b1c1e;
     --standard-radius: 27px;
     --standard-padding: 156px;
+    --tablet-padding: 78px;
+    --mobile-padding: 16px;
 }
 
 html,
@@ -150,7 +152,7 @@ a:hover {
     text-decoration: none;
     display: inline-block;
     font-family: var(--font-work-sans-regular);
-    font-size: 16px;
+    font-size: 16px !important;
     border-radius: var(--standard-radius);
     transition: 0.2s;
 
@@ -174,7 +176,7 @@ a:hover {
     text-decoration: none;
     display: inline-block;
     font-family: var(--font-work-sans-regular);
-    font-size: 16px;
+    font-size: 16px !important;
     border-radius: var(--standard-radius);
     transition: 0.2s;
 
@@ -396,6 +398,10 @@ a:hover {
      */
 }
 
+#section-two .break {
+    display: none;
+}
+
 #section-two .learn-more {
     background-color: #e0e0e0;
     border-radius: var(--standard-radius);
@@ -507,14 +513,19 @@ a:hover {
 }
 
 #section-five {
-    padding: 80px var(--standard-padding);
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0;
 }
 
-#section-five .container {
+#section-five .flex-container {
     display: flex;
+    align-items: center;
+    height: 100%;
     justify-content: space-between;
-    column-gap: 32px;
-    /* max-height: 476px; */
+    column-gap: 24px;
 }
 
 #section-five .text-content {
@@ -526,8 +537,8 @@ a:hover {
     border: solid 2px var(--standard-red);
     border-radius: var(--standard-radius);
     align-self: stretch;
-    flex: 1;
     max-width: 567px;
+    flex: 1;
 }
 
 #section-five .title {
@@ -547,19 +558,34 @@ a:hover {
 }
 
 #section-five .image {
-    max-width: 525px;
-    max-height: 402px;
-    height: 525px;
+    /* max-width: 525px; */
+    /* max-height: 402px; */
+    /* height: 100%;
     width: auto;
+    min-width: 200px;
     background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2750090.jpg');
     background-size: cover;
     background-position: center;
-    flex: 1;
+    align-self: center;
+    justify-self: center;
+    border-radius: var(--standard-radius);
+    flex: 2; */
+    max-width: 525px;
+    max-height: 402px;
+    height: 100vh;
+    width: 100%;
+    min-width: 200px;
+    background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2750090.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 2;
     align-self: center;
     border-radius: var(--standard-radius);
+
 }
 
 #footer {
+    width: 100%;
     position: relative;
     background-color: var(--standard-green);
 
@@ -573,7 +599,6 @@ a:hover {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
     padding: 40px var(--standard-padding);
     flex-direction: row;
     justify-content: space-between;
@@ -583,6 +608,9 @@ a:hover {
     max-width: 270px;
 }
 
+#footer .break {
+    display: none;
+}
 
 #footer .title {
     font-family: var(--font-libre-serif);
@@ -928,14 +956,38 @@ a:hover {
     margin-right: auto;
 }
 
-@media only screen and (max-width: 745px) {
+@media only screen and (max-width: 1010px) {
     #media-level::before {
         content: "Tablet";
+    }
+
+    #navigation {
+        & .header-flex {
+            padding: var(--mobile-padding);
+        }
     }
 
     #navigation .header-flex {
         align-items: start;
     }
+
+    #section-one .left-content {
+        padding: 60px var(--mobile-padding);
+        row-gap: 10px;
+    }
+
+    #section-one .tag {
+        font-size: 32px;
+    }
+
+    #section-one .description {
+        font-size: 14px;
+    }
+
+    #home-content {
+        padding: 0;
+    }
+
 
     .right-nav-desktop {
         display: none;
@@ -953,25 +1005,44 @@ a:hover {
         bottom: 0px;
     }
 
+    #section-two {
+        max-width: 100%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 80px var(--tablet-padding);
+    }
+
     #section-two .flex-container {
-        display: block;
-        padding: 60px 15%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 12px;
     }
 
-    #section-two .flex-content {
-        max-width: 100%;
-    }
-
-    #section-two img {
-        max-width: 100%;
-        height: auto;
+    #section-two .image {
         width: 100%;
-        margin: 15px 0;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
-    #section-two .learn-more,
+    #section-two .break {
+        display: block;
+        flex-basis: 100%;
+    }
+
+    #section-two #section-two .learn-more,
     .get-started {
-        margin: 15px 15%;
+        flex: 1;
+    }
+
+    #section-three {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
     }
 
     #section-three .cover-img {
@@ -984,51 +1055,93 @@ a:hover {
     }
 
     #section-three .flex-item {
-        padding: 10%;
+        padding: 45px var(--tablet-padding);
     }
 
-    #section-four .flex-container {
+    #section-four {
+        padding: 0 var(--tablet-padding);
+    }
+
+    #section-four .container {
         display: block;
     }
 
     #section-four .flex-item {
-        max-width: 100%;
-        padding: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 45px 0;
+    }
+
+    #section-five {
+        padding: 24px var(--tablet-padding);
+    }
+
+    #section-five .flex-container {
+        display: block;
+    }
+
+    #section-five .text-content,
+    .image {
+        margin: 24px auto;
+    }
+
+    #footer .break {
+        display: block;
+        flex-basis: 100%;
     }
 
     #footer .container {
-        min-height: 100%;
-        display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+
+    #footer .flex-item {
+        /* max-width: 100%; */
+        max-width: 270px;
+        width: 100%;
+        margin-bottom: 60px;
+        justify-content: start;
+    }
+
+    #footer .logo-links {
+        max-width: 120px;
+    }
+
+    #footer .container {
+        display: block;
     }
 
     #footer .flex-item {
         max-width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 46px;
+        margin-left: auto;
+        margin-right: auto;
+        flex: 1;
     }
 
-    #footer .container>div {
-        display: flex;
-        flex-basis: calc(50% - 40px);
-        justify-content: start;
-        flex-direction: column;
-    }
-
-    #footer .container>div>div {
-        justify-content: start;
+    #footer .nav-link {
+        margin-bottom: 30px;
     }
 
     #footer .logo-links {
         flex-direction: row;
         justify-content: start;
         column-gap: 15px;
+        max-width: 120px;
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 573px) {
     #media-level::before {
         content: "Mobile";
+    }
+
+    #navigation {
+        & .header-flex {
+            padding: var(--mobile-padding);
+        }
     }
 
     #section-one .video-container {
@@ -1059,6 +1172,11 @@ a:hover {
 
     #section-one .bottom-left {
         bottom: 0px;
+    }
+
+    #section-one .left-content {
+        padding: 60px var(--mobile-padding);
+        row-gap: 10px;
     }
 
     #section-one .title {
@@ -1119,24 +1237,5 @@ a:hover {
     #section-four .flex-item {
         max-width: 100%;
         padding: 15% 0;
-    }
-
-    #footer .container {
-        display: block;
-    }
-
-    #footer .flex-item {
-        max-width: 100%;
-        margin-bottom: 15%;
-    }
-
-    #footer .nav-link {
-        margin-bottom: 30px;
-    }
-
-    #footer .logo-links {
-        flex-direction: row;
-        justify-content: start;
-        column-gap: 15px;
     }
 }

@@ -46,6 +46,7 @@
         <div id="section-two">
             <div class="flex-container">
                 <div class="image"></div>
+                <div class="break"></div>
                 <div class="learn-more">
                     <div class="title">
                         Providing expert EFT relationship counseling
@@ -238,32 +239,34 @@
             </div>
         </div>
         <div id="section-five">
-            <div class="container">
-                <div class="text-content">
-                    <div class="title">
-                        How the 3 stages of emotionally focused therapy can help you
+            <div class="flex-container">
+                    <div class="text-content">
+                        <div class="title">
+                            How the 3 stages of emotionally focused therapy can help you
+                        </div>
+                        <div class="subtitle">
+                            <p>
+                                The three stages used in emotionally focused therapy are:
+                            </p>
+                        </div>
+                        <div>
+                            <ol class="stages-list">
+                                <li><b>De-escalating,</b> assessing problems and letting</li>
+                                <li><b>Restructuring Interactions</b> with each other that meet each other's needs and validate
+                                    each
+                                    other's communication styles</li>
+                                <li><b>Integrating new skills,</b> understandings and ackowledging previous habits or behavior
+                                    that
+                                    wasn't working</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <a href="contact-test">
+                                <button class="fill-button">Book your free consultation</button>
+                            </a>
+                        </div>
                     </div>
-                    <div class="subtitle">
-                        <p>
-                            The three stages used in emotionally focused therapy are:
-                        </p>
-                    </div>
-                    <div>
-                        <ol class="stages-list">
-                            <li><b>De-escalating,</b> assessing problems and letting</li>
-                            <li><b>Restructuring Interactions</b> with each other that meet each other's needs and validate
-                                each
-                                other's communication styles</li>
-                            <li><b>Integrating new skills,</b> understandings and ackowledging previous habits or behavior
-                                that
-                                wasn't working</li>
-                        </ol>
-                    </div>
-                    <div>
-                        <button class="fill-button">Book your free consultation</button>
-                    </div>
-                </div>
-                <div class="image"></div>
+                    <div class="image"></div>
             </div>
         </div>
     </div>

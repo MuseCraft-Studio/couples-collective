@@ -14,7 +14,9 @@
                         across California remotely.
                     </p>
                 </div>
-                <button class="footer-outline-button">Call now (510) 373-9995</button>
+                <div>
+                    <a class="footer-outline-button" href="tel:5103739995">Call now (510) 373-9995</a>
+                </div>
                 <button class="footer-fill-button">Schedule a free consultation</button>
             </div>
             <div class="flex-item">
@@ -32,6 +34,7 @@
                 ?>
                 </div>
             </div>
+            <div class="break"></div>
             <div class="flex-item">
                 <div class="title">Stay connected</div>
                 <div class="logo-links">
@@ -47,20 +50,13 @@
                 </div>
             </div>
             <div class="flex-item">
-                <form action="javascript:" onsubmit="signup()" class="sign-up">
-                    <div class="title">Sign up for our newsletter</div>
+                    <div class="title">Check out our blog!</div>
                     <div class="description">
                         <p>
-                            Want to know when we get a new blog post or release new resources that can help you grow at
-                            home? Sign up below!
+                            Want to see more tips on how to build healthy and blooming relationships? Check out our blog here!
                         </p>
                     </div>
-                    <!-- <?php echo apply_shortcodes( '[contact-form-7 id="1234" title="Contact form 1"]' ); ?> -->
-                    <input #bloop class="input" type="email" placeholder="Email address" name="mail" required>
-                    <div>
-                        <input type="submit" class="footer-fill-button" value="Subscribe">
-                    </div>
-                </form>
+                    <button class="footer-fill-button">Read our blog</button>
             </div>
         </div>
     </div>
