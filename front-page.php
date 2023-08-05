@@ -34,7 +34,7 @@
                         Using emotionally focused couples therapy to build stronger bonds with your loved one by remote counseling across California or in offices across the east bay.
                         </div>
                         <div class=".button-row">
-                            <a class="fill-button" href="/welcome/contact/">Couples</a>
+                            <a class="fill-button" href="/services/#services-two">Couples</a>
                             <a class="outline-button" href="/welcome/contact/">Individuals</a>
                         </div>
                     </div>

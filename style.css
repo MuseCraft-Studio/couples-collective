@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.9
+Version: 0.91
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -184,7 +184,11 @@ body {
 
             & a:hover {
                 transition-timing-function: ease-in-out;
-                color: white;
+                color: var(--standard-green);
+            }
+
+            & a:visited {
+                color: var(--standard-purple);
             }
         }
 
@@ -319,6 +323,10 @@ body {
 
     & a {
         color: var(--standard-green);
+
+        &:visited {
+            color: var(--standard-purple);
+        }
     }
 }
 
@@ -334,12 +342,6 @@ body {
     flex: 2;
     align-self: center;
     border-radius: var(--standard-radius);
-
-    /* max-width: 467px;
-    max-height: 354px;
-    width: auto;
-    align-self: center;
-     */
 }
 
 #section-two .break {
@@ -925,6 +927,99 @@ body {
     padding: 200px var(--standard-padding);
     margin-left: auto;
     margin-right: auto;
+}
+
+#services {
+    max-width: 1440px;
+    color: var(--standard-black);
+}
+
+#services-one {
+    padding: 0 var(--standard-padding);
+    margin-left: auto;
+    margin-right: auto;
+
+    & .container {
+        max-width: 824px;
+        margin: 120px auto;
+        /* margin-left: auto;
+        margin-right: auto; */
+
+        & .text-content {
+            border-radius: var(--standard-radius);
+            background-color: var(--standard-light-gray);
+            padding: 24px;
+
+            & .title {
+                font-family: var(--font-libre-serif);
+                font-size: 24px;
+            }
+
+            & .content {
+                font-family: var(--font-work-sans-regular);
+                font-size: 16px;
+            }
+        }
+
+        & .get-started {
+            text-align: center;
+            margin: 24px 0;
+        }
+    }
+}
+
+#services-two {
+    background-color: #EDEEF6;
+    color: var(--standard-black);
+
+    & .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 24px;
+        align-items: flex-start;
+        padding: 72px var(--standard-padding);
+
+
+        & .flex-item {
+            max-width: 544px;
+            justify-content: start;
+            flex: 1;
+
+            & .image {
+                max-width: 544px;
+                max-height: 672px;
+                height: 100vh;
+                /* width: 544px; */
+                min-width: 200px;
+                background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg');
+                background-size: cover;
+                background-position: center;
+                align-self: center;
+                border-radius: var(--standard-radius);
+            }
+
+            & .title {
+                font-family: var(--font-libre-serif);
+                font-size: 32px;
+            }
+
+            & .content {
+                font-family: var(--font-work-sans-regular);
+            }
+        }
+    }
+}
+
+#services-three {
+    margin: 72px;
+
+    & .call-now {
+        color: var(--standard-purple);
+        text-align: center;
+        font-family: var(--font-work-sans-bold);
+        font-size: 24px;
+    }
 }
 
 .hubspot-link__container.sproket {
