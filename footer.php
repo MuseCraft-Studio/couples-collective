@@ -1,6 +1,6 @@
 <div id="footer">
         <div class="container">
-            <div class="flex-item about">
+            <div class="flex-item">
                 <div class="title">The Couples Collective</div>
                 <div class="description">
                     <p>
