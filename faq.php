@@ -22,9 +22,11 @@ Template Name: faq
 
 <body data-page="faq">
     <!-- <section id="media-level"></section> -->
-    <?php
-        get_header()
-    ?>
+    <div id="standard-header">
+        <?php
+            get_header()
+        ?>
+    </div>
     <div id="faq-one">
         <div class="title">FAQ</div>
         <div class="subtitle">Our counselors offer a variety of expertise, whether you’re looking for yourself or you
@@ -32,9 +34,11 @@ Template Name: faq
     </div>
     <div id="faq-two">
     </div>
+    <div class="standard-footer">
     <?php
         get_footer()
     ?>
+    </div>
 </body>
 
 </html>

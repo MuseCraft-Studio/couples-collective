@@ -31,7 +31,7 @@ function signup() {
 }
 
 function fetchTeamData() {
-    fetch('/wordpress/wp-content/themes/couples-collective/assets/team_info.json')
+    fetch('../couples-collective/assets/team_info.json')
         .then(response => response.json())
         .then(file => {
             const people = document.getElementById('people');
@@ -90,22 +90,27 @@ function fetchTeamData() {
         });
 }
 function fetchFAQData() {
-    fetch('/wordpress/wp-content/themes/couples-collective/assets/faq.json')
+    fetch('../couples-collective/assets/faq.json')
         .then(response => response.json())
         .then(file => {
             const faq = document.getElementById('faq-two');
             file.forEach(data => {
+                // create container
+                const qaContainer = document.createElement('div');
+                qaContainer.className = 'qa-container';
+                faq.appendChild(qaContainer);
+
                 // create title
                 const question = document.createElement('div');
                 question.className = 'question';
                 question.innerText = data.q;
-                faq.appendChild(question);
+                qaContainer.appendChild(question);
 
                 // create position
                 const answer = document.createElement('p');
                 answer.className = 'answer';
                 answer.innerText = data.a;
-                faq.appendChild(answer);
+                qaContainer.appendChild(answer);
             });
         })
         .catch(error => {

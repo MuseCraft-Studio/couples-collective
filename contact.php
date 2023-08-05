@@ -29,17 +29,21 @@ Template Name: contact
     ?>
 </head>
 <body data-page="contact">
-    <?php
-        get_header()
-    ?>
+<div id="standard-header">
+        <?php
+            get_header()
+        ?>
+    </div>
     <div id="contact">
         <?php
             the_content()
         ?>
     </div>        
-    <?php
-        get_footer()
-    ?>
+    <div class="standard-footer">
+        <?php
+            get_footer()
+        ?>
+    </div>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.8
+Version: 0.9
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -72,13 +72,8 @@ body {
 .fill-button {
     white-space: nowrap;
     background-color: var(--standard-green);
-    border: solid 2px;
-    border-color: var(--standard-green);
+    border: solid 2px var(--standard-green);
     color: white;
-    /* for transparent text in button */
-    /* color: black;
-    mix-blend-mode: exclusion; */
-
     padding: 7px 20px;
     text-align: center;
     text-decoration: none;
@@ -90,8 +85,8 @@ body {
     transition: 0.2s;
 
     &:hover {
-        background-color: white;
         color: var(--standard-green);
+        background-color: white;
         /* for transparent text in button */
         /* mix-blend-mode: normal;  */
         transition-timing-function: ease-in-out;
@@ -116,79 +111,11 @@ body {
     transition: 0.2s;
 
     &:hover {
-        background-color: var(--standard-green);
         color: white;
-        transition-timing-function: ease-in-out;
-        cursor: pointer;
-    }
-}
-
-/* a {
-    color: var(--standard-green);
-} */
-
-/* a:visited {
-    color: var(--standard-green);
-}
-
-a:hover {
-    color: var(--standard-green);
-    cursor: pointer;
-} */
-
-/* a:visited:hover {
-    color: white;
-} */
-
-.footer-fill-button {
-    margin: 10px 0px;
-    white-space: nowrap;
-    background-color: #FFF;
-    border: solid 2px;
-    border-color: #FFFFFF;
-    color: var(--standard-green);
-    padding: 7px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: var(--font-work-sans-regular);
-    font-size: 16px !important;
-    border-radius: var(--standard-radius);
-    transition: 0.2s;
-
-    &:hover {
         background-color: var(--standard-green);
-        color: white;
         transition-timing-function: ease-in-out;
         cursor: pointer;
     }
-}
-
-.footer-outline-button {
-    margin: 10px 0px;
-    white-space: nowrap;
-    background-color: transparent;
-    border: solid 2px;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
-    padding: 7px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: var(--font-work-sans-regular);
-    font-size: 16px !important;
-    border-radius: var(--standard-radius);
-    transition: 0.2s;
-
-    &:hover {
-        background-color: white;
-        color: var(--standard-green);
-        /* for transparent text in button */
-        /* mix-blend-mode: normal;  */
-        transition-timing-function: ease-in-out;
-        cursor: pointer;
-    }
-
 }
 
 #navigation {
@@ -205,9 +132,10 @@ a:hover {
     }
 
     & .header-flex {
-        color: black;
+        color: var(--standard-black);
         display: flex;
         justify-content: space-between;
+        column-gap: 40px;
         align-items: center;
         padding: 40px var(--standard-padding);
     }
@@ -220,23 +148,80 @@ a:hover {
     & .title {
         font-size: 24px;
         font-family: var(--font-work-sans-bold);
-        color: #333;
-    }
-
-    & .call {
-        color: #FFF;
-    }
-
-    & a {
-        text-decoration: none;
         color: var(--standard-black);
+        white-space: nowrap;
+
+        & a {
+            color: var(--standard-black);
+            text-decoration: none;
+            word-break: keep-all;
+        }
     }
 
-    /* & a:visited {
-        color: black;
-    } */
+    .right-nav-desktop {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        column-gap: 40px;
+        font-size: 14px;
+        font-family: var(--font-work-sans-regular);
 
-    /* individual button should be white text and outline, same hover */
+        & .menu-links {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            column-gap: 40px;
+            justify-content: end;
+
+            & a {
+                text-decoration: none;
+                color: var(--standard-black);
+                transition: 0.2s;
+            }
+
+            & a:hover {
+                transition-timing-function: ease-in-out;
+                color: white;
+            }
+        }
+
+    }
+
+    .tablet-mobile-nav-row {
+        display: none;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: transparent;
+        position: relative;
+        text-align: right;
+
+        & #myLinks {
+            display: none;
+        }
+
+        & li,
+        div {
+            padding: 5px;
+        }
+
+        & a {
+            color: var(--standard-black);
+            text-decoration: none;
+        }
+
+        & a.icon {
+            background: transparent;
+            display: block;
+            position: relative;
+            right: 0;
+            top: 0;
+        }
+    }
 }
 
 #section-one {
@@ -272,55 +257,6 @@ a:hover {
     row-gap: 20px;
     max-width: 390px;
     text-align: start;
-}
-
-.right-nav-desktop {
-    display: block;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 40px;
-    justify-content: end;
-    font-size: 14px;
-    font-family: var(--font-work-sans-regular);
-
-    & a {
-        color: var(--standard-black);
-        text-decoration: none;
-    }
-}
-
-.tablet-mobile-nav-row {
-    display: none;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: transparent;
-    position: relative;
-    text-align: right;
-
-    & #myLinks {
-        display: none;
-    }
-
-    & li,
-    div {
-        padding: 5px;
-    }
-
-    & a {
-        color: var(--standard-black);
-        text-decoration: none;
-    }
-
-    & a.icon {
-        background: transparent;
-        display: block;
-        position: relative;
-        right: 0;
-        top: 0;
-    }
 }
 
 #section-one .title {
@@ -374,12 +310,16 @@ a:hover {
 #section-two .title {
     font-family: var(--font-libre-serif);
     font-size: 26px;
-    color: #2D2D2D;
+    color: var(--standard-black);
 }
 
 #section-two .description {
     font-size: 16px;
-    color: #2D2D2D;
+    color: var(--standard-black);
+
+    & a {
+        color: var(--standard-green);
+    }
 }
 
 #section-two .image {
@@ -526,7 +466,7 @@ a:hover {
 
 #section-five .flex-container {
     display: flex;
-    align-items: center;
+    align-items: start;
     height: 100%;
     justify-content: space-between;
     column-gap: 24px;
@@ -537,11 +477,12 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     text-align: start;
-    padding: 75px 45px 35px 45px;
+    padding: 45px 35px;
     border: solid 2px var(--standard-red);
     border-radius: var(--standard-radius);
     align-self: stretch;
     max-width: 567px;
+    row-gap: 12px;
     flex: 1;
 }
 
@@ -559,6 +500,7 @@ a:hover {
     list-style-position: inside;
     line-height: 125%;
     text-align: start;
+    padding: 0;
 }
 
 #section-five .image {
@@ -587,10 +529,10 @@ a:hover {
 }
 
 #footer .container {
-    max-width: calc(1440px - (2 * var(--standard-padding)));
+    max-width: 1440px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 40px var(--standard-padding);
     flex-direction: row;
     justify-content: space-between;
@@ -617,17 +559,17 @@ a:hover {
     color: #FFFFFF;
 }
 
-#footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 10px;
-}
-
 #footer .nav-list {
     display: flex;
     flex-direction: column;
     row-gap: 9px;
     justify-content: stretch;
+
+    & a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
 }
 
 #footer .nav-link {
@@ -646,35 +588,68 @@ a:hover {
     max-width: 215px;
 }
 
-#footer .input {
-    width: 100%;
-}
-
-#footer input {
-    background-color: #77A48B;
-    border: none;
-    /* border-radius: var(--standard-radius); */
-    padding: 5px 10px;
-    color: white;
-    font-size: 10px;
+.footer-fill-button {
+    margin: 10px 0px;
+    white-space: nowrap;
+    background-color: #FFF;
+    border: solid 2px;
+    border-color: #FFFFFF;
+    color: var(--standard-green);
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-family: var(--font-work-sans-regular);
-    /* width: 100%; */
-    /* border-radius: 5px; */
+    font-size: 16px !important;
+    border-radius: var(--standard-radius);
     transition: 0.2s;
 
-    &::placeholder {
+    &:hover {
         color: white;
-    }
-
-    &:focus {
+        background-color: var(--standard-green);
         transition-timing-function: ease-in-out;
-        background-color: var(--standard-purple);
-        outline: none;
+        cursor: pointer;
     }
 }
 
+.footer-outline-button {
+    margin: 10px 0px;
+    white-space: nowrap;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: var(--font-work-sans-regular);
+    font-size: 16px !important;
+    border-radius: var(--standard-radius);
+    transition: 0.2s;
+
+    &:hover {
+        color: var(--standard-green);
+        background-color: white;
+        /* for transparent text in button */
+        /* mix-blend-mode: normal;  */
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+    }
+
+}
+
+#standard-header {
+    position: relative;
+    height: 90px;
+
+    & #navigation {
+        margin: 0;
+    }
+}
 
 /* ==================== MEET OUR TEAM PAGE ==================== */
+
 
 #team-one {
     position: relative;
@@ -927,11 +902,15 @@ a:hover {
     padding: 60px var(--standard-padding);
     max-width: 727px;
 
+    & .qa-container {
+        margin: 40px 0;
+    }
+
     & .question {
         margin-top: 20px;
         font-family: var(--font-libre-serif);
         font-size: 20px;
-        color: #2D2D2D;
+        color: var(--standard-black);
     }
 
     & .answer {
@@ -968,6 +947,14 @@ a:hover {
         align-items: start;
     }
 
+    #navigation .right-nav-desktop {
+        display: none;
+    }
+
+    #navigation .tablet-mobile-nav-row {
+        display: block;
+    }
+
     #section-one .left-content {
         padding: 60px var(--mobile-padding);
         row-gap: 10px;
@@ -983,15 +970,6 @@ a:hover {
 
     #home-content {
         padding: 0;
-    }
-
-
-    .right-nav-desktop {
-        display: none;
-    }
-
-    .tablet-mobile-nav-row {
-        display: block;
     }
 
     #section-one .banner {
@@ -1082,15 +1060,16 @@ a:hover {
         margin: 24px auto;
     }
 
-    #footer .break {
-        display: block;
-        flex-basis: 100%;
+    #faq-one,
+    #faq-two {
+        padding: 60px var(--mobile-padding);
     }
 
     #footer .container {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
+        padding: 40px var(--mobile-padding);
     }
 
 
@@ -1256,6 +1235,11 @@ a:hover {
 
     #section-five {
         padding: var(--mobile-padding);
+    }
+
+    #section-five .text-content {
+        padding: 35px 45px;
+        text-align: center;
     }
 
     #footer {

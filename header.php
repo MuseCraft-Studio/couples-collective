@@ -7,6 +7,7 @@
                 </a>
             </div>
             <div class="right-nav-desktop">
+                <div class="menu-links">
                 <?php
                     wp_nav_menu(
                         array(
@@ -17,8 +18,9 @@
                         )
                     );
                 ?>
+                </div>
                 <div>
-                    <a class="fill-button" style="color: white;" href="tel:5103739995">Call now: (510) 373-9995</a>
+                    <a class="fill-button" href="tel:5103739995">Call now: (510) 373-9995</a>
                 </div>
             </div>
             <div class="tablet-mobile-nav-row">

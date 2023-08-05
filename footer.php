@@ -17,7 +17,9 @@
                 <div>
                     <a class="footer-outline-button" href="tel:5103739995">Call now (510) 373-9995</a>
                 </div>
-                <button class="footer-fill-button">Schedule a free consultation</button>
+                <div>
+                    <a class="footer-fill-button" href="welcome/contact/">Schedule a free consultation</a>
+                </div>
             </div>
             <div class="flex-item">
                 <div class="title">Navigation</div>
