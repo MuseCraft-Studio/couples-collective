@@ -26,8 +26,22 @@ function responsiveNav() {
     }
 }
 
+function showCouplesForm() {
+    var couplesForm = document.getElementById('google-form-couples');
+    var individualForm = document.getElementById('google-form-individuals');
+    individualForm.style.display = 'none';
+    couplesForm.style.display = 'block';
+}
+
+function showIndividualsForm() {
+    var couplesForm = document.getElementById('google-form-couples');
+    var individualForm = document.getElementById('google-form-individuals');
+    individualForm.style.display = 'block';
+    couplesForm.style.display = 'none';
+}
+
 function fetchTeamData() {
-    fetch('../couples-collective/assets/team_info.json')
+    fetch('/wordpress/wp-content/themes/couples-collective/assets/team_info.json')
         .then(response => response.json())
         .then(file => {
             const people = document.getElementById('people');
@@ -86,7 +100,7 @@ function fetchTeamData() {
         });
 }
 function fetchFAQData() {
-    fetch('../couples-collective/assets/faq.json')
+    fetch('/wordpress/wp-content/themes/couples-collective/assets/faq.json')
         .then(response => response.json())
         .then(file => {
             const faq = document.getElementById('faq-two');

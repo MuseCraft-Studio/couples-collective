@@ -28,7 +28,8 @@ function cc_register_styles() {
 add_action('wp_enqueue_scripts', 'cc_register_styles');
 
 function cc_register_scripts() {
-    wp_enqueue_script('cc-functions', get_template_directory_uri() . "/assets/js/functions.js", array(), '1.0', false);
+    $version = wp_get_theme()->get('Version');
+    wp_enqueue_script('cc-functions', get_template_directory_uri() . "/assets/js/functions.js", array(), $version, false);
 }
 
 add_action('wp_enqueue_scripts', 'cc_register_scripts');

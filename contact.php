@@ -16,13 +16,18 @@ Template Name: contact
         wp_head();
     ?>
     <script>
-        function phoneFormat(input) {//returns (###) ###-####
-            input = input.replace(/\D/g, '');
-            var size = input.length;
-            if (size > 0) { input = "(" + input }
-            if (size > 3) { input = input.slice(0, 4) + ") " + input.slice(4, 11) }
-            if (size > 6) { input = input.slice(0, 9) + "-" + input.slice(9) }
-            return input;
+        function showCouplesForm() {
+            var couplesForm = document.getElementById('google-form-couples');
+            var individualForm = document.getElementById('google-form-individuals');
+            individualForm.style.display = 'none';
+            couplesForm.style.display = 'block';
+        }
+
+        function showIndividualsForm() {
+            var couplesForm = document.getElementById('google-form-couples');
+            var individualForm = document.getElementById('google-form-individuals');
+            individualForm.style.display = 'block';
+            couplesForm.style.display = 'none';
         }
     </script>
 </head>
@@ -33,24 +38,79 @@ Template Name: contact
         ?>
     </div>
     <div id="contact">
-        <div>
-        Please call us at <b>(510) 373-9995</b> to schedule a session or use the form below.
-
+        <div id="contact-one">
+            <button class="fill-button" onclick="showCouplesForm()">Couples</button>
+            <button class="outline-button-two" onclick="showIndividualsForm()">Individuals</button>
         </div>
-        <div class="container">
-            <form action="<?php echo get_stylesheet_directory_uri(); ?>/mail.php" method="POST">
-                <label for="name">First and Last Name</label>
-                <input type="text" name="name" id="name" required>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" id="phone" onInput="this.value = phoneFormat(this.value)">
-                <label for="message">What are your goals for individual therapy?</label>
-                <textarea name="message" rows="5" required></textarea>
-                <label for="request">Let us know if you have any preferences in therapists or would like to requests one by name</label>
-                <textarea name="request" rows="5"></textarea>
-                <input type="submit" class="fill-button" value="Send">
-            </form>
+        <div id="contact-two">
+            <div class="title">Let's get in touch</div>
+            <div class="tag">We have two easy ways you can get matched with a therapist:</div>
+        </div>
+        <ol id="contact-three">
+            <li>
+                <span class="bold-text">Call us now:</span> (510) 373-9995 | Leave us a message and we'll call you back in a timely manner.
+            </li>
+            <li>
+                <span class="bold-text">Fill out our intake form below</span> for a personal response and we can match you with the right counselor. 
+            </li>
+        </ol>    
+
+        <div id="contact-four">
+            <div id="google-form-couples">
+                [COUPLES FORM]
+            </div>
+            <div id="google-form-individuals">
+                [INDIVIDUALS FORM]
+            </div>
+        </div>
+
+        <div id="contact-five">
+            <div class="call-now">
+                Or call now  (510) 373-9995
+            </div>
+        </div>
+
+        <div id="contact-six">
+            <div class="flex-item">
+                <div class="title">
+                    Fees and Sessions
+                </div>
+                <div class="description">
+                    <p>
+                        Clients are expected to pay for each session at the time it is held or, if you prefer, you may pay in advance. Please contact us to discuss fees as they vary based on each therapist. 
+                    </p>
+                    <p>
+                        We recommend an initial couples counseling session of 80 minutes. Subsequent sessions typically run 55 - 60 mins for couples, but can be adjusted to 80 upon request. 
+                    </p>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="title">
+                    Payment methods
+                </div>
+                <div class="description">
+                    <p>
+                        Cash, check, HSA or FSA and credit cards are accepted. The Couples Collective does not take insurance directly, we do however provide a monthly superbill receipt of services rendered that can be submitted for reimbursement to your insurance carrier. 
+                    </p>
+                    <p>
+                        Reduced fees are available upon approval depending on therapists availability and ability to accommodate.
+                    </p>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="title">
+                    Policies
+                </div>
+                <div class="description">
+                    <p>
+                    Canceling of appointments must be done 24 hours in advance, or a full session charge is due. 
+                    </p>
+                    <p>
+                    Legal and ethical responsibilities require private sessions remain confidential, no information will be released to others without written consent. Exceptions include, threat of endangering yourself, others or in the event of child or elder abuse.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="standard-footer">
