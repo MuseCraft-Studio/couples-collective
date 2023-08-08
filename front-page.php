@@ -261,7 +261,7 @@
                             </ol>
                         </div>
                         <div>
-                            <a href="contact-test/">
+                            <a href="/welcome/contact/">
                                 <button class="fill-button">Book your free consultation</button>
                             </a>
                         </div>
