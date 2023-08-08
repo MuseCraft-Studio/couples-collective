@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: contact
+Template Name: contact-success
 */
 ?>
 <!DOCTYPE html>
@@ -11,20 +11,10 @@ Template Name: contact
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact">
+    <meta name="description" content="Contact - Success">
     <?php 
         wp_head();
     ?>
-    <script>
-        function phoneFormat(input) {//returns (###) ###-####
-            input = input.replace(/\D/g, '');
-            var size = input.length;
-            if (size > 0) { input = "(" + input }
-            if (size > 3) { input = input.slice(0, 4) + ") " + input.slice(4, 11) }
-            if (size > 6) { input = input.slice(0, 9) + "-" + input.slice(9) }
-            return input;
-        }
-    </script>
 </head>
 <body data-page="contact">
 <div id="standard-header">
@@ -38,6 +28,8 @@ Template Name: contact
 
         </div>
         <div class="container">
+            <h1>Your email has been sent!</h1>
+            <p>Thank you for contacting us. We will get back to you as soon as possible!</p>
             <form action="<?php echo get_stylesheet_directory_uri(); ?>/mail.php" method="POST">
                 <label for="name">First and Last Name</label>
                 <input type="text" name="name" id="name" required>

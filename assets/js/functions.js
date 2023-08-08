@@ -26,10 +26,6 @@ function responsiveNav() {
     }
 }
 
-function signup() {
-    alert("bloop");
-}
-
 function fetchTeamData() {
     fetch('../couples-collective/assets/team_info.json')
         .then(response => response.json())
