@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.98
+Version: 0.90
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -205,16 +205,18 @@ body {
                 text-decoration: none;
                 color: var(--standard-black);
                 transition: 0.2s;
+
+                &:hover {
+                    transition-timing-function: ease-in-out;
+                    color: var(--standard-green);
+                }
+
+                &:visited {
+                    color: var(--standard-black);
+                }
             }
 
-            & a:hover {
-                transition-timing-function: ease-in-out;
-                color: var(--standard-green);
-            }
 
-            & a:visited {
-                color: var(--standard-purple);
-            }
         }
 
     }
@@ -682,19 +684,20 @@ body {
 
 
 #team-one {
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin: 0 auto;
     position: relative;
-    /* top: 120px; */
 }
 
 
 #team-one .wrapper {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     /* top: 120px; */
 }
 
 #team-one .team-header {
-    padding: 100px var(--standard-padding);
+    padding: 100px 0;
 
     & .title {
         font-size: 32px;
@@ -741,7 +744,7 @@ body {
     background: #EDEEF6;
     width: 296px;
     height: 296px;
-    margin-left: 104px;
+    margin-left: -32px;
 }
 
 #team-one .circle-two {
@@ -749,7 +752,7 @@ body {
     background: #EDEEF6;
     width: 224px;
     height: 224px;
-    margin-left: 40px;
+    margin-left: -156px;
 }
 
 #team-one .circle-three {
@@ -757,12 +760,13 @@ body {
     background: #EDEEF6;
     width: 392px;
     height: 392px;
+    margin-right: -90px;
 }
 
 #team-one #people {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 var(--standard-padding);
+    /* padding: 0 var(--standard-padding); */
     justify-content: space-around;
 }
 
@@ -916,8 +920,14 @@ body {
     text-align: center;
 }
 
+#faq {
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    padding: 120px var(--standard-padding);
+    margin: 0 auto;
+}
+
 #faq-one {
-    padding: 60px var(--standard-padding);
+    padding: 60px 0;
     max-width: 727px;
 
     & .title {
@@ -935,7 +945,7 @@ body {
 }
 
 #faq-two {
-    padding: 60px var(--standard-padding);
+    padding: 60px 0;
     max-width: 727px;
 
     & .qa-container {
@@ -994,6 +1004,10 @@ body {
         & .bold-text {
             font-family: var(--font-work-sans-bold);
         }
+    }
+
+    & #contact-four {
+        text-align: start;
     }
 
     & #contact-five {
@@ -1274,9 +1288,13 @@ body {
         margin: 24px auto;
     }
 
+    #faq {
+        padding: 0 var(--mobile-padding);
+    }
+
     #faq-one,
     #faq-two {
-        padding: 60px var(--mobile-padding);
+        padding: 60px 0;
     }
 
     #footer .container {
@@ -1535,11 +1553,7 @@ body {
         padding: 35px 45px;
     }
 
-    #footer {
-        padding: var(--mobile-padding);
-    }
-
     #footer .container {
-        padding: 0;
+        padding: var(--mobile-padding);
     }
 }

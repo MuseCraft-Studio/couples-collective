@@ -41,7 +41,7 @@ Template Name: team
                 <div class="title">
                     Find the right match for you
                 </div>
-                <p>Our counselors offer a variety of expertise, whether you’re looking for yourself or you and your
+                <p>Our counselors offer a variety of expertise, whether you're looking for yourself or you and your
                     partner, we can find the right match for you.</p>
             </div>
             <div id="people">

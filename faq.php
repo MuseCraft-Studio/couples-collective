@@ -27,12 +27,14 @@ Template Name: faq
             get_header()
         ?>
     </div>
-    <div id="faq-one">
-        <div class="title">FAQ</div>
-        <div class="subtitle">Our counselors offer a variety of expertise, whether you’re looking for yourself or you
-            and your partner, we can find the right match for you.</div>
-    </div>
-    <div id="faq-two">
+    <div id="faq">
+        <div id="faq-one">
+            <div class="title">FAQ</div>
+            <div class="subtitle">Our counselors offer a variety of expertise, whether you’re looking for yourself or you
+                and your partner, we can find the right match for you.</div>
+        </div>
+        <div id="faq-two">
+        </div>
     </div>
     <div class="standard-footer">
     <?php
