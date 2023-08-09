@@ -961,15 +961,6 @@ body {
     padding: 120px var(--standard-padding);
     margin: 0 auto;
 
-    & #contact-one {
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        column-gap: 16px;
-        margin: 16px 0;
-
-    }
-
     & #contact-two {
         color: var(--standard-black);
         text-align: start;
@@ -1004,24 +995,6 @@ body {
             font-family: var(--font-work-sans-bold);
         }
     }
-
-    & #contact-four {
-        color: white;
-        text-align: center;
-        border-radius: var(--standard-radius);
-        margin: 24px auto;
-        padding: 100px 0;
-        background-color: var(--standard-purple);
-
-        & #google-form-couples {
-            display: block;
-        }
-
-        & #google-form-individuals {
-            display: none;
-        }
-    }
-
 
     & #contact-five {
         margin: 72px;

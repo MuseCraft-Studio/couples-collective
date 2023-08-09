@@ -15,21 +15,6 @@ Template Name: contact
     <?php 
         wp_head();
     ?>
-    <script>
-        function showCouplesForm() {
-            var couplesForm = document.getElementById('google-form-couples');
-            var individualForm = document.getElementById('google-form-individuals');
-            individualForm.style.display = 'none';
-            couplesForm.style.display = 'block';
-        }
-
-        function showIndividualsForm() {
-            var couplesForm = document.getElementById('google-form-couples');
-            var individualForm = document.getElementById('google-form-individuals');
-            individualForm.style.display = 'block';
-            couplesForm.style.display = 'none';
-        }
-    </script>
 </head>
 <body data-page="contact">
 <div id="standard-header">
@@ -38,10 +23,6 @@ Template Name: contact
         ?>
     </div>
     <div id="contact">
-        <div id="contact-one">
-            <button class="fill-button" onclick="showCouplesForm()">Couples</button>
-            <button class="outline-button-two" onclick="showIndividualsForm()">Individuals</button>
-        </div>
         <div id="contact-two">
             <div class="title">Let's get in touch</div>
             <div class="tag">We have two easy ways you can get matched with a therapist:</div>
@@ -56,12 +37,7 @@ Template Name: contact
         </ol>    
 
         <div id="contact-four">
-            <div id="google-form-couples">
-                [COUPLES FORM]
-            </div>
-            <div id="google-form-individuals">
-                [INDIVIDUALS FORM]
-            </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScaE7sgj1prbtZWHiI-YVdJ3u0gtDY8PNy8hSgtJVhH-gtwdQ/viewform?embedded=true" width="640" height="3286" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
 
         <div id="contact-five">
