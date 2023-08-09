@@ -41,7 +41,7 @@ function showIndividualsForm() {
 }
 
 function fetchTeamData() {
-    fetch('/wordpress/wp-content/themes/couples-collective/assets/team_info.json')
+    fetch('/wp-content/themes/couples-collective/assets/team_info.json')
         .then(response => response.json())
         .then(file => {
             const people = document.getElementById('people');
@@ -101,7 +101,7 @@ function fetchTeamData() {
         });
 }
 function fetchFAQData() {
-    fetch('/wordpress/wp-content/themes/couples-collective/assets/faq.json')
+    fetch('/wp-content/themes/couples-collective/assets/faq.json')
         .then(response => response.json())
         .then(file => {
             const faq = document.getElementById('faq-two');
