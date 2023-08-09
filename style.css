@@ -763,7 +763,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 var(--standard-padding);
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #team-one .people-container {
@@ -799,10 +799,16 @@ body {
     & .text-content {
         margin-left: 12px;
 
-        & .title {
+        & a {
+            text-decoration: none;
+
             font-family: var(--font-work-sans-bold);
             font-size: 16px;
             color: var(--standard-purple);
+
+            &:hover {
+                color: var(--standard-green);
+            }
         }
 
         & .position {

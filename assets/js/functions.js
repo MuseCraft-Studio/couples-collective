@@ -71,8 +71,9 @@ function fetchTeamData() {
                 heading.appendChild(textcontent);
 
                 // create title
-                const title = document.createElement('div');
+                const title = document.createElement('a');
                 title.className = 'title';
+                title.href = data.link;
                 title.innerText = data.name;
                 textcontent.appendChild(title);
 
