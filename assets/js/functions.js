@@ -115,39 +115,47 @@ function fetchFAQData() {
     fetch('/wp-content/themes/couples-collective/assets/faq.json')
         .then(response => response.json())
         .then(file => {
-            const faq = document.getElementById('faq-two');
+            const faq = document.querySelector('.sections');
             file.forEach(data => {
-                // create container
-                const qaContainer = document.createElement('div');
-                qaContainer.className = 'qa-container';
-                faq.appendChild(qaContainer);
+                const section = document.createElement('div');
+                section.classList.add('qa-container');
 
-                // create question
                 const question = document.createElement('div');
-                question.className = 'question';
+                question.classList.add('question');
                 question.innerText = data.q;
-                qaContainer.appendChild(question);
+                section.appendChild(question);
 
-                // create answer
                 const answer = document.createElement('div');
-                answer.className = 'answer';
+                answer.classList.add('answer');
                 answer.innerText = data.a;
-                answer.addEventListener('click', () => {
-                    var content = document.querySelector('.content');
+                // const elip = document.createElement('span');
+                // elip.innerText = "ExpandLearn more...";
+                // answer.appendChild(elip);
 
-                    if (content.style.maxHeight) {
-                        content.style.maxHeight = null;
-                    } else {
-                        content.style.maxHeight = content.scrollHeight + 'px';
-                    }
-                });
-                qaContainer.appendChild(answer);
+                const showMore = document.createElement('span');
+                showMore.style.display = "inline-block";
+                const arrow = document.createElement('i');
+                arrow.classList.add("fa-solid", "fa-chevron-down")
+                showMore.appendChild(arrow)
+                answer.appendChild(showMore)
+                section.appendChild(answer);
 
-                // create more
+
                 const more = document.createElement('div');
-                more.className = 'more';
+                more.classList.add('more');
                 more.innerText = data.more;
-                qaContainer.appendChild
+                section.appendChild(more);
+
+                faq.appendChild(section);
+
+                // Add click event to each section
+                answer.addEventListener('click', () => {
+                    const content = section.querySelector('.more');
+                    content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + 'px';
+                    const show = section.querySelector('i');
+                    const transform = show.style.transform;
+                    show.style.transform = transform === "rotate(-180deg)" ? "rotate(0deg)" : "rotate(-180deg)";
+                });
             });
         })
         .catch(error => {

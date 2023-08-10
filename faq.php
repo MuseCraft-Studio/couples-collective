@@ -32,12 +32,7 @@ Template Name: faq
                 and your partner, we can find the right match for you.</div>
         </div>
         <div id="faq-two">
-            <div class="container">
-                <div class="header" onclick="toggleContent()">Click to Expand</div>
-                <div class="content">
-                    <p>This is the expanding content.</p>
-                </div>
-            </div>
+            <div class="sections"></div>
         </div>
     </div>
     <div class="standard-footer">
