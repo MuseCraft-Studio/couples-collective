@@ -18,8 +18,6 @@ Template Name: faq
         wp_head();
     ?>
 </head>
-
-
 <body data-page="faq">
     <!-- <section id="media-level"></section> -->
     <div id="standard-header">
@@ -30,10 +28,16 @@ Template Name: faq
     <div id="faq">
         <div id="faq-one">
             <div class="title">FAQ</div>
-            <div class="subtitle">Our counselors offer a variety of expertise, whether you’re looking for yourself or you
+            <div class="subtitle">Our counselors offer a variety of expertise, whether you're looking for yourself or you
                 and your partner, we can find the right match for you.</div>
         </div>
         <div id="faq-two">
+            <div class="container">
+                <div class="header" onclick="toggleContent()">Click to Expand</div>
+                <div class="content">
+                    <p>This is the expanding content.</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="standard-footer">

@@ -100,6 +100,17 @@ function fetchTeamData() {
             console.error('Error loading the team data:', error);
         });
 }
+
+function toggleContent() {
+    var content = document.querySelector('.content');
+
+    if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+    } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+    }
+}
+
 function fetchFAQData() {
     fetch('/wp-content/themes/couples-collective/assets/faq.json')
         .then(response => response.json())
@@ -111,17 +122,32 @@ function fetchFAQData() {
                 qaContainer.className = 'qa-container';
                 faq.appendChild(qaContainer);
 
-                // create title
+                // create question
                 const question = document.createElement('div');
                 question.className = 'question';
                 question.innerText = data.q;
                 qaContainer.appendChild(question);
 
-                // create position
-                const answer = document.createElement('p');
+                // create answer
+                const answer = document.createElement('div');
                 answer.className = 'answer';
                 answer.innerText = data.a;
+                answer.addEventListener('click', () => {
+                    var content = document.querySelector('.content');
+
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                    }
+                });
                 qaContainer.appendChild(answer);
+
+                // create more
+                const more = document.createElement('div');
+                more.className = 'more';
+                more.innerText = data.more;
+                qaContainer.appendChild
             });
         })
         .catch(error => {

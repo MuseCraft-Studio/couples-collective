@@ -933,7 +933,7 @@ body {
     & .title {
         font-family: var(--font-libre-serif);
         font-size: 32px;
-        color: #2D2D2D;
+        color: var(--standard-black);
         margin: 20px 0;
     }
 
@@ -963,6 +963,19 @@ body {
         font-family: var(--font-work-sans-regular);
         font-size: 16px;
         color: #4E4E4E;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+            color: var(--standard-green);
+            transition-timing-function: ease-in-out;
+        }
+    }
+
+    & .more {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
     }
 }
 
