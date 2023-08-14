@@ -458,28 +458,47 @@ body {
 
 #section-four {
     background-color: #fff;
-    padding: 160px 0 80px 0;
+    padding: 80px 0 0px 0;
     max-width: calc(1440px - (2 * var(--standard-padding)));
     margin-left: auto;
     margin-right: auto;
 }
 
 #section-four .container {
+    background-color: #FFF5ED;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
     column-gap: 30px;
+    align-items: center;
+    padding: 45px;
 }
 
-#section-four .flex-item {
-    max-width: 300px;
+#section-four .image {
     flex: 1;
+    max-width: 700px;
+    min-width: 200px;
+    /* max-height: 230px; */
+    height: 230px;
+    /* width: 600px; */
+    /* width: 544px; */
+    background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2364107.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    align-self: center;
+    justify-self: stretch;
+    border-radius: var(--standard-radius);
+}
+
+#section-four .text-content {
+    max-width: 300px;
 }
 
 #section-four .title {
     font-size: 26px;
     font-family: var(--font-libre-serif);
-    color: var(--standard-green);
+    color: var(--standard-black);
 }
 
 #section-four .description {
@@ -1118,7 +1137,7 @@ body {
     & .flex-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         column-gap: 24px;
         align-items: flex-start;
         padding: 72px var(--standard-padding);
@@ -1135,7 +1154,7 @@ body {
                 height: 100vh;
                 /* width: 544px; */
                 min-width: 200px;
-                background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg');
+                background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_959214.jpg');
                 background-size: cover;
                 background-position: center;
                 align-self: center;
@@ -1178,6 +1197,10 @@ body {
     #navigation {
         & .header-flex {
             padding: var(--mobile-padding);
+        }
+
+        & i {
+            font-size: 24px;
         }
     }
 
@@ -1285,19 +1308,20 @@ body {
     }
 
     #section-four {
-        padding: 0 var(--tablet-padding);
+        padding: 48px var(--tablet-padding) 0 var(--tablet-padding);
     }
 
     #section-four .container {
-        justify-content: start;
         display: block;
     }
 
-    #section-four .flex-item {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 45px 0;
+    #section-four .text-content {
         max-width: 100%;
+    }
+
+    #section-four .text-content,
+    .image {
+        margin: 24px auto;
     }
 
     #section-five {
@@ -1393,7 +1417,6 @@ body {
                     /* height: 100vh; */
                     width: 100vw;
                     min-width: 200px;
-                    background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg');
                     background-size: cover;
                     background-position: center;
                     align-self: center;

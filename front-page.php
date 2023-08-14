@@ -198,44 +198,21 @@
         </div>
         <div id="section-four">
             <div class="container">
-                <div class="flex-item">
-                    <div class="title">
-                        No cost consultation
+                    <div class="text-content">
+                        <div class="title">
+                            Video and In person
+                        </div>
+                        <div class="description">
+                            <p>
+                                Our licensed couples counselors offer in-person couples counseling in the Bay Area or remote couples counseling in all of California.
+                            </p>
+                            <p>
+                                We understand that every couple is different, so we offer a variety of therapy styles to fit your needs.
+                            </p>
+                        </div>
                     </div>
-                    <div class="description">
-                        <p>
-                            One of the highest indicators for success in therapy is the rapport and compatibility with your
-                            therapist. To determine if we would be a good fit, our relationship would start with a no cost
-                            20 min phone consultation.
-                        </p>
+                    <div class="image">
                     </div>
-                </div>
-                <div class="flex-item">
-                    <div class="title">
-                        Reduced fee options
-                    </div>
-                    <div class="description">
-                        <p>
-                            Sliding scale services are available as needed if you qualify, and we can find the right match.
-                        </p>
-                        <p>
-                            Reach out to find out what options might be available for you.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex-item">
-                    <div class="title">
-                        Video and In person
-                    </div>
-                    <div class="description">
-                        <p>
-                            Our licensed couples counselors offer in-person couples counseling in the Bay Area or remote couples counseling in all of California.
-                        </p>
-                        <p>
-                            We understand that every couple is different, so we offer a variety of therapy styles to fit your needs.
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
         <div id="section-five">
