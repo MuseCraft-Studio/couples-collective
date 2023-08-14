@@ -233,6 +233,13 @@ body {
 
         & #myLinks {
             display: none;
+
+            .text-links {
+                & a {
+                    color: var(--standard-black);
+                    text-decoration: none;
+                }
+            }
         }
 
         & li,
@@ -240,10 +247,6 @@ body {
             padding: 5px;
         }
 
-        & a {
-            color: var(--standard-black);
-            text-decoration: none;
-        }
 
         & a.icon {
             background: transparent;
@@ -1432,6 +1435,12 @@ body {
                 max-width: 100%;
                 margin: 16px 0;
             }
+        }
+    }
+
+    #team-one {
+        .wrapper {
+            padding: var(--mobile-padding);
         }
     }
 }

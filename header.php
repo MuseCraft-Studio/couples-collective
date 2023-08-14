@@ -29,6 +29,7 @@
                         <i class="fa fa-bars"></i>
                     </div>
                     <div id="myLinks">
+                        <div class="text-links">
                         <?php
                             wp_nav_menu(
                                 array(
@@ -39,8 +40,9 @@
                                 )
                             );
                         ?>
-                        <div>
-                            <a class="fill-button" style="color: white;" href="tel:5103739995">Call Now</a>
+                        </div>
+                        <div class="button-link">
+                            <a class="fill-button" href="tel:5103739995">Call Now</a>
                         </div>
                     </div>
                 </div>
