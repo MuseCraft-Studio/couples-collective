@@ -1184,9 +1184,8 @@ body {
     }
 }
 
-.hubspot-link__container.sproket {
-    display: none;
-    /* sorry hubspot */
+#team-individual {
+    padding: 80px var(--standard-padding);
 }
 
 @media only screen and (max-width: 1010px) {
@@ -1466,6 +1465,10 @@ body {
             padding: var(--mobile-padding);
         }
     }
+
+    #team-individual {
+        padding: 80px var(--tablet-padding);
+    }
 }
 
 @media only screen and (max-width: 573px) {
@@ -1614,5 +1617,9 @@ body {
 
     #footer .container {
         padding: var(--mobile-padding);
+    }
+
+    #team-individual {
+        padding: 60px var(--mobile-padding);
     }
 }
