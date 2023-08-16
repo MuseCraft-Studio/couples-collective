@@ -194,7 +194,8 @@ body {
         column-gap: 8px;
         font-size: 14px;
         font-family: var(--font-work-sans-regular);
-        max-width: 500px;
+        max-width: 550px;
+        width: 100%;
 
         & .menu-links {
             display: flex;
@@ -203,6 +204,7 @@ body {
             align-items: center;
             column-gap: 16px;
             justify-content: space-between;
+            max-width: 297px;
 
             & a {
                 text-decoration: none;
