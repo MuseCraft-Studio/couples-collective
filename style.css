@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.92
+Version: 0.93
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -35,6 +35,7 @@ Author: Angel Damion Robles and CJ Garcia
     --standard-light-gray: #e0e0e0;
     --standard-gray: #3F4447;
     --standard-purple: #91639B;
+    --standard-blue: #145174;
     --standard-red: #CD4F26;
     --standard-black: #1b1c1e;
     --standard-radius: 27px;
@@ -147,9 +148,10 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 3;
 
-    & .menu-item::marker {
-        content: "";
+    & .menu-item {
+        list-style-type: none;
     }
 
     & .header-flex {
@@ -240,6 +242,10 @@ body {
                     text-decoration: none;
                 }
             }
+        }
+
+        & li {
+            list-style-type: none;
         }
 
         & li,
@@ -574,9 +580,10 @@ body {
     position: relative;
     background-color: var(--standard-green);
 
-    & li::marker {
+    list-style-type: none;
+    /* & li::marker {
         content: "";
-    }
+    } */
 }
 
 #footer .container {
@@ -830,7 +837,7 @@ body {
 
             font-family: var(--font-work-sans-bold);
             font-size: 16px;
-            color: var(--standard-purple);
+            color: var(--standard-blue);
 
             &:hover {
                 color: var(--standard-green);
@@ -1103,7 +1110,7 @@ body {
 
     & .container {
         max-width: 824px;
-        margin: 120px auto;
+        margin: 120px auto 40px auto;
         /* margin-left: auto;
         margin-right: auto; */
 
@@ -1177,11 +1184,47 @@ body {
     margin: 72px;
 
     & .call-now {
-        color: var(--standard-purple);
+        color: var(--standard-bule);
         text-align: center;
         font-family: var(--font-work-sans-bold);
         font-size: 24px;
     }
+}
+
+
+#services-four {
+    background-color: #fff;
+    padding: 80px var(--standard-padding);
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services-four .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+#services-four .flex-item {
+    max-width: 336px;
+    flex: 1;
+    border: 2px var(--standard-green) solid;
+    border-radius: var(--standard-radius);
+    padding: 24px;
+}
+
+#services-four .title {
+    font-size: 26px;
+    font-family: var(--font-libre-serif);
+    color: var(--standard-black);
+}
+
+#services-four .description {
+    font-size: 16px;
+    font-family: var(--font-work-sans-regular);
+    color: var(--standard-black);
 }
 
 #team-individual {
@@ -1445,6 +1488,19 @@ body {
         }
     }
 
+    #services-four {
+        padding: 40px var(--mobile-padding);
+
+        .container {
+            flex-direction: column;
+            row-gap: 48px;
+
+            .flex-item {
+                max-width: 100%;
+            }
+        }
+    }
+
     #contact {
         max-width: 100%;
         padding: 120px var(--mobile-padding);
@@ -1463,6 +1519,14 @@ body {
     #team-one {
         .wrapper {
             padding: var(--mobile-padding);
+        }
+
+        .team-header {
+            padding: 90px 32px;
+        }
+
+        .people-container {
+            flex-basis: 40%;
         }
     }
 
@@ -1622,4 +1686,20 @@ body {
     #team-individual {
         padding: 60px var(--mobile-padding);
     }
+
+    #team-one .people-container {
+        flex-basis: auto;
+        /* background-color: #f1f1f1; */
+        padding: 32px 0;
+
+        & .blurb {
+            margin-top: 12px;
+            font-size: 14px;
+        }
+    }
+
+    #team-one .team-header {
+        padding: 90px 0;
+    }
+
 }
