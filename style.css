@@ -1229,7 +1229,7 @@ body {
     margin: 72px;
 
     & .call-now {
-        color: var(--standard-bule);
+        color: var(--standard-blue);
         text-align: center;
         font-family: var(--font-work-sans-bold);
         font-size: 24px;
