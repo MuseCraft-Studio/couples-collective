@@ -162,7 +162,7 @@ body {
         color: var(--standard-black);
         display: flex;
         justify-content: space-between;
-        column-gap: 40px;
+        column-gap: 16px;
         align-items: center;
         padding: 40px var(--standard-padding);
     }
@@ -190,18 +190,19 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: end;
-        column-gap: 40px;
+        justify-content: space-between;
+        column-gap: 8px;
         font-size: 14px;
         font-family: var(--font-work-sans-regular);
+        max-width: 500px;
 
         & .menu-links {
             display: flex;
             flex-direction: row;
             width: 100%;
             align-items: center;
-            column-gap: 40px;
-            justify-content: end;
+            column-gap: 16px;
+            justify-content: space-between;
 
             & a {
                 text-decoration: none;
@@ -374,7 +375,7 @@ body {
     min-width: 200px;
     background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_148595.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right;
     flex: 2;
     align-self: center;
     border-radius: var(--standard-radius);
@@ -478,6 +479,7 @@ body {
     column-gap: 30px;
     align-items: center;
     padding: 45px;
+    border-radius: var(--standard-radius);
 }
 
 #section-four .image {
@@ -558,6 +560,10 @@ body {
     line-height: 125%;
     text-align: start;
     padding: 0;
+
+    & li {
+        margin: 12px 0;
+    }
 }
 
 #section-five .image {
@@ -615,6 +621,32 @@ body {
     font-family: var(--font-work-sans-regular);
     font-size: 12px;
     color: #FFFFFF;
+
+    & p {
+        margin: 16px 0;
+    }
+
+    .location-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        column-gap: 4px;
+        margin: 16px 0;
+
+        & i {
+            margin-top: 2px;
+        }
+
+        & a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 #footer .nav-list {
@@ -622,6 +654,7 @@ body {
     flex-direction: column;
     row-gap: 9px;
     justify-content: stretch;
+    margin-top: 12px;
 
     & a {
         color: white;
@@ -1175,6 +1208,16 @@ body {
 
             & .content {
                 font-family: var(--font-work-sans-regular);
+
+                & a {
+                    text-decoration: none;
+                    color: var(--standard-green);
+
+                    &:visited {
+                        color: var(--standard-purple);
+                    }
+                }
+
             }
         }
     }
@@ -1231,7 +1274,7 @@ body {
     padding: 80px var(--standard-padding);
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1023px) {
     #media-level::before {
         content: "Tablet";
     }

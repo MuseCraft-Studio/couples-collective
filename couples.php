@@ -38,8 +38,9 @@ Template Name: couples
                         Tell us about you and your partner and we can find the right match for you as a couple.
                     </div>
                     <div class="content">
-                        <p>Do you feel lonely, unacknowledged, or stuck in your partnership? When you try to communicate, does it seem like you’re talking to a wall—as if your feelings don't really matter? Do you ever think you are not good enough—that you can never catch a break or get it right?</p>
+                        <p>Do you feel lonely, unacknowledged, or stuck in your partnership? When you try to communicate, does it seem like you're talking to a wall—as if your feelings don't really matter? Do you ever think you are not good enough—that you can never catch a break or get it right?</p>
                         <p>Perhaps you lack depth in your relationship and want to break down emotional barriers and enhance your physical connection. Conversely, maybe an act of infidelity has fractured your trust, and you want to know if there is still any hope for your marriage. As a relationship evolves, it's natural for couples to run into unexpected challenges. For instance, you may be having trouble coordinating your communication or parenting styles in a blended family dynamic. Or your partner may have put up emotional barriers, and you don't know how to make a connection without feeling criticized or misunderstood for trying. And if you are recovering from infidelity, it can be extremely difficult managing the intense mix of emotions in a way that promotes internal healing.</p>
+                        <p>We also see <em><a href="/welcome/individuals">individuals</a></em>.</p>
                     </div>
                     <a class="fill-button" href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">Contact us</a>
                 </div>

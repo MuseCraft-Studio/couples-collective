@@ -38,16 +38,29 @@
             </div>
             <div class="break"></div>
             <div class="flex-item">
-                <div class="title">Stay connected</div>
-                <div class="logo-links">
-                    <div>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/footer-facebook.svg" />
+                <div class="title">In person locations</div>
+                <div class="description">
+                    <div class="location-link">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <a href="https://goo.gl/maps/AmXYrQquujy7HErc6" target="_blank">
+                                4281 Piedmont Ave Suite 2
+                                <br>Oakland, CA 94611
+                            </a>
+                        </div>
                     </div>
-                    <div>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/footer-linkedin.svg" />
-                    </div>
-                    <div>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/footer-yelp.svg" />
+                    <div class="location-link">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <a href="https://goo.gl/maps/ybE28tsnsJnHLnAr8" target="_blank">
+                                1703 Fifth Ave
+                                <br>San Rafael, CA 94901
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
