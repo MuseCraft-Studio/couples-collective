@@ -1011,7 +1011,6 @@ body {
 }
 
 #faq-one {
-    padding: 60px 0;
     max-width: 727px;
 
     & .title {
@@ -1029,7 +1028,7 @@ body {
 }
 
 #faq-two {
-    padding: 60px 0;
+    padding: 0;
     max-width: 727px;
 
     .qa-container {
@@ -1049,11 +1048,7 @@ body {
         color: #4E4E4E;
         cursor: pointer;
         transition: 0.2s;
-
-        &:hover {
-            color: var(--standard-green);
-            transition-timing-function: ease-in-out;
-        }
+        color: var(--standard-green);
 
         & span {
             transform: translate(8px, 2px);
@@ -1065,6 +1060,7 @@ body {
     }
 
     .more {
+        margin-top: 16px;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-in-out;
@@ -1468,9 +1464,8 @@ body {
         padding: 0 var(--mobile-padding);
     }
 
-    #faq-one,
-    #faq-two {
-        padding: 60px 0;
+    #faq-one {
+        padding-top: 118px;
     }
 
     #footer .container {
