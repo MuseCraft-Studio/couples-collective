@@ -84,10 +84,10 @@ function fetchTeamData() {
                 textcontent.appendChild(position);
 
                 // create services
-                const services = document.createElement('div');
-                services.className = 'services';
-                services.innerText = data.services;
-                textcontent.appendChild(services);
+                // const services = document.createElement('div');
+                // services.className = 'services';
+                // services.innerText = data.services;
+                // textcontent.appendChild(services);
 
                 // create blurb
                 const blurb = document.createElement('div');

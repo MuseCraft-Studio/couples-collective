@@ -27,9 +27,22 @@
         ?>
     </div>
     <div id="team-individual">
-        <?php 
-            the_content()
-        ?>
+        <div id="team-one">
+            <div class="wrapper">
+                <div class="circle-container">
+                    <div class="first-column">
+                        <div class="circle-one"></div>
+                        <div class="circle-two"></div>
+                    </div>
+                    <div class="second-column">
+                        <div class="circle-three"></div>
+                    </div>
+                </div>
+            <?php 
+                the_content()
+            ?>
+            </div>
+        </div>
     </div>
     <div class="standard-footer">
         <?php

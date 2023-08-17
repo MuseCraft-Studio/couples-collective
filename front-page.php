@@ -14,7 +14,7 @@
 
 <body data-page="home">
 
-    <section id="media-level"></section>
+    <!-- <section id="media-level"></section> -->
     <div id="section-one">
         <div class="container">
             <div class="video-container">
@@ -198,6 +198,10 @@
         </div>
         <div id="section-four">
             <div class="container">
+                <div class="svg-text-container">
+                    <div>
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Group 53.svg" alt="video and in person"/>
+                    </div>
                     <div class="text-content">
                         <div class="title">
                             Video and In person
@@ -211,8 +215,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="image">
-                    </div>
+                </div>
+                <div class="image">
+                </div>
             </div>
         </div>
         <div id="section-five">

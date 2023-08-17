@@ -40,6 +40,7 @@ Author: Angel Damion Robles and CJ Garcia
     --standard-black: #1b1c1e;
     --standard-radius: 27px;
     --standard-padding: 156px;
+    --laptop-padding: 56px;
     --tablet-padding: 78px;
     --mobile-padding: 16px;
 }
@@ -521,6 +522,14 @@ body {
     border-radius: var(--standard-radius);
 }
 
+#section-four .svg-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+}
+
 #section-four .text-content {
     max-width: 300px;
 }
@@ -852,12 +861,13 @@ body {
     flex-wrap: wrap;
     /* padding: 0 var(--standard-padding); */
     justify-content: space-around;
+    margin-bottom: 132px;
 }
 
 #team-one .people-container {
     flex-basis: calc(33.33% - 60px);
     /* background-color: #f1f1f1; */
-    padding: 32px 12px;
+    padding: 32px 0;
 
     & .blurb {
         margin-top: 12px;
@@ -867,7 +877,7 @@ body {
 
 #team-one .people-heading {
     display: flex;
-    align-items: stretch;
+    align-items: center;
 
     & .profile-container {
         flex: 0 0 auto;
@@ -1150,20 +1160,15 @@ body {
 }
 
 #services {
-    max-width: 1440px;
+    /* max-width: calc(1440px - (2 * var(--standard-padding))); */
     color: var(--standard-black);
 }
 
 #services-one {
-    padding: 0 var(--standard-padding);
-    margin-left: auto;
-    margin-right: auto;
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin: 120px auto;
 
     & .container {
-        max-width: 824px;
-        margin: 120px auto 40px auto;
-        /* margin-left: auto;
-        margin-right: auto; */
 
         & .text-content {
             border-radius: var(--standard-radius);
@@ -1255,7 +1260,7 @@ body {
 
 #services-four {
     background-color: #fff;
-    padding: 80px var(--standard-padding);
+    padding: 0px var(--standard-padding);
     max-width: calc(1440px - (2 * var(--standard-padding)));
     margin-left: auto;
     margin-right: auto;
@@ -1311,6 +1316,114 @@ body {
     & a {
         text-decoration: none;
         color: var(--standard-green);
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    /* at 1440 margins go to 16px*/
+    #navigation {
+
+        & .header-flex {
+            max-width: 1440px;
+
+            padding: 40px var(--laptop-padding);
+        }
+
+    }
+
+    #section-one .left-content {
+        padding: 80px var(--laptop-padding);
+        row-gap: 10px;
+    }
+
+    #home-content {
+        padding: 0 var(--laptop-padding);
+    }
+
+    #footer .container {
+        padding: 40px var(--laptop-padding);
+    }
+
+    #section-two {
+        margin: 0;
+        max-width: none;
+    }
+
+    #section-three {
+        max-width: none;
+        margin: none;
+    }
+
+    #section-four {
+        max-width: none;
+        margin: 0;
+
+        .container {
+            justify-content: center;
+        }
+    }
+
+    #section-five {
+        max-width: none;
+
+        .flex-container {
+            .text-content {
+                max-width: 100%;
+                flex: 1;
+            }
+        }
+    }
+
+    #services-one {
+        padding: 0 var(--laptop-padding);
+        /* margin: 120px 0 40px 0; */
+
+        margin: 0;
+        max-width: none;
+
+        .container {
+            max-width: none;
+            margin: 120px 0 40px 0;
+        }
+    }
+
+    #services-two {
+        .flex-container {
+            padding: 72px var(--laptop-padding);
+        }
+    }
+
+    #services-four {
+        margin: 0;
+        max-width: none;
+        padding: 80px var(--laptop-padding);
+    }
+
+    #team-one {
+        max-width: none;
+        margin: 0 var(--laptop-padding);
+
+        .people-container {
+            padding: 32px 0;
+        }
+    }
+
+    #faq {
+        margin: 0;
+        padding: 120px var(--laptop-padding);
+    }
+
+    #team-individual {
+        margin: 0;
+        max-width: none;
+        padding: 80 var(--laptop-padding);
+    }
+
+    #footer .container {
+        max-width: none;
+        margin: 0;
     }
 }
 
@@ -1478,7 +1591,6 @@ body {
         padding: 40px var(--tablet-padding);
     }
 
-
     #footer .flex-item {
         max-width: 100%;
         width: 100%;
@@ -1600,12 +1712,16 @@ body {
     }
 
     #team-one {
+        margin: 0;
+        max-width: none;
+        padding: 0 var(--mobile-padding);
+
         .wrapper {
-            padding: var(--mobile-padding);
+            padding: 0;
         }
 
         .team-header {
-            padding: 90px 32px;
+            padding: 90px 0;
         }
 
         .people-container {
@@ -1614,7 +1730,7 @@ body {
     }
 
     #team-individual {
-        padding: 80px var(--tablet-padding);
+        padding: 80px var(--mobile-padding);
     }
 }
 
