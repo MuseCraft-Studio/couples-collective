@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.94
+Version: 0.95
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -1289,6 +1289,9 @@ body {
 }
 
 #team-individual {
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin-left: auto;
+    margin-right: auto;
     padding: 80px var(--standard-padding);
 }
 
