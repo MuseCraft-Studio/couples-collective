@@ -1276,6 +1276,25 @@ body {
     padding: 80px var(--standard-padding);
 }
 
+.four-oh-four {
+    font-family: var(--font-libre-serif);
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: var(--standard-black);
+    height: 100vh;
+    padding: 0 var(--standard-padding);
+    text-align: center;
+
+    & a {
+        text-decoration: none;
+        color: var(--standard-green);
+    }
+}
+
 @media only screen and (max-width: 1023px) {
     #media-level::before {
         content: "Tablet";
@@ -1745,6 +1764,10 @@ body {
 
     #team-one .team-header {
         padding: 90px 0;
+    }
+
+    .four-oh-four {
+        font-size: 16px;
     }
 
 }
