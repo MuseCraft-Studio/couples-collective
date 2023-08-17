@@ -1,6 +1,6 @@
 /*
 Theme Name: Couples Collective
-Version: 0.93
+Version: 0.94
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -296,7 +296,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 60px var(--standard-padding);
+    padding: 100px var(--standard-padding);
     row-gap: 20px;
     max-width: 390px;
     text-align: start;
@@ -325,6 +325,26 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+@media only screen and (min-width: 1820px) {
+    #media-level::before {
+        content: "BIGGGGG";
+    }
+
+    #section-one .bottom-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 1029px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        flex: 1;
+    }
+
+
+
 }
 
 #home-content {
@@ -1295,7 +1315,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1025px) {
     #media-level::before {
         content: "Tablet";
     }
@@ -1323,7 +1343,7 @@ body {
     }
 
     #section-one .left-content {
-        padding: 60px var(--mobile-padding);
+        padding: 80px var(--mobile-padding);
         row-gap: 10px;
     }
 
@@ -1332,7 +1352,8 @@ body {
     }
 
     #section-one .description {
-        font-size: 14px;
+        display: none;
+        /* font-size: 14px; */
     }
 
     #home-content {
@@ -1650,12 +1671,12 @@ body {
     }
 
     #section-one .left-content {
-        padding: 60px var(--mobile-padding);
+        padding: 140px var(--mobile-padding);
         row-gap: 10px;
     }
 
     #section-one .title {
-        font-size: 16px;
+        font-size: 24px;
     }
 
     #section-one .tag {
@@ -1715,7 +1736,7 @@ body {
     #section-three .flex-container {
         display: block;
         margin: 0;
-        padding: 0 var(--tablet-padding);
+        padding: 0;
     }
 
     #section-three .flex-item {

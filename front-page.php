@@ -14,7 +14,7 @@
 
 <body data-page="home">
 
-    <!-- <section id="media-level"></section> -->
+    <section id="media-level"></section>
     <div id="section-one">
         <div class="container">
             <div class="video-container">
