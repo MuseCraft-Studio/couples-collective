@@ -1304,6 +1304,15 @@ body {
     }
 }
 
+#team-individual .name {
+    font-family: var(--font-libre-serif);
+}
+
+#team-individual .individual-content {
+    max-width: 680px;
+    width: 100%;
+}
+
 .four-oh-four {
     font-family: var(--font-libre-serif);
     font-size: 32px;

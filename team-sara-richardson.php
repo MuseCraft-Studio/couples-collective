@@ -20,7 +20,6 @@
 </head>
 
 <body data-page="team-individual">
-    <!-- <section id="media-level"></section> -->
     <div id="standard-header">
         <?php
             get_header()
@@ -38,9 +37,11 @@
                         <div class="circle-three"></div>
                     </div>
                 </div>
-            <?php 
-                the_content()
-            ?>
+                <div class="individual-content">
+                    <?php 
+                        the_content()
+                    ?>
+                </div>
             </div>
         </div>
     </div>

@@ -38,9 +38,11 @@
                         <div class="circle-three"></div>
                     </div>
                 </div>
-            <?php 
-                the_content()
-            ?>
+                <div class="individual-content">
+                    <?php 
+                        the_content()
+                    ?>
+                </div>
             </div>
         </div>
     </div>
