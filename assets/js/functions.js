@@ -128,16 +128,17 @@ function fetchFAQData() {
                 const answer = document.createElement('div');
                 answer.classList.add('answer');
                 answer.innerText = data.a;
-                // const elip = document.createElement('span');
-                // elip.innerText = "ExpandLearn more...";
-                // answer.appendChild(elip);
 
-                const showMore = document.createElement('span');
-                showMore.style.display = "inline-block";
-                const arrow = document.createElement('i');
-                arrow.classList.add("fa-solid", "fa-chevron-down")
-                showMore.appendChild(arrow)
-                answer.appendChild(showMore)
+                const elip = document.createElement('span');
+                elip.innerText = "(more...)";
+                answer.appendChild(elip);
+
+                // const showMore = document.createElement('span');
+                // showMore.style.display = "inline-block";
+                // const arrow = document.createElement('i');
+                // arrow.classList.add("fa-solid", "fa-chevron-down")
+                // showMore.appendChild(arrow)
+                // answer.appendChild(showMore)
                 section.appendChild(answer);
 
 
@@ -149,12 +150,12 @@ function fetchFAQData() {
                 faq.appendChild(section);
 
                 // Add click event to each section
-                answer.addEventListener('click', () => {
+                elip.addEventListener('click', () => {
                     const content = section.querySelector('.more');
                     content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + 'px';
-                    const show = section.querySelector('i');
-                    const transform = show.style.transform;
-                    show.style.transform = transform === "rotate(-180deg)" ? "rotate(0deg)" : "rotate(-180deg)";
+                    // const show = section.querySelector('span');
+                    // const transform = show.style.transform;
+                    // show.style.transform = transform === "rotate(-180deg)" ? "rotate(0deg)" : "rotate(-180deg)";
                 });
             });
         })

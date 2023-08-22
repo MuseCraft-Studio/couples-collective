@@ -1,10 +1,9 @@
 <?php
 /**
-* Template Name: blog-list
+* Template Name: blog-post
 */
 ?>
 
-<!-- required file -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,20 +19,20 @@
     ?>
 </head>
 
-<body data-page="blog-list">
-    <!-- <section id="media-level"></section> -->
+<body data-page="blog-post">
+    <div>Hi, this is a blog post</div>
     <div id="standard-header">
         <?php
             get_header()
         ?>
     </div>
-    <div id="blog-list">
+    <div id="blog-post">
         <div class="content">
             <?php
                 if (have_posts() ) {
                     while (have_posts() ) {
                         the_post();
-                        the_content();
+                        get_template_part('template-parts/content', 'article');
                     }
                 }
             ?>
