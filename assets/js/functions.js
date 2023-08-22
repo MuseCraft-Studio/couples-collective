@@ -130,7 +130,8 @@ function fetchFAQData() {
                 answer.innerText = data.a;
 
                 const elip = document.createElement('span');
-                elip.innerText = "(more...)";
+                elip.innerText = " (more...)";
+                elip.id = "expand";
                 answer.appendChild(elip);
 
                 // const showMore = document.createElement('span');
@@ -153,6 +154,8 @@ function fetchFAQData() {
                 elip.addEventListener('click', () => {
                     const content = section.querySelector('.more');
                     content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + 'px';
+                    const expand = section.getElementById('expand');
+                    expand.innerText = expand.innerText == ' (more...)' ?? ' (less...)';
                     // const show = section.querySelector('span');
                     // const transform = show.style.transform;
                     // show.style.transform = transform === "rotate(-180deg)" ? "rotate(0deg)" : "rotate(-180deg)";

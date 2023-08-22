@@ -4,7 +4,6 @@
 */
 ?>
 
-<!-- required file -->
 <!DOCTYPE html>
 <html lang="en">
 
