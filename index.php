@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: team-sara-richardson
+* Template Name: blog-list
 */
 ?>
 
