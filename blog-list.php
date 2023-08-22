@@ -1,3 +1,9 @@
+<?php
+/**
+* Template Name: blog-list
+*/
+?>
+
 <!-- required file -->
 <!DOCTYPE html>
 <html lang="en">
