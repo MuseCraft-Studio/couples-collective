@@ -14,7 +14,6 @@
 </head>
 
 <body data-page="blog-post">
-    <div>Hi, this is a blog post</div>
     <div id="standard-header">
         <?php
             get_header()
