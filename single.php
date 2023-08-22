@@ -1,9 +1,3 @@
-<?php
-/**
-* Template Name: blog-post
-*/
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
