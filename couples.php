@@ -63,7 +63,7 @@ Template Name: couples
                 </div>
                 <div class="flex-item">
                     <div class="svg-text-container">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Card.svg" alt="card"/>
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Card-Big.svg" alt="card-big"/>
                         <div class="title">
                             Payment methods
                         </div>
