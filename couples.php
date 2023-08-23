@@ -49,39 +49,48 @@ Template Name: couples
         <div id="services-four">
             <div class="container">
                 <div class="flex-item">
-                    <div class="title">
-                        Fees and Sessions
-                    </div>
-                    <div class="description">
-                        <p>
-                        Clients are expected to pay for each session at the time it is held or, if you prefer, you may pay in advance. Please contact us to discuss fees as they vary based on each therapist.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex-item">
-                    <div class="title">
-                    Payment methods
-                    </div>
-                    <div class="description">
-                        <p>
-                            Cash, check, HSA or FSA and credit cards are accepted. The Couples Collective does not accept insurance directly. We do, however, provide a monthly superbill of services rendered that may be submitted for reimbursement to your insurance carrier.
-                        </p>
-                        <p>
-                            Reduced fees are available upon approval depending on clinician availability and ability to accommodate.
-                        </p>
+                    <div class="svg-text-container">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Clock.svg" alt="clock"/>
+                        <div class="title">
+                            Fees and Sessions
+                        </div>
+                        <div class="description">
+                            <p>
+                                Clients are expected to pay for each session at the time it is held or, if you prefer, you may pay in advance. Please contact us to discuss fees as they vary based on each therapist.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="flex-item">
-                    <div class="title">
-                    Policies
+                <div class="svg-text-container">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Card.svg" alt="card"/>
+                        <div class="title">
+                            Payment methods
+                        </div>
+                        <div class="description">
+                            <p>
+                                Cash, check, HSA or FSA and credit cards are accepted. The Couples Collective does not accept insurance directly. We do, however, provide a monthly superbill of services rendered that may be submitted for reimbursement to your insurance carrier.
+                            </p>
+                            <p>
+                                Reduced fees are available upon approval depending on clinician availability and ability to accommodate.
+                            </p>
+                        </div>
                     </div>
-                    <div class="description">
-                        <p>
-                            Our practice requires a 24-hour notice for all cancellations. The full session fee will apply if a timely cancellation is not provided.
-                        </p>
-                        <p>
-                            Legal and ethical responsibilities require that private sessions remain confidential. Information will not be released to others without written consent. Exceptions include: threat of endangering yourself, others or in the event of child or elder abuse.
-                        </p>
+                </div>
+                <div class="flex-item">
+                    <div class="svg-text-container">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Clipboard.svg" alt="clipboard"/>
+                        <div class="title">
+                            Policies
+                        </div>
+                        <div class="description">
+                            <p>
+                                Our practice requires a 24-hour notice for all cancellations. The full session fee will apply if a timely cancellation is not provided.
+                            </p>
+                            <p>
+                                Legal and ethical responsibilities require that private sessions remain confidential. Information will not be released to others without written consent. Exceptions include: threat of endangering yourself, others or in the event of child or elder abuse.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

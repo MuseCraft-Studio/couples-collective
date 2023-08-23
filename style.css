@@ -1196,27 +1196,36 @@ body {
     max-width: calc(1440px - (2 * var(--standard-padding)));
     margin: 120px auto;
 
-    & .container {
+    & .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 24px;
+        align-items: center;
+        padding: 24px;
+        border-radius: var(--standard-radius);
+        background-color: var(--standard-light-gray);
 
-        & .text-content {
-            border-radius: var(--standard-radius);
-            background-color: var(--standard-light-gray);
-            padding: 24px;
+        & .flex-item {
+            & .image {
+                justify-self: right;
+                width: 417px;
+                max-height: 279px;
+                height: 100vh;
+                background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2720166.jpg');
+                background-size: cover;
+                background-position: center;
+                border-radius: var(--standard-radius);
+            }
 
             & .title {
                 font-family: var(--font-libre-serif);
-                font-size: 24px;
+                font-size: 32px;
             }
 
             & .content {
                 font-family: var(--font-work-sans-regular);
-                font-size: 16px;
             }
-        }
-
-        & .get-started {
-            text-align: center;
-            margin: 24px 0;
         }
     }
 }
@@ -1295,6 +1304,10 @@ body {
     margin-right: auto;
 }
 
+#services-four .flex-item img {
+    margin: 0 auto;
+}
+
 #services-four .container {
     display: flex;
     flex-direction: row;
@@ -1308,6 +1321,13 @@ body {
     border: 2px var(--standard-green) solid;
     border-radius: var(--standard-radius);
     padding: 24px;
+}
+
+#services-four .svg-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 16px;
 }
 
 #services-four .title {
@@ -1329,6 +1349,8 @@ body {
     padding: 80px var(--standard-padding);
 
     & img {
+        /* width: 215px;
+        height: 300px; */
         border-radius: var(--standard-radius);
     }
 }
@@ -1664,13 +1686,45 @@ body {
 
 
     #services-one {
+        margin-top: 120px;
         max-width: 100%;
         padding: 0 var(--mobile-padding);
 
-        & .container {
-            max-width: 100vw;
-            justify-self: center;
-            margin: 120px 0;
+        & .flex-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            column-gap: 24px;
+            align-items: center;
+            padding: 36px var(--mobile-padding);
+
+
+            & .flex-item {
+                max-width: 100%;
+                justify-content: start;
+                flex: 1;
+
+                & .image {
+                    max-width: 100%;
+                    /* max-height: 672px; */
+                    /* height: 100vh; */
+                    width: 100vw;
+                    min-width: 200px;
+                    background-size: cover;
+                    background-position: top;
+                    align-self: center;
+                    border-radius: var(--standard-radius);
+                }
+
+                & .title {
+                    font-family: var(--font-libre-serif);
+                    font-size: 32px;
+                }
+
+                & .content {
+                    font-family: var(--font-work-sans-regular);
+                }
+            }
         }
     }
 
