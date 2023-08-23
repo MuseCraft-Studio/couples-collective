@@ -329,6 +329,7 @@ body {
 }
 
 #blog-list {
+    background-color: #EDEEF6;
     margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
@@ -341,6 +342,15 @@ body {
 
     & img {
         border-radius: var(--standard-radius);
+    }
+
+    h2 {
+        font-family: var(--font-libre-serif);
+    }
+
+    .more-link {
+        color: var(--standard-green);
+        font-style: italic;
     }
 }
 
