@@ -1090,17 +1090,20 @@ body {
 
         & span {
             color: var(--standard-green);
+            font-style: italic;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 
     .more {
-        cursor: pointer;
         margin-top: 16px;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.2s ease-in-out;
     }
-
 }
 
 #contact {
@@ -1221,7 +1224,7 @@ body {
 #services-two {
     background-color: #EDEEF6;
     color: var(--standard-black);
-    margin-top: 120px;
+    margin: 120px 0 72px 0;
 
     & .flex-container {
         display: flex;

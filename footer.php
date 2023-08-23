@@ -4,14 +4,7 @@
                 <div class="title">The Couples Collective</div>
                 <div class="description">
                     <p>
-                        Using emotionally focused couples therapy to build stronger bonds with your loved one. We work
-                        with
-                        couples and individuals to support their growth and life goals by matching you with the right
-                        therapist.
-                    </p>
-                    <p>
-                        The Couples Collective was started in the San Francisco Bay Area and now services more couples
-                        across California remotely.
+                        The Couples Collective was established in the San Francisco Bay Area and now serves couples throughout California remotely.
                     </p>
                 </div>
                 <div>
@@ -71,7 +64,7 @@
                             Want to see more tips on how to build healthy and blooming relationships? Check out our blog here!
                         </p>
                     </div>
-                    <button class="footer-fill-button">Read our blog</button>
+                    <a class="footer-fill-button" href="/blog">Read our blog</a>
             </div>
         </div>
     </div>

@@ -32,7 +32,7 @@ Template Name: individuals
             <div class="container">
                 <div class="text-content">
                     <div class="title">
-                        Providing expert EFT relationship counseling for individuals
+                        Individual therapy
                     </div>
                     <div class="content">
                         <p>We work with individuals to support each person's growth and life goals. In individual therapy, we use the EFT model to work together to build a better understanding of relationship and personal habitual patterns that no longer serve you and your aspirations to having relationships that you want.</p>
@@ -55,37 +55,34 @@ Template Name: individuals
                     </div>
                     <div class="description">
                         <p>
-                        Clients are expected to pay for each session at the time it is held or, if you prefer, you may pay in advance. Please contact us to discuss fees as they vary based on each therapist.
-                        </p>
-                        <p>
-                        We recommend an initial couples counseling session of 80 minutes. Subsequent sessions typically run 55 - 60 mins for couples, but can be adjusted to 80 upon request.
+                            Clients are expected to pay for each session at the time it is held or, if you prefer, you may pay in advance. Please contact us to discuss fees as they vary based on each therapist.
                         </p>
                     </div>
                 </div>
                 <div class="flex-item">
                     <div class="title">
-                    Payment methods
+                        Payment methods
                     </div>
                     <div class="description">
                         <p>
-                        Cash, check, HSA or FSA and credit cards are accepted. The Couples Collective does not take insurance directly, we do however provide a monthly superbill receipt of services rendered that can be submitted for reimbursement to your insurance carrier. 
+                            Cash, check, HSA or FSA and credit cards are accepted. The Couples Collective does not accept insurance directly. We do, however, provide a monthly superbill of services rendered that may be submitted for reimbursement to your insurance carrier.
                         </p>
                         <p>
-                        Reduced fees are available upon approval depending on therapists availability and ability to accommodate.
+                            Reduced fees are available upon approval depending on clinician availability and ability to accommodate.
                         </p>
                     </div>
                 </div>
                 <div class="flex-item">
                     <div class="title">
-                    Policies
+                        Policies
                     </div>
                     <div class="description">
                         <p>
-                        Canceling of appointments must be done 24 hours in advance, or a full session charge is due.
-                    </p>
-                    <p>
-                        Legal and ethical responsibilities require private sessions remain confidential, no information will be released to others without written consent. Exceptions include, threat of endangering yourself, others or in the event of child or elder abuse.
-                    </p>
+                            Our practice requires a 24-hour notice for all cancellations. The full session fee will apply if a timely cancellation is not provided.
+                        </p>
+                        <p>
+                            Legal and ethical responsibilities require that private sessions remain confidential. Information will not be released to others without written consent. Exceptions include: threat of endangering yourself, others or in the event of child or elder abuse.
+                        </p>
                     </div>
                 </div>
             </div>

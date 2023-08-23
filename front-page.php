@@ -70,10 +70,7 @@
                     </div>
                     <div>
                         <p>
-                            Initial session of 80m ins, with subsequent sessions 55 - 60 mins for couples.
-                        </p>
-                        <p>
-                            Individual sessions are typically 50 mins.
+                            Fill out our intake form and we'll reach out to you to schedule your first session!
                         </p>
                     </div>
                     <div>
@@ -208,12 +205,12 @@
                         </div>
                         <div class="description">
                             <p>
-                                Our licensed couples counselors offer in-person couples counseling in the Bay Area or remote couples counseling in all of California.
+                                Our couples therapists offer in-person couples counseling in the Bay Area or remote couples counseling in all of California.
                             </p>
                             <p>
-                                We understand that every couple is different, so we offer a variety of therapy styles to fit your needs.
+                            We understand that every couple is different. We offer a variety of therapy styles to fit your needs.
                             </p>
-                        </div>
+                         </div>
                     </div>
                 </div>
                 <div class="image">
@@ -233,13 +230,9 @@
                         </div>
                         <div>
                             <ol class="stages-list">
-                                <li><b>De-escalating,</b> assessing problems and letting</li>
-                                <li><b>Restructuring Interactions</b> with each other that meet each other's needs and validate
-                                    each
-                                    other's communication styles</li>
-                                <li><b>Integrating new skills,</b> understandings and ackowledging previous habits or behavior
-                                    that
-                                    wasn't working</li>
+                                <li><b>De-escalating,</b> assessing problems and letting them stabilize so you can move forward.</li>
+                                <li><b>Restructuring Interactions</b> with one another to help meet your partner's needs and validate one another's communication style.</li>
+                                <li><b>Integrating new skills</b> by understanding and acknowledging previous habits or cyclical behavior and implementing new skills to solve old problems.</li>
                             </ol>
                         </div>
                         <div>

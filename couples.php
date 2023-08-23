@@ -35,7 +35,7 @@ Template Name: couples
                 </div>
                 <div class="flex-item">
                     <div class="title">
-                        Tell us about you and your partner and we can find the right match for you as a couple.
+                        Couples therapy
                     </div>
                     <div class="content">
                         <p>Do you feel lonely, unacknowledged, or stuck in your partnership? When you try to communicate, does it seem like you're talking to a wall—as if your feelings don't really matter? Do you ever think you are not good enough—that you can never catch a break or get it right?</p>
@@ -43,6 +43,46 @@ Template Name: couples
                         <p>We also see <em><a href="/welcome/individuals">individuals</a></em>.</p>
                     </div>
                     <a class="fill-button" href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">Contact us</a>
+                </div>
+            </div>
+        </div>
+        <div id="services-four">
+            <div class="container">
+                <div class="flex-item">
+                    <div class="title">
+                        Fees and Sessions
+                    </div>
+                    <div class="description">
+                        <p>
+                        Clients are expected to pay for each session at the time it is held or, if you prefer, you may pay in advance. Please contact us to discuss fees as they vary based on each therapist.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="title">
+                    Payment methods
+                    </div>
+                    <div class="description">
+                        <p>
+                            Cash, check, HSA or FSA and credit cards are accepted. The Couples Collective does not accept insurance directly. We do, however, provide a monthly superbill of services rendered that may be submitted for reimbursement to your insurance carrier.
+                        </p>
+                        <p>
+                            Reduced fees are available upon approval depending on clinician availability and ability to accommodate.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="title">
+                    Policies
+                    </div>
+                    <div class="description">
+                        <p>
+                            Our practice requires a 24-hour notice for all cancellations. The full session fee will apply if a timely cancellation is not provided.
+                        </p>
+                        <p>
+                            Legal and ethical responsibilities require that private sessions remain confidential. Information will not be released to others without written consent. Exceptions include: threat of endangering yourself, others or in the event of child or elder abuse.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
