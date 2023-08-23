@@ -22,6 +22,7 @@
         ?>
     </div>
     <div id="blog-list">
+        <div class="content">
         <?php
             if (have_posts() ) {
                 while (have_posts() ) {
@@ -30,6 +31,7 @@
                 }
             }
         ?>
+        </div>
     </div>
     <div class="standard-footer">
         <?php
