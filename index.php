@@ -14,14 +14,14 @@
     ?>
 </head>
 
-<body data-page="blog">
+<body data-page="blog-list">
     <!-- <section id="media-level"></section> -->
     <div id="standard-header">
         <?php
             get_header()
         ?>
     </div>
-    <div id="blog">
+    <div id="blog-list">
         <?php
             if (have_posts() ) {
                 while (have_posts() ) {

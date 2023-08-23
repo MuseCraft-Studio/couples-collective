@@ -70,8 +70,8 @@ Template Name: individuals
                     </div>
                 </div>
                 <div class="flex-item">
-                <div class="svg-text-container">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Card.svg" alt="card"/>
+                    <div class="svg-text-container">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Card.svg" alt="card"/>
                         <div class="title">
                             Payment methods
                         </div>
