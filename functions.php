@@ -1,5 +1,12 @@
 <?php 
 
+function wpdocs_remove_website_field( $fields ) {
+	unset( $fields['url'] );
+	return $fields;
+}
+
+add_filter( 'comment_form_default_fields', 'wpdocs_remove_website_field' );
+
 function cc_theme_support() {
     // sets title from the field at Wordpress.com > admin > Settings > General Site Title
     add_theme_support('title-tag');
