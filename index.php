@@ -31,6 +31,9 @@
                 }
             }
         ?>
+        <?php
+            the_posts_pagination();
+        ?>
         </div>
     </div>
     <div class="standard-footer">
