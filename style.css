@@ -374,6 +374,10 @@ body {
     & img {
         border-radius: var(--standard-radius);
     }
+
+    & h2 {
+        font-family: var(--font-libre-serif);
+    }
 }
 
 @media only screen and (min-width: 1820px) {
