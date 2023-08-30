@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.51
+Version: 0.52
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -150,123 +150,121 @@ body {
     left: 0;
     right: 0;
     z-index: 3;
+}
 
-    & .menu-item {
-        list-style-type: none;
+#navigation .menu-item {
+    list-style-type: none;
+}
+
+#navigation .header-flex {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+
+    color: var(--standard-black);
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+    align-items: center;
+    padding: 40px var(--standard-padding);
+}
+
+#navigation .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation .title {
+    font-size: 24px;
+    font-family: var(--font-work-sans-bold);
+    color: var(--standard-black);
+    white-space: nowrap;
+}
+
+#navigation .title a {
+    color: var(--standard-black);
+    text-decoration: none;
+    word-break: keep-all;
+}
+
+#navigation .right-nav-desktop {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 32px;
+    font-size: 14px;
+    font-family: var(--font-work-sans-regular);
+    max-width: 600px;
+    width: 100%;
+}
+
+#navigation .right-nav-desktop .menu-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    column-gap: 32px;
+    justify-content: space-between;
+    max-width: 380px;
+}
+
+#navigation .right-nav-desktop .menu-links a {
+    text-decoration: none;
+    color: var(--standard-black);
+    transition: 0.2s;
+
+    &:hover {
+        transition-timing-function: ease-in-out;
+        color: var(--standard-green);
     }
 
-    & .header-flex {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: calc(1440px - (2 * var(--standard-padding)));
-
+    &:visited {
         color: var(--standard-black);
-        display: flex;
-        justify-content: space-between;
-        column-gap: 16px;
-        align-items: center;
-        padding: 40px var(--standard-padding);
-    }
-
-    & .container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    & .title {
-        font-size: 24px;
-        font-family: var(--font-work-sans-bold);
-        color: var(--standard-black);
-        white-space: nowrap;
-
-        & a {
-            color: var(--standard-black);
-            text-decoration: none;
-            word-break: keep-all;
-        }
-    }
-
-    .right-nav-desktop {
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        column-gap: 32px;
-        font-size: 14px;
-        font-family: var(--font-work-sans-regular);
-        max-width: 600px;
-        width: 100%;
-
-        & .menu-links {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            align-items: center;
-            column-gap: 32px;
-            justify-content: space-between;
-            max-width: 380px;
-
-            & a {
-                text-decoration: none;
-                color: var(--standard-black);
-                transition: 0.2s;
-
-                &:hover {
-                    transition-timing-function: ease-in-out;
-                    color: var(--standard-green);
-                }
-
-                &:visited {
-                    color: var(--standard-black);
-                }
-            }
-
-
-        }
-
-    }
-
-    .tablet-mobile-nav-row {
-        display: none;
-    }
-
-    .topnav {
-        overflow: hidden;
-        background-color: transparent;
-        position: relative;
-        text-align: right;
-
-        & #myLinks {
-            display: none;
-
-            .text-links {
-                & a {
-                    color: var(--standard-black);
-                    text-decoration: none;
-                }
-            }
-        }
-
-        & li {
-            list-style-type: none;
-        }
-
-        & li,
-        div {
-            padding: 5px;
-        }
-
-
-        & a.icon {
-            background: transparent;
-            display: block;
-            position: relative;
-            right: 0;
-            top: 0;
-        }
     }
 }
+
+#navigation .tablet-mobile-nav-row {
+    display: none;
+}
+
+#navigation .topnav {
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    text-align: right;
+}
+
+#navigation .topnav #myLinks {
+    display: none;
+}
+
+#navigation .topnav #myLinks .text-links a {
+    color: var(--standard-black);
+    text-decoration: none;
+}
+
+#navigation .topnav li {
+    list-style-type: none;
+}
+
+#navigation .topnav li {
+    padding: 5px;
+}
+
+#navigation .topnav div {
+    padding: 5px;
+}
+
+#navigation .topnav a.icon {
+    background: transparent;
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
 
 #section-one {
     position: relative;
@@ -964,6 +962,7 @@ body {
             font-family: var(--font-work-sans-bold);
             font-size: 16px;
             color: var(--standard-blue);
+            transition: 0.2s all ease-in-out;
 
             &:hover {
                 color: var(--standard-green);
