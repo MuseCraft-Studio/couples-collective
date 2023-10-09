@@ -27,7 +27,7 @@ Template Name: couples
             get_header()
         ?>
     </div>
-    <diu class="services">
+    <div class="services">
         <div id="services-two">
             <div class="flex-container">
                 <div class="flex-item">

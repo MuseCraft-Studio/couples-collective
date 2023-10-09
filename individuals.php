@@ -27,7 +27,7 @@ Template Name: individuals
             get_header()
         ?>
     </div>
-    <diu class="services">
+    <div class="services">
         <div id="services-one">
             <div class="flex-container">
                 <div class="flex-item">

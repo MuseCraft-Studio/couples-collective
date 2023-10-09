@@ -27,7 +27,7 @@ Template Name: services
             get_header()
         ?>
     </div>
-    <diu class="services">
+    <div class="services">
         <div id="services-one">
             <div class="container">
                 <div class="text-content">

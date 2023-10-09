@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.55
+Version: 0.60
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -1252,8 +1252,6 @@ body {
     font-family: var(--font-work-sans-regular);
 }
 
-
-
 #services-two {
     background-color: #EDEEF6;
     color: var(--standard-black);
@@ -1305,8 +1303,6 @@ body {
     }
 }
 
-
-
 #services-three {
     margin: 72px;
 }
@@ -1317,8 +1313,6 @@ body {
     font-family: var(--font-work-sans-bold);
     font-size: 24px;
 }
-
-
 
 #services-four {
     background-color: #fff;
@@ -1364,6 +1358,131 @@ body {
     font-size: 16px;
     font-family: var(--font-work-sans-regular);
     color: var(--standard-black);
+}
+
+#services-five {
+    background-color: #EDEEF6;
+    color: var(--standard-black);
+    margin: 120px 0 0 0;
+}
+
+#services-five .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    align-items: center;
+    padding: 72px var(--standard-padding);
+}
+
+#services-five .flex-container .flex-item {
+    max-width: 544px;
+    justify-content: start;
+    flex: 1;
+}
+
+#services-five .flex-container .break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+#services-five .flex-container .flex-item .image {
+    max-width: 544px;
+    max-height: 672px;
+    height: 100vh;
+    min-width: 200px;
+    background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_518968.jpg');
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    border-radius: var(--standard-radius);
+}
+
+#services-five .title {
+    font-family: var(--font-libre-serif);
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+#services-five .flex-container .flex-item .content {
+    font-family: var(--font-work-sans-regular);
+}
+
+#services-five li {
+    margin: 12px 0;
+    list-style-type: none;
+}
+
+#services-five ul {
+    padding: 0;
+}
+
+#services-five .flex-container .flex-item .content a {
+    text-decoration: none;
+    color: var(--standard-green);
+
+    &:visited {
+        color: var(--standard-purple);
+    }
+}
+
+#services-six {
+    background-color: #EDEEF6;
+    color: var(--standard-black);
+    margin-bottom: 72px;
+    padding-bottom: 36px;
+}
+
+#services-six .flex-container {
+    padding: 0px var(--standard-padding);
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services-six .flex-container .fill-width {
+    flex-basis: 100%;
+    padding: 16px 0;
+}
+
+#services-six .flex-item img {
+    margin: 0 auto;
+}
+
+#services-six .flex-item {
+    max-width: 336px;
+    flex: 1;
+    border: 2px var(--standard-green) solid;
+    border-radius: var(--standard-radius);
+    padding: 24px;
+}
+
+#services-six .title {
+    font-size: 26px;
+    font-family: var(--font-libre-serif);
+    color: var(--standard-black);
+}
+
+#services-six .issues-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 24px;
+    align-items: stretch;
+}
+
+#services-six .issues-container .flex-item {
+    flex: 1;
+    border: 2px var(--standard-red) solid;
+    border-radius: var(--standard-radius);
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 16px;
+
 }
 
 #team-individual {
@@ -1636,11 +1755,20 @@ form .comment-form-email label:active {
         padding: 72px var(--laptop-padding);
     }
 
-
     #services-four {
         margin: 0;
         max-width: none;
         padding: 80px var(--laptop-padding);
+    }
+
+    #services-five .flex-container {
+        padding: 72px var(--laptop-padding);
+    }
+
+    #services-six .flex-container {
+        margin: 0;
+        max-width: none;
+        padding: 20px var(--laptop-padding);
     }
 
     #team-one {
@@ -1949,6 +2077,7 @@ form .comment-form-email label:active {
         font-family: var(--font-work-sans-regular);
     }
 
+
     #services-three {
         margin: 72px;
     }
@@ -1970,6 +2099,54 @@ form .comment-form-email label:active {
     }
 
     #services-four .container .flex-item {
+        max-width: 100%;
+    }
+
+    #services-five .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 24px;
+        align-items: center;
+        padding: 36px var(--mobile-padding);
+
+    }
+
+    #services-five .flex-container .flex-item {
+        max-width: 100%;
+        justify-content: start;
+        flex: 1;
+    }
+
+    #services-five .flex-container .flex-item .image {
+        max-width: 100%;
+        width: 100vw;
+        min-width: 200px;
+        background-size: cover;
+        background-position: center;
+        align-self: center;
+        border-radius: var(--standard-radius);
+    }
+
+    #services-five .flex-container .flex-item .title {
+        font-family: var(--font-libre-serif);
+        font-size: 32px;
+    }
+
+    #services-five .flex-container .flex-item .content {
+        font-family: var(--font-work-sans-regular);
+    }
+
+    #services-six .flex-container {
+        padding: 40px var(--mobile-padding);
+    }
+
+    #services-six .issues-container {
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    #services-six .issues-container .flex-item {
         max-width: 100%;
     }
 
