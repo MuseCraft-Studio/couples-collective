@@ -1411,12 +1411,8 @@ body {
 
 #services-five li {
     margin: 12px 0;
-    list-style-type: none;
 }
 
-#services-five ul {
-    padding: 0;
-}
 
 #services-five .flex-container .flex-item .content a {
     text-decoration: none;
@@ -1485,12 +1481,15 @@ body {
     border: 2px var(--standard-red) solid;
     border-radius: var(--standard-radius);
     padding: 24px;
-
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     row-gap: 16px;
+}
 
+#services-six .issues-container .flex-item b {
+    font-family: var(--font-libre-serif);
 }
 
 #team-individual {
