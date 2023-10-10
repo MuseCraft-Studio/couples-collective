@@ -18,7 +18,7 @@
     <div id="section-one">
         <div class="container">
             <div class="video-container">
-                <video autoplay muted loop id="myVideo">
+                <video autoplay muted loop playsinline id="myVideo">
                     <source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp43f09b8fmIk300_h264_1080p_4516097.mp4" type="video/mp4">
                 </video>
             </div>

@@ -72,28 +72,36 @@ Template Name: sex-intimacy
                     <div class="flex-item">
                         <div><b>Desire Discrepancy</b></div>
                         <div>
-                            When partners have different levels of desire, EFT helps them understand each other's needs and work together to find a satisfying compromise.</div>
-                        </div>    
+                            When partners have different levels of desire, EFT helps them understand each other's needs and work together to find a satisfying compromise.
+                        </div>
+                    </div>    
                     <div class="flex-item">
                         <div><b>Erectile Dysfunction and Performance Anxiety</b></div>
                         <div>
-                            EFT provides a safe environment to discuss and address performance-related concerns, reducing anxiety and increasing sexual confidence.</div>
-                        </div>    
+                            EFT provides a safe environment to discuss and address performance-related concerns, reducing anxiety and increasing sexual confidence.
+                        </div>
+                    </div>    
                     <div class="flex-item">
                         <div><b>Past Trauma</b></div>
                         <div>
-                            Individuals who have experienced sexual trauma can benefit from EFT's emphasis on emotional safety and trust-building. It helps partners navigate the healing process together.</div>
-                        </div>    
+                            Individuals who have experienced sexual trauma can benefit from EFT's emphasis on emotional safety and trust-building. It helps partners navigate the healing process together.
+                        </div>
+                    </div>    
                     <div class="flex-item">
                         <div><b>Lack of Intimacy</b></div>
                         <div>
-                            For couples feeling emotionally distant, EFT can help them rediscover emotional intimacy, which often leads to improved physical intimacy.</div>
-                        </div>    
+                            For couples feeling emotionally distant, EFT can help them rediscover emotional intimacy, which often leads to improved physical intimacy.
+                        </div>
+                    </div>    
                     <div class="flex-item">
                         <div><b>Communication Breakdown</b></div>
                         <div>
-                            EFT's focus on improving communication extends to discussing sexual and intimate issues openly and honestly, reducing misunderstandings and conflicts.</div>
-                        </div>    
+                            EFT's focus on improving communication extends to discussing sexual and intimate issues openly and honestly, reducing misunderstandings and conflicts.
+                        </div>
+                    </div>    
+                </div>
+                <div class="fill-width-center">
+                    <a class="fill-button" href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">Contact us</a>
                 </div>
             </div>
         </div>
