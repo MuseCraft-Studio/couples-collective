@@ -74,7 +74,7 @@
                         </p>
                     </div>
                     <div>
-                        <a class="fill-button" href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">Get Started</a>
+                        <a class="fill-button" href="/contact" target="_blank">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@
                             </ol>
                         </div>
                         <div>
-                            <a href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">
+                            <a href="/contact" target="_blank">
                                 <button class="fill-button">Book your free consultation</button>
                             </a>
                         </div>

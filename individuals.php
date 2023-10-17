@@ -46,7 +46,7 @@ Template Name: individuals
                         </p>
                     </div>
                     <div class="get-started">
-                        <a class="fill-button" href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">Start intake form</a>
+                        <a class="fill-button" href="/contact" target="_blank">Start intake form</a>
                     </div>
                 </div>
                 <div class="flex-item">

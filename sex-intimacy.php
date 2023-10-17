@@ -101,7 +101,7 @@ Template Name: sex-intimacy
                     </div>    
                 </div>
                 <div class="fill-width-center">
-                    <a class="fill-button" href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">Contact us</a>
+                    <a class="fill-button" href="/contact" target="_blank">Contact us</a>
                 </div>
             </div>
         </div>
