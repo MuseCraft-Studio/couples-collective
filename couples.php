@@ -42,7 +42,7 @@ Template Name: couples
                         <p>Perhaps you lack depth in your relationship and want to break down emotional barriers and enhance your physical connection. Conversely, maybe an act of infidelity has fractured your trust, and you want to know if there is still any hope for your marriage. As a relationship evolves, it's natural for couples to run into unexpected challenges. For instance, you may be having trouble coordinating your communication or parenting styles in a blended family dynamic. Or your partner may have put up emotional barriers, and you don't know how to make a connection without feeling criticized or misunderstood for trying. And if you are recovering from infidelity, it can be extremely difficult managing the intense mix of emotions in a way that promotes internal healing.</p>
                         <p>We also see <em><a href="/welcome/individuals">individuals</a></em>.</p>
                     </div>
-                    <a class="fill-button" href="https://forms.gle/PwZLNmbNeMNwkArAA" target="_blank">Contact us</a>
+                    <a class="fill-button" href="/contact" target="_blank">Contact us</a>
                 </div>
             </div>
         </div>
@@ -106,6 +106,7 @@ Template Name: couples
             get_footer()
         ?>
     </div>
+    <script type="text/javascript" src="//cdn.callrail.com/companies/636674144/9a8ff257e0969e4278e2/12/swap.js"></script>
 </body>
 
 </html>
