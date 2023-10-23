@@ -1396,6 +1396,8 @@ body {
     height: 0;
 }
 
+
+
 #services-five .flex-container .flex-item .image {
     max-width: 544px;
     max-height: 400px;
@@ -1426,6 +1428,14 @@ body {
     max-width: 544px;
     justify-content: start;
     flex: 1;
+}
+
+#services-five .flex-container-two .flex-item .small-title {
+    color: var(--standard-green);
+    text-align: start;
+    font-size: 18px;
+    font-family: var(--font-work-sans-bold);
+    margin: 4px 0;
 }
 
 #services-five .title {
@@ -2439,6 +2449,10 @@ form .comment-form-email label:active {
         max-height: 400px;
         height: 100vh;
         min-width: none;
+    }
+
+    #services-five .flex-container-two .flex-item .small-title {
+        text-align: center;
     }
 
     #footer .container {
