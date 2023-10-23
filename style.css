@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.63
+Version: 0.64
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -58,6 +58,14 @@ body {
 body {
     margin-left: auto;
     margin-right: auto;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
 }
 
 #media-level::before {
@@ -1361,20 +1369,21 @@ body {
 }
 
 #services-five {
-    background-color: #EDEEF6;
     color: var(--standard-black);
     margin: 120px 0 0 0;
 }
 
 #services-five .flex-container {
+    background-color: #EDEEF6;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 24px;
-    align-items: center;
+    align-items: start;
     padding: 72px var(--standard-padding);
 }
+
 
 #services-five .flex-container .flex-item {
     max-width: 544px;
@@ -1389,7 +1398,7 @@ body {
 
 #services-five .flex-container .flex-item .image {
     max-width: 544px;
-    max-height: 672px;
+    max-height: 400px;
     height: 100vh;
     min-width: 200px;
     background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_518968.jpg');
@@ -1397,6 +1406,26 @@ body {
     background-position: center;
     align-self: center;
     border-radius: var(--standard-radius);
+}
+
+#services-five .flex-container-two {
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    align-items: start;
+    padding: 72px var(--standard-padding);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services-five .flex-container-two .flex-item {
+    max-width: 544px;
+    justify-content: start;
+    flex: 1;
 }
 
 #services-five .title {
@@ -1409,8 +1438,39 @@ body {
     font-family: var(--font-work-sans-regular);
 }
 
+#services-five ul {
+    padding: 0;
+    list-style: none;
+}
+
 #services-five li {
-    margin: 12px 0;
+    margin: 0;
+}
+
+#services-five .desktop-subtitle {
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--font-libre-serif);
+    padding-top: 72px;
+}
+
+#services-five .flex-item img {
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+    border-radius: var(--standard-radius);
+}
+
+#services-five .content .sub-title {
+    text-align: center;
+    font-family: var(--font-libre-serif);
+}
+
+#services-five .content img {
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+    border-radius: var(--standard-radius);
 }
 
 
@@ -1772,6 +1832,12 @@ form .comment-form-email label:active {
         padding: 72px var(--laptop-padding);
     }
 
+    #services-five .flex-container-two {
+        margin: 0;
+        max-width: none;
+        padding: 80px var(--laptop-padding);
+    }
+
     #services-six .flex-container {
         margin: 0;
         max-width: none;
@@ -2110,13 +2176,7 @@ form .comment-form-email label:active {
     }
 
     #services-five .flex-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        row-gap: 24px;
-        align-items: center;
         padding: 36px var(--mobile-padding);
-
     }
 
     #services-five .flex-container .flex-item {
@@ -2125,7 +2185,16 @@ form .comment-form-email label:active {
         flex: 1;
     }
 
-    #services-five .flex-container .flex-item .image {
+    #services-five .flex-container-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 24px;
+        align-items: center;
+        padding: 36px var(--mobile-padding);
+    }
+
+    #servies #services-five .flex-container .flex-item .image {
         max-width: 100%;
         width: 100vw;
         min-width: 200px;
@@ -2207,6 +2276,14 @@ form .comment-form-email label:active {
 }
 
 @media only screen and (max-width: 573px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
     #media-level::before {
         content: "Mobile";
     }
@@ -2350,6 +2427,18 @@ form .comment-form-email label:active {
 
     #section-five .text-content {
         padding: 35px 45px;
+    }
+
+    #services-five .flex-container {
+        flex-direction: column;
+    }
+
+    #services-five .flex-container .flex-item .image {
+        max-width: 100%;
+        width: 100vw;
+        max-height: 400px;
+        height: 100vh;
+        min-width: none;
     }
 
     #footer .container {
