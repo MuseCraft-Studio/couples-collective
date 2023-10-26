@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: lgbtq
+Template Name: premarital
 */
 ?>
 
@@ -8,12 +8,12 @@ Template Name: lgbtq
 <html lang="en">
 
 <head>
-    <title>Couples Collective - LGBTQ EFT Individual and Couples Counseling</title>
+    <title>Couples Collective - Premarital Counseling with Emotionally Focused Couples Therapy</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LGBTQ EFT Individual and Couples Counseling">
+    <meta name="description" content="Premarital Counseling with Emotionally Focused Couples Therapy">
     <?php 
         wp_head();
     ?>
@@ -36,10 +36,10 @@ Template Name: lgbtq
                     </div>
                     <div class="flex-item">
                         <div class="title">
-                            LGBTQ EFT Individual and Couples Counseling
+                            Premarital Counseling with Emotionally Focused Couples Therapy (EFT)
                         </div>
                         <div class="content">
-                            <p>Emotionally Focused Couples Therapy (EFT) has emerged as a highly effective approach for LGBTQ couples and individuals seeking counseling. Emotionally Focused Couples Therapy (EFT) is a therapeutic approach designed to help couples build and strengthen emotional connections. It's based on the idea that a secure emotional bond is essential for a thriving relationship, regardless of sexual orientation or gender identity. EFT focuses on creating a safe space for partners to express their feelings, needs, and fears openly. This approach has proven to be particularly effective for LGBTQ couples.</p>
+                            <p>Preparing for marriage is an exciting journey filled with dreams of a shared future. However, it's also a time when couples may encounter doubts, fears, and uncertainties. Premarital counseling is a proactive step towards building a strong foundation for a lasting and loving partnership. Emotionally Focused Couples Therapy (EFT) has proven to be a highly effective approach for premarital counseling. In this comprehensive guide, we'll explore why EFT is so beneficial in this context, and how it can help you and your partner navigate the transition into married life with confidence and connection.</p>
                         </div>
                     </div>
                 </div>
@@ -48,9 +48,9 @@ Template Name: lgbtq
                 <div class="flex-container">
                     <div class="flex-item">
                         <div class="title">
-                            LGBTQ EFT Individual and Couples Counseling
+                            Premarital Counseling with Emotionally Focused Couples Therapy (EFT)
                         </div>
-                        <p>Emotionally Focused Couples Therapy (EFT) has emerged as a highly effective approach for LGBTQ couples and individuals seeking counseling. Emotionally Focused Couples Therapy (EFT) is a therapeutic approach designed to help couples build and strengthen emotional connections. It's based on the idea that a secure emotional bond is essential for a thriving relationship, regardless of sexual orientation or gender identity. EFT focuses on creating a safe space for partners to express their feelings, needs, and fears openly. This approach has proven to be particularly effective for LGBTQ couples.</p>
+                        <p>Preparing for marriage is an exciting journey filled with dreams of a shared future. However, it's also a time when couples may encounter doubts, fears, and uncertainties. Premarital counseling is a proactive step towards building a strong foundation for a lasting and loving partnership. Emotionally Focused Couples Therapy (EFT) has proven to be a highly effective approach for premarital counseling. In this comprehensive guide, we'll explore why EFT is so beneficial in this context, and how it can help you and your partner navigate the transition into married life with confidence and connection.</p>
                     </div>
                     <div class="flex-item">
                         <div class="image"></div>
@@ -58,34 +58,41 @@ Template Name: lgbtq
                 </div>
             </div>
             <div class="desktop-subtitle">
-                <b>Why EFT Works for LGBTQ Couples</b>
+                <b>Why EFT is Effective for Premarital Counseling</b>
             </div>
             <div class="flex-container-two">
                 <div class="flex-item">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_1173368.jpg" alt="Two men in love embrace tenderly" />
-                    <div class="small-title">Respect for Diversity</div>
+                    <div class="small-title">Enhancing Communication</div>
                     <div>
-                        Our EFT therapists are trained to understand and respect the unique experiences of LGBTQ individuals and couples. They provide a safe, affirming environment where clients can discuss issues related to their sexual orientation or gender identity without fear of judgment.
+                        Effective communication is the cornerstone of a strong marriage. EFT equips couples with the skills to express their thoughts, feelings, and needs openly and empathetically. This is particularly valuable for addressing potential challenges early on in the premarital phase
                     </div>
                 <div class="flex-item">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2535983.jpg" alt="Young women kissing" />
-                    <div class="small-title">Addressing Unique Challenges</div>
+                    <div class="small-title">Navigating Conflict</div>
                     <div>
-                        EFT therapists recognize that LGBTQ couples may face distinct challenges, such as coming out, family acceptance, and societal prejudice. EFT helps couples navigate these challenges by fostering better communication and emotional support.
+                        All couples face conflict and disagreements. EFT helps couples understand the underlying emotions driving these conflicts and teaches them how to resolve issues in a way that strengthens their emotional bond.
                     </div>
                 </div>
                 <div class="flex-item">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp181f7a45MqN200_Medium_1710039.jpg" alt="Smiling couple at wall" />
-                    <div class="small-title">Promoting Attachment</div>
+                    <div class="small-title">Fostering Emotional Intimacy</div>
                     <div>
-                        EFT emphasizes the importance of attachment bonds in relationships. For LGBTQ couples, especially those in the Bay Area, where community support is essential, EFT can help strengthen these connections and build a stronger sense of belonging.
+                        EFT encourages couples to explore and deepen their emotional connection. Building emotional intimacy before marriage is vital because it lays the foundation for a fulfilling and lasting partnership.
                     </div>
                 </div>
                 <div class="flex-item">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txpd43da0b5eUQ000_Medium_273418.jpg" alt="Image of group of friends hang out in the city" />
-                    <div class="small-title">Effective Communication</div>
+                    <div class="small-title">Understanding Attachment</div>
                     <div>
-                        EFT equips couples with the skills to communicate their needs and emotions effectively. This is particularly valuable for LGBTQ couples who may struggle to express their feelings openly due to societal pressures or past traumas.
+                        EFT delves into each partner's attachment history, helping them understand how their past experiences influence their expectations and behaviors in a relationship. This insight is invaluable for addressing potential sources of conflict.
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2621517.jpg" alt="Happy black and white couple having fun outdoors" />
+                    <div class="small-title">Preparing for Challenges</div>
+                    <div>
+                        Premarital counseling with EFT prepares couples for the challenges that may arise during marriage. It equips them with the tools to face adversity together, fostering resiliency and unity.
                     </div>
                 </div>
             </div>      
@@ -94,35 +101,44 @@ Template Name: lgbtq
             <div class="flex-container">
                 <div class="fill-width">
                     <div class="title">
-                    Specialized EFT for LGBTQ Couples In the Bay Area, where diversity is celebrated, EFT therapists often offer specialized LGBTQ couples therapy
+                        How EFT Can Benefit Premarital Counseling-EFT can be tailored to address various aspects of premarital Counseling
                     </div>
                 </div>
                 <div class="issues-container">
                     <div class="flex-item">
-                        <div><b>Gay Couples Therapy</b></div>
+                        <div><b>Clarifying Expectations</b></div>
                         <div>
-                        Tailored to the unique experiences of gay couples, this form of EFT helps address issues related to identity, intimacy, and relationship dynamics.
+                            Couples can use EFT to discuss and align their expectations regarding roles, responsibilities, and future goals, ensuring they are on the same page.
                         </div>
-                    </div>    
+                    </div>
                     <div class="flex-item">
-                        <div><b>Trans Couples Therapy</b></div>
+                        <div><b>Strengthening Conflict Resolution Skills</b></div>
                         <div>
-                            EFT for transgender couples focuses on supporting the emotional journey of transitioning individuals and their partners while strengthening their connection.
+                            EFT equips couples with effective conflict resolution strategies, preventing small issues from escalating into larger problems.
                         </div>
-                    </div>    
+                    </div> 
                     <div class="flex-item">
-                        <div><b>Lesbian Couples Therapy</b></div>
+                        <div><b>Exploring Family Dynamics</b></div>
                         <div>
-                            EFT for lesbian couples addresses issues specific to women-loving-women relationships, promoting emotional intimacy and resilience.
+                            Couples can explore how their families of origin influence their expectations and values, helping them build a shared vision for their married life.
                         </div>
-                    </div>        
+                    </div> 
+                    <div class="flex-item">
+                        <div><b>Building Trust and Safety</b></div>
+                        <div>
+                            EFT emphasizes creating a safe and trusting environment in which couples can be vulnerable and open with each other, strengthening their emotional connection.
+                        </div>
+                    </div> 
+                    <div class="flex-item">
+                        <div><b>Addressing Pre-Existing Issues</b></div>
+                        <div>
+                            If there are unresolved issues from the past, EFT can help couples work through them, ensuring they don't negatively impact the marriage.
+                        </div>
+                    </div>   
                 </div>
                 <div class="fill-width">
                     <p>
-                        With a strong emphasis on emotional connection, open communication, and respect for diversity, our EFT therapists provide a safe haven for couples to thrive. Whether you are a gay, trans, or lesbian couple, EFT can help you strengthen your bond and navigate the unique challenges you may face.
-                    </p>
-                    <p>
-                        If you're seeking LGBTQ EFT counseling in the Bay Area, we invite you to connect with our experienced therapists who are dedicated to helping you build a healthier, more fulfilling relationship. Contact us today to take the first step toward a brighter future together.
+                        Emotionally Focused Couples Therapy (EFT) is a powerful and effective approach for premarital counseling. It equips couples with the tools they need to enhance communication, navigate conflicts, foster emotional intimacy, understand attachment dynamics, and prepare for the challenges of marriage. If you're preparing to embark on this exciting journey of marriage, consider EFT as a valuable resource to ensure a strong and resilient foundation for a loving and lasting partnership. Reach out to us today to start your premarital counseling journey with EFT, and set yourselves up for a lifetime of happiness and connection.
                     </p>
                 </div>
                 <div class="fill-width-center">
