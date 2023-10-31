@@ -29,15 +29,16 @@ Template Name: premarital
     </div>
     <div class="services">
         <div id="services-five">
+            <div id="page-title">Premarital Counseling with Emotionally Focused Couples Therapy (EFT)</div>
             <div class="desktop">
                 <div class="flex-container">
                     <div class="flex-item">
                         <div class="image"></div>
                     </div>
                     <div class="flex-item">
-                        <div class="title">
+                        <!-- <div class="title">
                             Premarital Counseling with Emotionally Focused Couples Therapy (EFT)
-                        </div>
+                        </div> -->
                         <div class="content">
                             <p>Preparing for marriage is an exciting journey filled with dreams of a shared future. However, it's also a time when couples may encounter doubts, fears, and uncertainties. Premarital counseling is a proactive step towards building a strong foundation for a lasting and loving partnership. Emotionally Focused Couples Therapy (EFT) has proven to be a highly effective approach for premarital counseling. In this comprehensive guide, we'll explore why EFT is so beneficial in this context, and how it can help you and your partner navigate the transition into married life with confidence and connection.</p>
                         </div>
@@ -47,9 +48,9 @@ Template Name: premarital
             <div class="mobile">
                 <div class="flex-container">
                     <div class="flex-item">
-                        <div class="title">
+                        <!-- <div class="title">
                             Premarital Counseling with Emotionally Focused Couples Therapy (EFT)
-                        </div>
+                        </div> -->
                         <p>Preparing for marriage is an exciting journey filled with dreams of a shared future. However, it's also a time when couples may encounter doubts, fears, and uncertainties. Premarital counseling is a proactive step towards building a strong foundation for a lasting and loving partnership. Emotionally Focused Couples Therapy (EFT) has proven to be a highly effective approach for premarital counseling. In this comprehensive guide, we'll explore why EFT is so beneficial in this context, and how it can help you and your partner navigate the transition into married life with confidence and connection.</p>
                     </div>
                     <div class="flex-item">

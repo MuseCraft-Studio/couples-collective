@@ -985,9 +985,6 @@ body {
     font-size: 12px;
 }
 
-
-
-
 #team-two {
     position: relative;
 }
@@ -1228,9 +1225,6 @@ body {
     font-family: var(--font-work-sans-regular);
 }
 
-
-
-
 #services {
     color: var(--standard-black);
 }
@@ -1381,7 +1375,7 @@ body {
 
 #services-five {
     color: var(--standard-black);
-    margin: 120px 0 0 0;
+    /* margin: 120px 0 0 0; */
 }
 
 #services-five .flex-container {
@@ -1392,7 +1386,7 @@ body {
     justify-content: center;
     column-gap: 24px;
     align-items: start;
-    padding: 72px var(--standard-padding);
+    padding: 36px var(--standard-padding);
 }
 
 
@@ -1571,6 +1565,13 @@ body {
 
 #services-six .issues-container .flex-item b {
     font-family: var(--font-libre-serif);
+}
+
+#page-title {
+    font-family: var(--font-libre-serif);
+    font-size: 24px;
+    margin: 24px 0;
+    text-align: center;
 }
 
 #team-individual {
@@ -1854,7 +1855,7 @@ form .comment-form-email label:active {
     }
 
     #services-five .flex-container {
-        padding: 72px var(--laptop-padding);
+        padding: 36px var(--laptop-padding);
     }
 
     #services-five .flex-container-two {

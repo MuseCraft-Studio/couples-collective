@@ -29,15 +29,16 @@ Template Name: sex-intimacy
     </div>
     <div class="services">
         <div id="services-five">
+            <div id="page-title">Sex and Intimacy Therapy</div>
             <div class="desktop">
                 <div class="flex-container">
                     <div class="flex-item">
                         <div class="image"></div>
                     </div>
                     <div class="flex-item">
-                        <div class="title">
+                        <!-- <div class="title">
                             Sex and Intimacy Therapy
-                        </div>
+                        </div> -->
                         <div class="content">
                             <p>Sex and intimacy are fundamental aspects of human relationships, but they can become sources of stress and discord in a partnership. Emotionally Focused Couples Therapy (EFT) has emerged as a powerful approach for addressing these issues; allowing couples to reconnect and revitalize their physical connection. EFT can be an effective tool in healing and improving sexual and intimate aspects of relationships, providing both couples and individuals with the support they need to experience fulfilling, passionate, and connected lives.</p>
                         </div>
@@ -47,9 +48,9 @@ Template Name: sex-intimacy
             <div class="mobile">
                 <div class="flex-container">
                     <div class="flex-item">
-                        <div class="title">
+                        <!-- <div class="title">
                             Sex and Intimacy Therapy
-                        </div>
+                        </div> -->
                         <p>Sex and intimacy are fundamental aspects of human relationships, but they can become sources of stress and discord in a partnership. Emotionally Focused Couples Therapy (EFT) has emerged as a powerful approach for addressing these issues; allowing couples to reconnect and revitalize their physical connection. EFT can be an effective tool in healing and improving sexual and intimate aspects of relationships, providing both couples and individuals with the support they need to experience fulfilling, passionate, and connected lives.</p>
                     </div>
                     <div class="flex-item">
