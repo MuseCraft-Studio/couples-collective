@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home">
+    <meta name="description" content="Couples therapy, couples counseling, or professional advice for stronger healthier romantic relationships">
     <?php 
         wp_head();
     ?>
@@ -20,6 +20,7 @@
             <div class="video-container">
                 <video autoplay muted loop playsinline id="myVideo">
                     <source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp43f09b8fmIk300_h264_1080p_4516097.mp4" type="video/mp4">
+                    <meta itemprop="description" content="happy couple after couples therapy">
                 </video>
             </div>
                 <?php
@@ -45,7 +46,9 @@
 
         <div id="section-two">
             <div class="flex-container">
-                <div class="image"></div>
+                <div class="image">
+                    <div class="alt-text">Gay happy couple laugh and hug each other, couple's couseling in bay area</div>
+                </div>
                 <div class="break"></div>
                 <div class="learn-more">
                     <div class="title">
@@ -82,7 +85,7 @@
         <div id="section-three">
             <div class="background">
     
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg" class="cover-img" />
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg" class="cover-img" alt="Queer women couple kiss, couple's therapy in California" />
                 <div class="title">
                     Reviews on Yelp
                 </div>
@@ -208,12 +211,13 @@
                                 Our couples therapists offer in-person couples counseling in the Bay Area or remote couples counseling in all of California.
                             </p>
                             <p>
-                            We understand that every couple is different. We offer a variety of therapy styles to fit your needs.
+                                We understand that every couple is different. We offer a variety of therapy styles to fit your needs.
                             </p>
                          </div>
                     </div>
                 </div>
                 <div class="image">
+                    <div class="alt-text">Cute couple walking, remote couple's therapy</div>
                 </div>
             </div>
         </div>
@@ -241,7 +245,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="image"></div>
+                    <div class="image">
+                        <div class="alt-text">Couple eats take out, couple's therapy in California</div>
+                    </div>
             </div>
         </div>
     </div>

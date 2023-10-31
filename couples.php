@@ -8,12 +8,14 @@ Template Name: couples
 <html lang="en">
 
 <head>
-    <title>Couples Collective - Couples Service</title>
+    <title>Bay Area Couples Collective: Welcome Couples</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Couples Service">
+    <meta name="description" content="The Bay Area Couples Collective is a community of couples counselors who support people in their relationships. We offer a variety of resources and events to help couples connect, grow, and thrive." />
+    <meta name="keywords" content="couples, relationships, Bay Area, community, support, resources, events" />
+
     <?php 
         wp_head();
     ?>
