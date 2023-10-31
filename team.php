@@ -8,14 +8,16 @@ Template Name: team
 <html lang="en">
 
 <head>
-    <title>Couples Collective - Meet Our Team</title>
+    <title>Bay Area Couples Collective: Meet Our Team</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meet Our Team">
+    <meta name="description" content="The Bay Area Couples Collective team is made up of experienced and passionate therapists who are dedicated to helping couples and individuals thrive. Learn more about our team and how we can help you." />
+    <meta name="keywords" content="Bay Area Couples Collective, team, therapists, couples therapy, individual therapy, mental health" />
+    
     <?php 
-    wp_head();
+        wp_head();
     ?>
 </head>
 
