@@ -23,7 +23,7 @@
                     <a class="fill-button" href="tel:5103739995">Call now: (510) 373-9995</a>
                 </div>
             </div>
-            <div class="tablet-mobile-nav-row">
+            <div class="tablet-mobile-nav-row" id="tablet-mobile-nav-row">
                 <div class="topnav">
                     <div class="icon" onclick="responsiveNav()">
                         <i class="fa fa-bars"></i>
