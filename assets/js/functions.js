@@ -22,10 +22,10 @@ function responsiveNav() {
     var y = document.getElementById("tablet-mobile-nav-row");
     if (x.style.display === "block") {
         x.style.display = "none";
-        y.style.backgroundColor = "transparent";
+        // y.style.backgroundColor = "transparent";
     } else {
         x.style.display = "block";
-        y.style.backgroundColor = "#e0e0e0";
+        // y.style.backgroundColor = "#e0e0e0";
     }
 }
 
