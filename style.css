@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.71
+Version: 0.73
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -249,14 +249,22 @@ body {
     text-align: right;
 }
 
-#navigation .topnav #myLinks {
-    display: none;
+#navigation #myLinks .text-links a {
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
 }
 
-#navigation .topnav #myLinks .text-links a {
-    white-space: nowrap;
-    color: var(--standard-black);
-    text-decoration: none;
+#navigation .tablet-mobile-nav-row li {
+    list-style-type: none;
+}
+
+#navigation .tablet-mobile-nav-row li {
+    padding: 5px;
+}
+
+#navigation .tablet-mobile-nav-row div {
+    padding: 5px;
 }
 
 #navigation .topnav li {
@@ -277,8 +285,8 @@ body {
     position: relative;
     right: 0;
     top: 0;
+    color: var(--standard-black);
 }
-
 
 #section-one {
     position: relative;
@@ -1918,14 +1926,11 @@ form .comment-form-email label:active {
 
     #navigation .header-flex {
         padding: var(--mobile-padding);
+        align-items: start;
     }
 
     #navigation i {
         font-size: 24px;
-    }
-
-    #navigation .header-flex {
-        align-items: start;
     }
 
     #navigation .right-nav-desktop {
@@ -1934,6 +1939,21 @@ form .comment-form-email label:active {
 
     #navigation .tablet-mobile-nav-row {
         display: block;
+    }
+
+    #navigation .tablet-mobile-nav-row .topnav {
+        z-index: 3;
+    }
+
+    #navigation .tablet-mobile-nav-row #myLinks {
+        transform: translateX(100%);
+        z-index: 2;
+        position: absolute;
+        background-color: #145174;
+        top: 0;
+        right: 0;
+        padding: 60px var(--mobile-padding) var(--mobile-padding) var(--mobile-padding);
+        border-bottom-left-radius: var(--standard-radius);
     }
 
     #section-one .left-content {

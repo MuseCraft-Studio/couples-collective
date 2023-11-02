@@ -26,24 +26,24 @@
             <div class="tablet-mobile-nav-row" id="tablet-mobile-nav-row">
                 <div class="topnav">
                     <div class="icon" onclick="responsiveNav()">
-                        <i class="fa fa-bars"></i>
+                        <i id="menu-icon" class="fa fa-bars"></i>
                     </div>
-                    <div id="myLinks">
-                        <div class="text-links">
-                            <?php
-                                wp_nav_menu(
-                                    array(
-                                        'menu' => 'primary',
-                                        'container' => '',
-                                        'theme_location' => 'primary',
-                                        'items_wrap' => '%3$s'
-                                    )
-                                );
-                            ?>
-                        </div>
-                        <div class="button-link">
-                            <a class="fill-button" href="tel:5103739995">Call Now</a>
-                        </div>
+                </div>
+                <div id="myLinks">
+                    <div class="text-links">
+                        <?php
+                            wp_nav_menu(
+                                array(
+                                    'menu' => 'primary',
+                                    'container' => '',
+                                    'theme_location' => 'primary',
+                                    'items_wrap' => '%3$s'
+                                )
+                            );
+                        ?>
+                    </div>
+                    <div class="button-link">
+                        <a class="fill-button" href="tel:5103739995">Call Now</a>
                     </div>
                 </div>
             </div>

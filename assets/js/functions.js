@@ -19,13 +19,21 @@ if (document.readyState !== "loading") {
 
 function responsiveNav() {
     var x = document.getElementById("myLinks");
-    var y = document.getElementById("tablet-mobile-nav-row");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-        // y.style.backgroundColor = "transparent";
+    var icon = document.getElementById("menu-icon");
+    if (x.style.transform === "translateX(0%)") {
+        x.style.transform = "translateX(100%)";
+        x.style.transition = "all 0.5s ease";
+        icon.classList.remove("fa-x");
+        icon.classList.add("fa-bars");
+        icon.style.color = "#1b1c1e";
+        icon.style.transition = "all 0.25s ease";
     } else {
-        x.style.display = "block";
-        // y.style.backgroundColor = "#e0e0e0";
+        x.style.transform = "translateX(0%)";
+        x.style.transition = "all 0.5s ease";
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-x");
+        icon.style.color = "white";
+        icon.style.transition = "all 0.25s ease";
     }
 }
 
