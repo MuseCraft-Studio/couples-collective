@@ -44,17 +44,6 @@
                             </a>
                         </div>
                     </div>
-                    <div class="location-link">
-                        <div>
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-                        <div>
-                            <a href="https://goo.gl/maps/ybE28tsnsJnHLnAr8" target="_blank">
-                                1703 Fifth Ave
-                                <br>San Rafael, CA 94901
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="flex-item">
