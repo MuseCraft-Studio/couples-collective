@@ -45,39 +45,78 @@
     <div id="home-content">
 
         <div id="section-two">
-            <div class="flex-container">
-                <div class="image">
-                    <div class="alt-text">Gay happy couple laugh and hug each other, couple's couseling in bay area</div>
+            <div class="desktop">
+                <div class="flex-container">
+                    <div class="image">
+                        <div class="alt-text">Gay happy couple laugh and hug each other, couple's couseling in bay area</div>
+                    </div>
+                    <div class="break"></div>
+                    <div class="learn-more">
+                        <div class="title">
+                            Providing expert EFT relationship counseling
+                        </div>
+                        <div class="description">
+                            <p>
+                                Using the Emotionally Focused Therapy model (EFT), a tool that rekindles physical and emotional
+                                bonds.
+                            </p>
+                            <p>
+                                We work with couples and individuals to support their growth and life goals.
+                            </p>
+                            <a href="/welcome/faq">
+                                <em>Learn more</em>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="get-started">
+                        <div class="title">
+                            Book your free consultation
+                        </div>
+                        <div>
+                            <p>
+                                Fill out our intake form and we'll reach out to you to schedule your first session!
+                            </p>
+                        </div>
+                        <div>
+                            <a class="fill-button" href="/contact" target="_blank">Get Started</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="break"></div>
-                <div class="learn-more">
-                    <div class="title">
-                        Providing expert EFT relationship counseling
+            </div>
+            <div class="mobile">
+                <div class="flex-container">
+                    <div class="learn-more">
+                        <div class="title">
+                            Providing expert EFT relationship counseling
+                        </div>
+                        <div class="description">
+                            <p>
+                                Using the Emotionally Focused Therapy model (EFT), a tool that rekindles physical and emotional
+                                bonds.
+                            </p>
+                            <p>
+                                We work with couples and individuals to support their growth and life goals.
+                            </p>
+                            <a href="/welcome/faq">
+                                <em>Learn more</em>
+                            </a>
+                        </div>
                     </div>
-                    <div class="description">
-                        <p>
-                            Using the Emotionally Focused Therapy model (EFT), a tool that rekindles physical and emotional
-                            bonds.
-                        </p>
-                        <p>
-                            We work with couples and individuals to support their growth and life goals.
-                        </p>
-                        <a href="/welcome/faq">
-                            <em>Learn more</em>
-                        </a>
+                    <div class="image">
+                        <div class="alt-text">Gay happy couple laugh and hug each other, couple's couseling in bay area</div>
                     </div>
-                </div>
-                <div class="get-started">
-                    <div class="title">
-                        Book your free consultation
-                    </div>
-                    <div>
-                        <p>
-                            Fill out our intake form and we'll reach out to you to schedule your first session!
-                        </p>
-                    </div>
-                    <div>
-                        <a class="fill-button" href="/contact" target="_blank">Get Started</a>
+                    <div class="get-started">
+                        <div class="title">
+                            Book your free consultation
+                        </div>
+                        <div>
+                            <p>
+                                Fill out our intake form and we'll reach out to you to schedule your first session!
+                            </p>
+                        </div>
+                        <div>
+                            <a class="fill-button" href="/contact" target="_blank">Get Started</a>
+                        </div>
                     </div>
                 </div>
             </div>
