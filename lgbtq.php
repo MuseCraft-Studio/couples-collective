@@ -32,7 +32,7 @@ Template Name: lgbtq
             <div id="page-title">LGBTQ EFT Individual and Couples Counseling</div>
             <div class="flex-container">
                 <div class="flex-item">
-                    <div class="image"></div>
+                    <div class="lgbtq-image"></div>
                 </div>
                 <div class="flex-item">
                     <div class="content">
@@ -45,27 +45,28 @@ Template Name: lgbtq
             </div>
             <div class="flex-container-two">
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_1173368.jpg" alt="Two men in love embrace tenderly" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/lgbt/4190880.jpg" alt="Two smiling young lgbt friends standing together outside in front of a wall and taking a selfie" />
                     <div class="small-title">Respect for Diversity</div>
                     <div>
                         Our EFT therapists are trained to understand and respect the unique experiences of LGBTQ individuals and couples. They provide a safe, affirming environment where clients can discuss issues related to their sexual orientation or gender identity without fear of judgment.
                     </div>
+                </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2535983.jpg" alt="Young women kissing" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/lgbt/3532707.jpg" alt="Elderly gay couple smiling, hugging and looking into the camera while sitting at the porch of old colonial house. Real gay people sincere portrait" />
                     <div class="small-title">Addressing Unique Challenges</div>
                     <div>
                         EFT therapists recognize that LGBTQ couples may face distinct challenges, such as coming out, family acceptance, and societal prejudice. EFT helps couples navigate these challenges by fostering better communication and emotional support.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp181f7a45MqN200_Medium_1710039.jpg" alt="Smiling couple at wall" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/lgbt/2034870.jpg" alt="Two beautiful women having fun while have breakfast in them home. Multiracial relationship concept." />
                     <div class="small-title">Promoting Attachment</div>
                     <div>
                         EFT emphasizes the importance of attachment bonds in relationships. For LGBTQ couples, especially those in the Bay Area, where community support is essential, EFT can help strengthen these connections and build a stronger sense of belonging.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txpd43da0b5eUQ000_Medium_273418.jpg" alt="Image of group of friends hang out in the city" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/lgbt/772314.jpg" alt="Affectionate young coupe hugging and having fun together in the city at sunset. They are laughing, smiling during a candid moment." />
                     <div class="small-title">Effective Communication</div>
                     <div>
                         EFT equips couples with the skills to communicate their needs and emotions effectively. This is particularly valuable for LGBTQ couples who may struggle to express their feelings openly due to societal pressures or past traumas.
