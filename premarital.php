@@ -32,7 +32,7 @@ Template Name: premarital
             <div id="page-title">Premarital Counseling with Emotionally Focused Couples Therapy (EFT)</div>
             <div class="flex-container">
                 <div class="flex-item">
-                    <div class="image"></div>
+                    <div class="premarital-image"></div>
                 </div>
                 <div class="flex-item">
                     <div class="content">
@@ -45,34 +45,35 @@ Template Name: premarital
             </div>
             <div class="flex-container-two">
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_1173368.jpg" alt="Two men in love embrace tenderly" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/premarital/1368150.jpg" alt="Male Couple In Love." />
                     <div class="small-title">Enhancing Communication</div>
                     <div>
                         Effective communication is the cornerstone of a strong marriage. EFT equips couples with the skills to express their thoughts, feelings, and needs openly and empathetically. This is particularly valuable for addressing potential challenges early on in the premarital phase
                     </div>
+                </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2535983.jpg" alt="Young women kissing" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/premarital/1876442.jpg" alt="beautiful, stylish lesbian couple eloping at city hall" />
                     <div class="small-title">Navigating Conflict</div>
                     <div>
                         All couples face conflict and disagreements. EFT helps couples understand the underlying emotions driving these conflicts and teaches them how to resolve issues in a way that strengthens their emotional bond.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp181f7a45MqN200_Medium_1710039.jpg" alt="Smiling couple at wall" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/premarital/3910511.jpg" alt="Young couple in elegant bridal attire laughing loudly and happily as they sit under the wedding arch during the festive celebration in the forest." />
                     <div class="small-title">Fostering Emotional Intimacy</div>
                     <div>
                         EFT encourages couples to explore and deepen their emotional connection. Building emotional intimacy before marriage is vital because it lays the foundation for a fulfilling and lasting partnership.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txpd43da0b5eUQ000_Medium_273418.jpg" alt="Image of group of friends hang out in the city" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/premarital/3745795.jpg" alt="wedding portraits" />
                     <div class="small-title">Understanding Attachment</div>
                     <div>
                         EFT delves into each partner's attachment history, helping them understand how their past experiences influence their expectations and behaviors in a relationship. This insight is invaluable for addressing potential sources of conflict.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2621517.jpg" alt="Happy black and white couple having fun outdoors" />
+                    <img style="object-position: 0 30%" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/premarital/488614.jpg" alt="A well dressed and stylish couple enjoying the outdoors." />
                     <div class="small-title">Preparing for Challenges</div>
                     <div>
                         Premarital counseling with EFT prepares couples for the challenges that may arise during marriage. It equips them with the tools to face adversity together, fostering resiliency and unity.
