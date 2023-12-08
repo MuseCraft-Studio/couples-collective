@@ -48,7 +48,7 @@ Template Name: couples-new
                             As a relationship evolves, it's natural for couples to run into unexpected challenges. For instance, you may be having trouble coordinating your communication or parenting styles in a blended family dynamic. Or your partner may have put up emotional barriers, and you don't know how to make a connection without feeling criticized or misunderstood for trying. And if you are recovering from infidelity, it can be extremely difficult managing the intense mix of emotions in a way that promotes internal healing.
                         </p>
                         <p>
-                            We understand that you may be wondering if things will ever get better. However, at East Bay Couples Center, we can help you repair and strengthen your relationship and enjoy a deep and meaningful connection with your partner.
+                            We understand that you may be wondering if things will ever get better. However, at Bay Area Couples Collective, we can help you repair and strengthen your relationship and enjoy a deep and meaningful connection with your partner.
                         </p>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ Template Name: couples-new
                             Many couples come into therapy thinking that they need to change something about themselves in order to get along. But therapy enables you to see that, rather than changing yourselves, you likely need to change the way in which you communicate and interact. It finds the common enemy in your communication styles that prevents you from hearing your partner and connecting with them authentically. With our help, you can learn to recognize each other's pleas for validation and respond to those needs with empathy and understanding.
                         </p>
                         <p>
-                            At East Bay Couples Center, we meet each client with unconditional positive regard for the challenges they face. We offer a warm, non-judgmental environment in which to talk about where you are seeing the breakdown in your connection and what your understanding of it is. We'll work to clarify what is actually happening in your relationship and identify the beneficial and harmful ways in which you both may be dealing with it. And we'll explore what you each need to feel validated and consider some of the ways you may be internalizing stress or sabotaging the relationship when your needs are not being met.
+                            At Bay Area Couples Collective, we meet each client with unconditional positive regard for the challenges they face. We offer a warm, non-judgmental environment in which to talk about where you are seeing the breakdown in your connection and what your understanding of it is. We'll work to clarify what is actually happening in your relationship and identify the beneficial and harmful ways in which you both may be dealing with it. And we'll explore what you each need to feel validated and consider some of the ways you may be internalizing stress or sabotaging the relationship when your needs are not being met.
                         </p>
                         <p>
                             At that point, we can begin to focus on developing tools for handling stressors—such as sex, finances, work, or children—more effectively. Over time, you can learn how to communicate in a way in which you can actually hear and respond to each other without criticism or insecurity.
