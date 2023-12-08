@@ -2,7 +2,7 @@
     {
         "name": "Kate Evans",
         "position": "MA, AMFT",
-        "services": "EFT Couples therapy, DBT, Psychosynthesis training, Hakomi Essential skills.",
+        "services": "EFT couples therapy, DBT, Psychosynthesis training, Hakomi Essential skills.",
         "blurb": "I believe that relationships offer an opportunity for healing, and by exploring our hurts and needs together in therapy, we can strengthen the loving bond and trust between partners. Drawing from various theories and modalities, I provide a warm and validating approach to help couples break free from negative cycles and build a stronger connection, working with diverse clients across different cultures, identities, and life stages.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_kate.jpg",
         "link": "/welcome/our-team/kate-evans-amft/"
@@ -18,7 +18,7 @@
     {
         "name": "Adam Harrison",
         "position": "LCSW",
-        "services": "EFT Couples therapy",
+        "services": "EFT couples therapy",
         "blurb": "In my practice, I utilize Emotionally Focused Therapy (EFT) to transform communication, create safety, and foster connection in relationships. EFT is a highly effective approach backed by over 30 years of research, with over 90% of couples experiencing significant improvement and 75% maintaining it for two years. By interrupting cycles of distress and disconnection, EFT helps couples be seen and deeply understood by their partners. Reach out today for an appointment and let's embark on this journey together.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_adam.jpg",
         "link": "/welcome/our-team/adam-harrison-lcsw/"
@@ -26,7 +26,7 @@
     {
         "name": "Jennifer Smith",
         "position": "AMFT",
-        "services": "EFT Couples therapy",
+        "services": "EFT couples therapy",
         "blurb": "Utilizing Emotionally Focused Therapy (EFT), I specialize in couples therapy, fostering safety, connection, and healing. With over 30 years of research supporting its effectiveness, EFT helps couples transform communication and interrupt distressing cycles. By addressing deep emotional needs and establishing trust, couples can find profound growth and lasting improvement in their relationships. Reach out today for an appointment and begin your journey towards a stronger and more fulfilling connection.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_jennifer.jpg",
         "link": "/welcome/our-team/jennifer-smith-amft/"
@@ -40,6 +40,14 @@
         "link": "/welcome/our-team/meryl-haggege-amft/"
     },
     {
+        "name": "Gilonne d’Origny",
+        "position": "AMFT",
+        "services": "EFT couples therapy, individuals, and families through a holistic approach",
+        "blurb": "Rooted in multicultural expertise, I specialize in navigating complex relationships, addiction, trauma, and parental challenges while blending cutting-edge research to offer remote and in-person sessions with unconditional positive regard.",
+        "picture": "/wp-content/themes/couples-collective/assets/team/picture_gilonne.jpeg",
+        "link": "/welcome/our-team/gilonne-dorigny-amft/"
+    },
+    {
         "name": "Danielle Brandon",
         "position": "AMFT",
         "services": "EFT couples therapy, Overall emotional health, and identity curiosity and exploration",
@@ -50,7 +58,7 @@
     {
         "name": "Andrew Getz",
         "position": "LMFT",
-        "services": "EFT Couples therapy, Psychosynthesis training, Hakomi Essential skills.",
+        "services": "EFT couples therapy, Psychosynthesis training, Hakomi Essential skills.",
         "blurb": "As a therapist I have a deep trust in the process of shared discovery and the many ways that it can uncover clarity of the heart that can be transformative for your relationship. My focus is to provide a safe holding environment that welcomes and meets you and your partner where you are in your relationship with one another.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_andrew.jpg",
         "link": "/welcome/our-team/andrew-getz-lmft/"
