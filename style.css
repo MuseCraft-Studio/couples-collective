@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.79
+Version: 0.80
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -1424,6 +1424,18 @@ body {
     border-radius: var(--standard-radius);
 }
 
+#services-five .flex-container .flex-item .couples-image {
+    max-width: 544px;
+    max-height: 400px;
+    height: 100vh;
+    min-width: 200px;
+    background-image: url('../couples-collective/assets/images/Stocksy_txp2c7f6af1x1k200_Small_959214.jpg');
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+    border-radius: var(--standard-radius);
+}
+
 #services-five .flex-container .flex-item .lgbtq-image {
     max-width: 544px;
     max-height: 400px;
@@ -1532,6 +1544,88 @@ body {
     &:visited {
         color: var(--standard-purple);
     }
+}
+
+#couples .container {
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#couples .section-white {
+    padding: 32px 0;
+}
+
+#couples .section-white .title {
+    color: var(--standard-blue)
+}
+
+#couples .section-blue {
+    padding: 32px 0;
+    background-color: #EDEEF6;
+}
+
+#couples .section-blue .title {
+    color: var(--standard-green);
+}
+
+#couples .title {
+    font-family: var(--font-libre-serif);
+    font-size: 26px;
+    text-align: center;
+}
+
+#couples img {
+    border-radius: var(--standard-radius);
+    max-width: 544px;
+    width: 100%;
+    height: auto;
+}
+
+#couples .left-image {
+    float: left;
+    margin: 0 12px 12px 0;
+}
+
+#couples .right-image {
+    float: right;
+    margin: 0 0px 12px 12px;
+}
+
+#couples p {
+    font-family: var(--font-work-sans-regular);
+    font-size: 16px;
+}
+
+#couples .question-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 30px;
+    margin: 32px 0;
+}
+
+#couples .question-item {
+    max-width: 336px;
+    border: 2px var(--standard-blue) solid;
+    border-radius: var(--standard-radius);
+    padding: 24px;
+    flex: 1;
+}
+
+#couples .question-flex .question {
+    cursor: pointer;
+    color: var(--standard-green);
+    font-size: 20px;
+}
+
+#couples .question-flex .answer {
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0px;
+    transition: all 0.2s ease-out;
 }
 
 #services-six {
@@ -1904,6 +1998,11 @@ form .comment-form-email label:active {
         margin: 0;
         max-width: none;
         padding: 20px var(--laptop-padding);
+    }
+
+    #couples .container {
+        max-width: none;
+        padding: 0 var(--laptop-padding);
     }
 
     #team-one {
@@ -2315,6 +2414,16 @@ form .comment-form-email label:active {
         border-radius: var(--standard-radius);
     }
 
+    #servies #services-five .flex-container .flex-item .couples-image {
+        max-width: 100%;
+        width: 100vw;
+        min-width: 200px;
+        background-size: cover;
+        background-position: center;
+        align-self: center;
+        border-radius: var(--standard-radius);
+    }
+
     #services-five .flex-container .flex-item .title {
         font-family: var(--font-libre-serif);
         font-size: 32px;
@@ -2335,6 +2444,17 @@ form .comment-form-email label:active {
 
     #services-six .issues-container .flex-item {
         max-width: 100%;
+    }
+
+    #couples .container {
+        max-width: 100%;
+        padding: 0 var(--mobile-padding);
+    }
+
+    #couples .question-flex {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 48px;
     }
 
     #contact {
@@ -2561,6 +2681,14 @@ form .comment-form-email label:active {
     }
 
     #services-five .flex-container .flex-item .premarital-image {
+        max-width: 100%;
+        width: 100vw;
+        max-height: 400px;
+        height: 100vh;
+        min-width: none;
+    }
+
+    #services-five .flex-container .flex-item .couples-image {
         max-width: 100%;
         width: 100vw;
         max-height: 400px;
