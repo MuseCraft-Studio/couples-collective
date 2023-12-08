@@ -163,11 +163,6 @@ Template Name: lgbtq
                 </div>
             </div>
         </div>
-        <div id="services-three">
-            <div class="call-now">
-                Or call now  (510) 373-9995
-            </div>
-        </div>
     </div>
     <div class="standard-footer">
         <?php
