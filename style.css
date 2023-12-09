@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.82
+Version: 0.84
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -1242,6 +1242,70 @@ body {
     color: var(--standard-black);
 }
 
+#all-services {
+    background-color: #fff;
+    padding: 0 0 80px 0;
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#all-services .flex-item img {
+    margin: 0 auto;
+}
+
+#all-services .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+    background-color: #FFF5ED;
+    padding: 45px;
+    border-radius: var(--standard-radius);
+}
+
+#all-services .flex-item {
+    max-width: 336px;
+    flex: 1;
+    border: 2px var(--standard-green) solid;
+    border-radius: var(--standard-radius);
+    padding: 16px;
+}
+
+#all-services .svg-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 16px;
+}
+
+#all-services .title {
+    text-align: center;
+    font-size: 26px;
+    font-family: var(--font-libre-serif);
+    color: var(--standard-black);
+    flex-basis: 100%;
+
+}
+
+#all-services .service-name {
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-work-sans-regular);
+    color: var(--standard-black);
+}
+
+#all-services a {
+    text-decoration: none;
+    transition: transform ease 0.5s;
+}
+
+#all-services a:hover {
+    transform: translate(0, -10px);
+}
+
 #services-one {
     max-width: calc(1440px - (2 * var(--standard-padding)));
     margin: 120px auto;
@@ -1950,6 +2014,15 @@ form .comment-form-email label:active {
         justify-content: center;
     }
 
+    #all-services {
+        max-width: none;
+        margin: 0;
+    }
+
+    #all-services .container {
+        justify-content: center;
+    }
+
     #section-five {
         max-width: none;
     }
@@ -1959,8 +2032,6 @@ form .comment-form-email label:active {
         max-width: 100%;
         flex: 1;
     }
-
-
 
     #services-one {
         padding: 0 var(--laptop-padding);
@@ -2195,6 +2266,10 @@ form .comment-form-email label:active {
 
     #section-four .image {
         margin: 24px auto;
+    }
+
+    #all-services {
+        padding: 0 var(--tablet-padding) 80px var(--tablet-padding);
     }
 
     #section-five {
@@ -2650,6 +2725,21 @@ form .comment-form-email label:active {
     #section-four .flex-item {
         max-width: 100%;
         padding: 15% 0;
+    }
+
+    #all-services {
+        padding: 0 var(--mobile-padding) 80px var(--mobile-padding);
+    }
+
+    #all-services .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 45px 0;
+    }
+
+    #all-services .flex-item {
+        /* max-width: none; */
+        /* width: 100%; */
     }
 
     #section-five {

@@ -43,7 +43,6 @@
         </div>
     </div>
     <div id="home-content">
-
         <div id="section-two">
             <div class="desktop">
                 <div class="flex-container">
@@ -119,6 +118,62 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="all-services">
+            <div class="container">
+                <div class="title">Our Services</div>
+                <div class="flex-item">
+                    <a href="/welcome/couples">
+                        <div class="svg-text-container">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Couples.svg" alt="card-big"/>
+                            <div class="service-name">
+                                Couples Therapy
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex-item">
+                    <a href="/welcome/individuals">
+                        <div class="svg-text-container">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Individual.svg" alt="card-big"/>
+                            <div class="service-name">
+                                Individual Therapy
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex-item">
+                    <a href="/welcome/what-we-do/lgbtq">
+                        <div class="svg-text-container">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/LGBTQ.svg" alt="card-big"/>
+                            <div class="service-name">
+                                LGBTQ+ Couple and Individual
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex-item">
+                    <a href="/welcome/what-we-do/premarital">
+                        <div class="svg-text-container">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
+                            <div class="service-name">
+                                Permarital Counseling
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex-item">
+                    <a href="/welcome/what-we-do/sex-and-intimacy">
+                        <div class="svg-text-container">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Intimacy.svg" alt="card-big"/>
+                            <div class="service-name">
+                                Sex and Intimacy Therapy
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </div>
         <div id="section-three">
