@@ -165,7 +165,7 @@
                             <div class="svg-text-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
                                 <div class="service-name">
-                                    Permarital Counseling
+                                    Premarital Counseling
                                 </div>
                             </div>
                         </a>
@@ -222,7 +222,7 @@
                                 <div class="svg-text-container">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
                                     <div class="service-name">
-                                        Permarital Counseling
+                                        Premarital Counseling
                                     </div>
                                 </div>
                             </a>
@@ -243,7 +243,6 @@
         </div>
         <div id="section-three">
             <div class="background">
-    
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_3207612.jpg" class="cover-img" alt="Queer women couple kiss, couple's therapy in California" />
                 <div class="title">
                     Reviews on Yelp
