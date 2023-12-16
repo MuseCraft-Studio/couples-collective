@@ -34,7 +34,7 @@
                         <?php
                             wp_nav_menu(
                                 array(
-                                    'menu' => 'primary',
+                                    'menu' => 'Mobile Menu',
                                     'container' => '',
                                     'theme_location' => 'primary',
                                     'items_wrap' => '%3$s'

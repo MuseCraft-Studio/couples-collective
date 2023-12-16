@@ -10,9 +10,15 @@
     <?php 
         wp_head();
     ?>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
+
 <body data-page="home">
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <!-- <section id="media-level"></section> -->
     <div id="section-one">
@@ -121,59 +127,118 @@
             </div>
         </div>
         <div id="all-services">
-            <div class="container">
-                <div class="title">Our Services</div>
-                <div class="flex-item">
-                    <a href="/welcome/couples">
-                        <div class="svg-text-container">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Couples.svg" alt="card-big"/>
-                            <div class="service-name">
-                                Couples Therapy
+            <div class="desktop">
+                <div class="container">
+                    <div class="title">Our Services</div>
+                    <div class="flex-item">
+                        <a href="/welcome/couples">
+                            <div class="svg-text-container">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Couples.svg" alt="card-big"/>
+                                <div class="service-name">
+                                    Couples Therapy
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="flex-item">
-                    <a href="/welcome/individuals">
-                        <div class="svg-text-container">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Individual.svg" alt="card-big"/>
-                            <div class="service-name">
-                                Individual Therapy
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="/welcome/individuals">
+                            <div class="svg-text-container">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Individual.svg" alt="card-big"/>
+                                <div class="service-name">
+                                    Individual Therapy
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="flex-item">
-                    <a href="/welcome/what-we-do/lgbtq">
-                        <div class="svg-text-container">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/LGBTQ.svg" alt="card-big"/>
-                            <div class="service-name">
-                                LGBTQ+ Couple and Individual
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="/welcome/what-we-do/lgbtq">
+                            <div class="svg-text-container">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/LGBTQ.svg" alt="card-big"/>
+                                <div class="service-name">
+                                    LGBTQ+ Couple and Individual
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="flex-item">
-                    <a href="/welcome/what-we-do/premarital">
-                        <div class="svg-text-container">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
-                            <div class="service-name">
-                                Permarital Counseling
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="/welcome/what-we-do/premarital">
+                            <div class="svg-text-container">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
+                                <div class="service-name">
+                                    Permarital Counseling
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="flex-item">
-                    <a href="/welcome/what-we-do/sex-and-intimacy">
-                        <div class="svg-text-container">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Intimacy.svg" alt="card-big"/>
-                            <div class="service-name">
-                                Sex and Intimacy Therapy
+                        </a>
+                    </div>
+                    <div class="flex-item">
+                        <a href="/welcome/what-we-do/sex-and-intimacy">
+                            <div class="svg-text-container">
+                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Intimacy.svg" alt="card-big"/>
+                                <div class="service-name">
+                                    Sex and Intimacy Therapy
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
 
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="container">
+                    <div class="title">Our Services</div>
+                    <div class="your-class">
+                        <div class="slide">
+                            <a href="/welcome/couples">
+                                <div class="svg-text-container">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Couples.svg" alt="card-big"/>
+                                    <div class="service-name">
+                                        Couples Therapy
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="/welcome/individuals">
+                                <div class="svg-text-container">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Individual.svg" alt="card-big"/>
+                                    <div class="service-name">
+                                        Individual Therapy
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="/welcome/what-we-do/lgbtq">
+                                <div class="svg-text-container">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/LGBTQ.svg" alt="card-big"/>
+                                    <div class="service-name">
+                                        LGBTQ+ Couple and Individual
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="/welcome/what-we-do/premarital">
+                                <div class="svg-text-container">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
+                                    <div class="service-name">
+                                        Permarital Counseling
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="/welcome/what-we-do/sex-and-intimacy">
+                                <div class="svg-text-container">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Intimacy.svg" alt="card-big"/>
+                                    <div class="service-name">
+                                        Sex and Intimacy Therapy
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="section-three">
@@ -349,6 +414,20 @@
     get_footer()
     ?>
     <script type="text/javascript" src="//cdn.callrail.com/companies/636674144/9a8ff257e0969e4278e2/12/swap.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.your-class').slick({
+                dots: true,
+                arrows: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 3000
+            });
+        });
+    </script>
 </body>
 
 </html>
