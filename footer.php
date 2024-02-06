@@ -49,8 +49,8 @@
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div>
-                            <a href="https://goo.gl/maps/AmXYrQquujy7HErc6" target="_blank">
-                                1947 Divisadero, Suite 1
+                            <a href="https://maps.app.goo.gl/Au7jdeRZKPZ4oNFv8" target="_blank">
+                                1947 Divisadero St, Suite 1
                                 <br>San Francisco, CA 94115
                             </a>
                         </div>
