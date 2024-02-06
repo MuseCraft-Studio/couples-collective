@@ -39,8 +39,19 @@
                         </div>
                         <div>
                             <a href="https://goo.gl/maps/AmXYrQquujy7HErc6" target="_blank">
-                                4281 Piedmont Ave Suite 2
+                                4281 Piedmont Ave, Suite 2
                                 <br>Oakland, CA 94611
+                            </a>
+                        </div>
+                    </div>
+                    <div class="location-link">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <a href="https://goo.gl/maps/AmXYrQquujy7HErc6" target="_blank">
+                                1947 Divisadero, Suite 1
+                                <br>San Francisco, CA 94115
                             </a>
                         </div>
                     </div>
