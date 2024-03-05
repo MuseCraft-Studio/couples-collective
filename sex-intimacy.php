@@ -29,17 +29,20 @@ Template Name: sex-intimacy
     </div>
     <div class="services">
         <div id="services-five">
-            <div id="page-title">Sex and Intimacy Therapy</div>
-                <div class="flex-container">
-                    <div class="flex-item">
-                        <div class="image"></div>
-                    </div>
-                    <div class="flex-item">
-                        <div class="content">
-                            <p>Sex and intimacy are fundamental aspects of human relationships, but they can become sources of stress and discord in a partnership. Emotionally Focused Couples Therapy (EFT) has emerged as a powerful approach for addressing these issues; allowing couples to reconnect and revitalize their physical connection. EFT can be an effective tool in healing and improving sexual and intimate aspects of relationships, providing both couples and individuals with the support they need to experience fulfilling, passionate, and connected lives.</p>
-                        </div>
+            <div class="flex-container">
+                <div class="title">Sex and Intimacy Therapy</div>
+                <div class="break"></div>
+                <div class="flex-item">
+                    <div class="image"></div>
+                </div>
+                <div class="flex-item">
+                    <div class="content">
+                        <p>Sex and intimacy are fundamental aspects of human relationships, but they can become sources of stress and discord in a partnership. Emotionally Focused Couples Therapy (EFT) has emerged as a powerful approach for addressing these issues; allowing couples to reconnect and revitalize their physical connection. EFT can be an effective tool in healing and improving sexual and intimate aspects of relationships, providing both couples and individuals with the support they need to experience fulfilling, passionate, and connected lives.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="services-seven">
             <div class="desktop-subtitle">
                 <b>Why EFT is Effective in Addressing Sex and Intimacy Issues</b>
             </div>

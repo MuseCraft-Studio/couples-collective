@@ -20,7 +20,7 @@ Template Name: premarital
 </head>
 
 
-<body data-page="sex-intimacy">
+<body data-page="premarital">
     <!-- <section id="media-level"></section> -->
     <div id="standard-header">
         <?php
@@ -29,8 +29,9 @@ Template Name: premarital
     </div>
     <div class="services">
         <div id="services-five">
-            <div id="page-title">Premarital Counseling with Emotionally Focused Couples Therapy (EFT)</div>
             <div class="flex-container">
+                <div class="title">Premarital Counseling with Emotionally Focused Couples Therapy (EFT)</div>
+                <div class="break"></div>
                 <div class="flex-item">
                     <div class="premarital-image"></div>
                 </div>
@@ -40,6 +41,8 @@ Template Name: premarital
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="services-seven">
             <div class="desktop-subtitle">
                 <b>Why EFT is Effective for Premarital Counseling</b>
             </div>

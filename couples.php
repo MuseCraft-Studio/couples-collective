@@ -31,8 +31,11 @@ Template Name: couples
     </div>
     <div class="services">
         <div id="services-five">
-            <div id="page-title">Couples Therapy</div>
             <div class="flex-container">
+                <div class="flex-item" style="justify-self: start; flex: 1;">
+                    <div id="page-title-left">Couples Therapy</div>
+                </div>
+                <div class="break" style="flex-basis: 100%; height: 0;"></div>
                 <div class="flex-item">
                     <div class="couples-image"></div>
                 </div>

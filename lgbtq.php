@@ -20,7 +20,7 @@ Template Name: lgbtq
 </head>
 
 
-<body data-page="sex-intimacy">
+<body data-page="lgbtq">
     <!-- <section id="media-level"></section> -->
     <div id="standard-header">
         <?php
@@ -29,8 +29,11 @@ Template Name: lgbtq
     </div>
     <div class="services">
         <div id="services-five">
-            <div id="page-title">LGBTQ EFT Individual and Couples Counseling</div>
             <div class="flex-container">
+                <div class="title">
+                    LGBTQ EFT Individual and Couples Counseling
+                </div>
+                <div class="break"></div>
                 <div class="flex-item">
                     <div class="lgbtq-image"></div>
                 </div>
@@ -39,7 +42,9 @@ Template Name: lgbtq
                         <p>Emotionally Focused Couples Therapy (EFT) has emerged as a highly effective approach for LGBTQ couples and individuals seeking counseling. Emotionally Focused Couples Therapy (EFT) is a therapeutic approach designed to help couples build and strengthen emotional connections. It's based on the idea that a secure emotional bond is essential for a thriving relationship, regardless of sexual orientation or gender identity. EFT focuses on creating a safe space for partners to express their feelings, needs, and fears openly. This approach has proven to be particularly effective for LGBTQ couples.</p>
                     </div>
                 </div>
-            </div>
+            </div>   
+        </div>
+        <div id="services-seven">
             <div class="desktop-subtitle">
                 <b>Why EFT Works for LGBTQ Couples</b>
             </div>

@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.90
+Version: 0.91
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -284,16 +284,26 @@ body {
 }
 
 #section-one {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-}
-
-#section-one video {
-    width: 100%;
 }
 
 #section-one .container {
     color: white;
     font-family: var(--font-work-sans-regular);
+    max-width: calc(1440px -(2* var(--standard-padding)));
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-one video {
+    /* max-width: calc(1440px -(2* var(--standard-padding))); */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #section-one .bottom-left {
@@ -407,25 +417,11 @@ body {
     color: var(--standard-green);
 }
 
-@media only screen and (min-width: 1820px) {
+/* @media only screen and (min-width: 1820px) {
     #media-level::before {
         content: "BIGGGGG";
     }
-
-    #section-one .bottom-left {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        height: 1029px;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        flex: 1;
-    }
-
-
-
-}
+} */
 
 #home-content {
     max-width: 1440px;
@@ -1430,7 +1426,7 @@ body {
 
 #services-four {
     background-color: #fff;
-    padding: 0px var(--standard-padding);
+    padding: 80px var(--standard-padding);
     max-width: calc(1440px - (2 * var(--standard-padding)));
     margin-left: auto;
     margin-right: auto;
@@ -1476,17 +1472,28 @@ body {
 
 #services-five {
     color: var(--standard-black);
+    background-color: #EDEEF6;
 }
 
 #services-five .flex-container {
-    background-color: #EDEEF6;
+    /* background-color: #EDEEF6; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     column-gap: 24px;
     align-items: start;
     padding: 36px var(--standard-padding);
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services-five .flex-container .title {
+    flex-basis: 100%;
+    font-family: var(--font-libre-serif);
+    font-size: 26px;
+    text-align: start;
 }
 
 #services-five .flex-container .flex-item {
@@ -1548,34 +1555,6 @@ body {
     border-radius: var(--standard-radius);
 }
 
-#services-five .flex-container-two {
-    max-width: calc(1440px - (2 * var(--standard-padding)));
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 24px;
-    align-items: start;
-    padding: 72px var(--standard-padding);
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#services-five .flex-container-two .flex-item {
-    max-width: 544px;
-    justify-content: start;
-    flex: 1;
-}
-
-#services-five .flex-container-two .flex-item .small-title {
-    color: var(--standard-green);
-    text-align: start;
-    font-size: 18px;
-    font-family: var(--font-work-sans-bold);
-    margin: 4px 0;
-}
-
 #services-five .title {
     font-family: var(--font-libre-serif);
     font-size: 24px;
@@ -1595,14 +1574,7 @@ body {
     margin: 0;
 }
 
-#services-five .desktop-subtitle {
-    font-size: 24px;
-    text-align: center;
-    font-family: var(--font-libre-serif);
-    padding-top: 72px;
-}
-
-#services-five .flex-container-two .flex-item img {
+#services-seven .flex-container-two .flex-item img {
     margin-top: 24px;
     width: 100%;
     height: auto;
@@ -1634,6 +1606,51 @@ body {
     }
 }
 
+#services-seven {
+    color: var(--standard-black);
+    background-color: white;
+    padding: 36px var(--standard-padding);
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#services-seven .flex-container-two .flex-item .content {
+    font-family: var(--font-work-sans-regular);
+}
+
+#services-seven .flex-container-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    align-items: start;
+}
+
+#services-seven .flex-container-two .flex-item {
+    max-width: 544px;
+    justify-content: start;
+    flex: 1;
+}
+
+#services-seven .desktop-subtitle {
+    font-size: 24px;
+    text-align: start;
+    font-family: var(--font-libre-serif);
+    /* padding-top: 72px; */
+}
+
+#services-seven .flex-container-two .flex-item .small-title {
+    color: var(--standard-green);
+    text-align: start;
+    font-size: 18px;
+    font-family: var(--font-work-sans-bold);
+    margin: 4px 0;
+}
+
+
 #couples .container {
     max-width: calc(1440px - (2 * var(--standard-padding)));
     margin-left: auto;
@@ -1660,7 +1677,7 @@ body {
 #couples .title {
     font-family: var(--font-libre-serif);
     font-size: 26px;
-    text-align: center;
+    text-align: start;
 }
 
 #couples img {
@@ -1785,9 +1802,17 @@ body {
     font-family: var(--font-libre-serif);
 }
 
+#page-title-left {
+    font-family: var(--font-libre-serif);
+    font-size: 26px;
+    margin: 24px 0 12px 0;
+    text-align: start;
+    flex: 1;
+}
+
 #page-title {
     font-family: var(--font-libre-serif);
-    font-size: 24px;
+    font-size: 26px;
     margin: 24px 0;
     text-align: center;
 }
@@ -2074,25 +2099,23 @@ form .comment-form-email label:active {
     }
 
     #services-four {
-        margin: 0;
-        max-width: none;
         padding: 80px var(--laptop-padding);
+    }
+
+    #services-four .container {
+        column-gap: 30px;
     }
 
     #services-five .flex-container {
         padding: 36px var(--laptop-padding);
     }
 
-    #services-five .flex-container-two {
-        margin: 0;
-        max-width: none;
-        padding: 80px var(--laptop-padding);
+    #services-six .flex-container {
+        padding: 36px var(--laptop-padding);
     }
 
-    #services-six .flex-container {
-        margin: 0;
-        max-width: none;
-        padding: 20px var(--laptop-padding);
+    #services-seven {
+        padding: 36px var(--laptop-padding);
     }
 
     #couples .container {
@@ -2452,6 +2475,7 @@ form .comment-form-email label:active {
     }
 
     #services-four .container {
+        column-gap: 0;
         flex-direction: column;
         row-gap: 48px;
     }
@@ -2461,6 +2485,7 @@ form .comment-form-email label:active {
     }
 
     #services-five .flex-container {
+        max-width: 100%;
         padding: 36px var(--mobile-padding);
     }
 
@@ -2470,17 +2495,24 @@ form .comment-form-email label:active {
         flex: 1;
     }
 
-    #services-five .flex-container-two .flex-item img {
+    #services-seven {
+        padding: 36px var(--mobile-padding);
+    }
+
+    #services-seven .flex-container-two .flex-item img {
         max-height: 300px;
     }
 
-    #services-five .flex-container-two {
+    #services-seven .flex-container-two {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         row-gap: 24px;
         align-items: center;
-        padding: 36px var(--mobile-padding);
+    }
+
+    #services-seven .desktop-subtitle {
+        text-align: center;
     }
 
     #servies #services-five .flex-container .flex-item .image {
@@ -2803,10 +2835,6 @@ form .comment-form-email label:active {
         max-height: 400px;
         height: 100vh;
         min-width: none;
-    }
-
-    #services-five .flex-container-two .flex-item .small-title {
-        text-align: center;
     }
 
     #footer .container {
