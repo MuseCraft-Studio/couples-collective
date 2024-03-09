@@ -44,7 +44,9 @@ Template Name: sex-intimacy
         </div>
         <div id="services-seven">
             <div class="desktop-subtitle">
-                <b>Why EFT is Effective in Addressing Sex and Intimacy Issues</b>
+                <div>
+                    <b>Why EFT is Effective in Addressing Sex and Intimacy Issues</b>
+                </div>
             </div>
             <div class="flex-container-two">
                 <div class="flex-item">

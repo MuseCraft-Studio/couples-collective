@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.91
+Version: 0.92
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -284,27 +284,53 @@ body {
 }
 
 #section-one {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 80vh;
+}
+
+.w-background-video {
+    height: 500px;
+    color: #fff;
     position: relative;
+    overflow: hidden;
 }
 
-#section-one .container {
-    color: white;
-    font-family: var(--font-work-sans-regular);
-    max-width: calc(1440px -(2* var(--standard-padding)));
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+.background-video {
+    height: 100%;
 }
 
-#section-one video {
-    /* max-width: calc(1440px -(2* var(--standard-padding))); */
+
+.w-background-video>video {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+    background-position: 50%;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
 }
+
+.w-background-video>video::-webkit-media-controls-start-playback-button {
+    -webkit-appearance: none;
+    display: none !important;
+}
+
+.w-background-video--control {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.w-background-video--control>[hidden] {
+    display: none !important;
+}
+
 
 #section-one .bottom-left {
     max-width: 1440px;
@@ -349,8 +375,9 @@ body {
 #section-one .button-row {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: start;
+    justify-content: start;
+    column-gap: 16px;
 }
 
 #blog-list {
@@ -1639,7 +1666,10 @@ body {
     font-size: 24px;
     text-align: start;
     font-family: var(--font-libre-serif);
-    /* padding-top: 72px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
 }
 
 #services-seven .flex-container-two .flex-item .small-title {
@@ -2209,10 +2239,6 @@ form .comment-form-email label:active {
         font-size: 32px;
     }
 
-    #section-one .description {
-        display: none;
-    }
-
     #home-content {
         padding: 0;
     }
@@ -2512,7 +2538,15 @@ form .comment-form-email label:active {
     }
 
     #services-seven .desktop-subtitle {
-        text-align: center;
+        align-items: start;
+        justify-content: center;
+    }
+
+    #services-seven .desktop-subtitle div {
+        text-align: start;
+        flex: 1;
+        max-width: 544px;
+
     }
 
     #servies #services-five .flex-container .flex-item .image {

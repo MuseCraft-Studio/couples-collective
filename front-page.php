@@ -22,30 +22,28 @@
 
     <!-- <section id="media-level"></section> -->
     <div id="section-one">
-        <div class="container">
-            <div class="video-container">
-                <video autoplay muted loop playsinline id="myVideo">
-                    <source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp43f09b8fmIk300_h264_1080p_4516097.mp4" type="video/mp4">
-                    <meta itemprop="description" content="happy couple after couples therapy">
-                </video>
-            </div>
-                <?php
-                    get_header()
-                ?>
-                <div class="bottom-left">
-                    <div class="left-content">
-                        <div class="tag">
-                            Building stronger relationships
-                        </div>
-                        <div class="description">
-                        Using emotionally focused couples therapy to build stronger bonds with your loved one by remote counseling across California or in offices across the east bay.
-                        </div>
-                        <div class=".button-row">
-                            <a class="fill-button" href="/welcome/couples">Couples</a>
-                            <a class="outline-button" href="/welcome/individuals">Individuals</a>
-                        </div>
+        <div class="background-video w-background-video">
+            <video autoplay muted loop playsinline>
+                <source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp43f09b8fmIk300_h264_1080p_4516097.mp4" type="video/mp4">
+                <meta itemprop="description" content="happy couple after couples therapy">
+            </video>
+            <?php
+                get_header()
+            ?>
+            <div class="bottom-left">
+                <div class="left-content">
+                    <div class="tag">
+                        Building stronger relationships
+                    </div>
+                    <div class="description">
+                    Using emotionally focused couples therapy to build stronger bonds with your loved one by remote counseling across California or in offices across the east bay.
+                    </div>
+                    <div class="button-row">
+                        <a class="fill-button" href="/welcome/couples">Couples</a>
+                        <a class="outline-button" href="/welcome/individuals">Individuals</a>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <div id="home-content">

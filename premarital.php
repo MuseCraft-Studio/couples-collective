@@ -44,7 +44,9 @@ Template Name: premarital
         </div>
         <div id="services-seven">
             <div class="desktop-subtitle">
-                <b>Why EFT is Effective for Premarital Counseling</b>
+                <div>
+                    <b>Why EFT is Effective for Premarital Counseling</b>
+                </div>
             </div>
             <div class="flex-container-two">
                 <div class="flex-item">

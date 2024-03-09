@@ -46,7 +46,9 @@ Template Name: lgbtq
         </div>
         <div id="services-seven">
             <div class="desktop-subtitle">
-                <b>Why EFT Works for LGBTQ Couples</b>
+                <div>
+                    <b>Why EFT Works for LGBTQ Couples</b>
+                </div>
             </div>
             <div class="flex-container-two">
                 <div class="flex-item">
