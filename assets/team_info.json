@@ -1,5 +1,13 @@
 [
     {
+        "name": "Taylor Walker",
+        "position": "Intake Coordinator",
+        "services": "Intake Coordinator.",
+        "blurb": "As your inital point of contact, I will be assisting you in connecting with an approrpriate clinician and scheduling an initial meeting. I look forward to working with you.",
+        "picture": "/wp-content/themes/couples-collective/assets/team/picture_taylor.jpg",
+        "link": "/welcome/our-team/taylor-walker/"
+    },
+    {
         "name": "Kate Evans",
         "position": "LMFT",
         "services": "EFT couples therapy, DBT, Psychosynthesis training, Hakomi Essential skills.",
