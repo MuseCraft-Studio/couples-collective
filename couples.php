@@ -32,14 +32,13 @@ Template Name: couples
     <div class="services">
         <div id="services-five">
             <div class="flex-container">
-                <div class="flex-item" style="justify-self: start;">
-                    <div id="page-title-left">Couples Therapy</div>
-                </div>
-                <div class="break" style="flex-basis: 100%; height: 0;"></div>
                 <div class="flex-item">
                     <div class="couples-image"></div>
                 </div>
                 <div class="flex-item">
+                    <div class="flex-item" style="justify-self: start;">
+                        <div id="page-title-left">Couples Therapy</div>
+                    </div>
                     <div class="content">
                         <p>
                             Do you feel lonely, unacknowledged, or stuck in your partnership? When you try to communicate, does it seem like you're talking to a wall—as if your feelings don't really matter? Do you ever think you are not good enough—that you can never catch a break or get it right?
@@ -60,9 +59,9 @@ Template Name: couples
         <div id="couples">
             <div class="section-white">
                 <div class="container">
-                    <div class="title">Couples Often Run Into Challenges</div>
                     <div class="content">
                         <img class="left-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/couples/Stocksy_txp181f7a45MqN200_Medium_2361292.jpg" alt="Multiethnic young couple having romantic moments together in the street. Multicultural couple concept" />
+                        <div class="title">Couples Often Run Into Challenges</div>
                         <p>
                             Almost any couple at some stage in their lives together will encounter issues with communication, intimacy, empathy, or conflict resolution. Learning how to navigate that natural-occurring discord in a meaningful and productive way is how two people nourish a partnership. Unfortunately, most of us were never taught how to have a healthy relationship or resolve differences, which inevitably creates a great deal of fear and insecurity.
                         </p>
