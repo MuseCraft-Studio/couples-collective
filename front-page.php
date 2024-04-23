@@ -39,8 +39,8 @@
                     Using emotionally focused couples therapy to build stronger bonds with your loved one by remote counseling across California or in offices across the east bay.
                     </div>
                     <div class="button-row">
-                        <a class="fill-button" href="/welcome/couples">Couples</a>
-                        <a class="outline-button" href="/welcome/individuals">Individuals</a>
+                        <a class="fill-button" href="/home/couples">Couples</a>
+                        <a class="outline-button" href="/home/individuals">Individuals</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                             <p>
                                 We work with couples and individuals to support their growth and life goals.
                             </p>
-                            <a href="/welcome/faq">
+                            <a href="/home/faq">
                                 <em>Learn more</em>
                             </a>
                         </div>
@@ -100,7 +100,7 @@
                             <p>
                                 We work with couples and individuals to support their growth and life goals.
                             </p>
-                            <a href="/welcome/faq">
+                            <a href="/home/faq">
                                 <em>Learn more</em>
                             </a>
                         </div>
@@ -129,7 +129,7 @@
                 <div class="container">
                     <div class="title">Our Services</div>
                     <div class="flex-item">
-                        <a href="/welcome/couples">
+                        <a href="/home/couples">
                             <div class="svg-text-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Couples.svg" alt="card-big"/>
                                 <div class="service-name">
@@ -139,7 +139,7 @@
                         </a>
                     </div>
                     <div class="flex-item">
-                        <a href="/welcome/individuals">
+                        <a href="/home/individuals">
                             <div class="svg-text-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Individual.svg" alt="card-big"/>
                                 <div class="service-name">
@@ -149,7 +149,7 @@
                         </a>
                     </div>
                     <div class="flex-item">
-                        <a href="/welcome/what-we-do/lgbtq">
+                        <a href="/home/what-we-do/lgbtq">
                             <div class="svg-text-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/LGBTQ.svg" alt="card-big"/>
                                 <div class="service-name">
@@ -159,7 +159,7 @@
                         </a>
                     </div>
                     <div class="flex-item">
-                        <a href="/welcome/what-we-do/premarital">
+                        <a href="/home/what-we-do/premarital">
                             <div class="svg-text-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
                                 <div class="service-name">
@@ -169,7 +169,7 @@
                         </a>
                     </div>
                     <div class="flex-item">
-                        <a href="/welcome/what-we-do/sex-and-intimacy">
+                        <a href="/home/what-we-do/sex-and-intimacy">
                             <div class="svg-text-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Intimacy.svg" alt="card-big"/>
                                 <div class="service-name">
@@ -186,7 +186,7 @@
                     <div class="title">Our Services</div>
                     <div class="your-class">
                         <div class="slide">
-                            <a href="/welcome/couples">
+                            <a href="/home/couples">
                                 <div class="svg-text-container">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Couples.svg" alt="card-big"/>
                                     <div class="service-name">
@@ -196,7 +196,7 @@
                             </a>
                         </div>
                         <div class="slide">
-                            <a href="/welcome/individuals">
+                            <a href="/home/individuals">
                                 <div class="svg-text-container">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Individual.svg" alt="card-big"/>
                                     <div class="service-name">
@@ -206,7 +206,7 @@
                             </a>
                         </div>
                         <div class="slide">
-                            <a href="/welcome/what-we-do/lgbtq">
+                            <a href="/home/what-we-do/lgbtq">
                                 <div class="svg-text-container">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/LGBTQ.svg" alt="card-big"/>
                                     <div class="service-name">
@@ -216,7 +216,7 @@
                             </a>
                         </div>
                         <div class="slide">
-                            <a href="/welcome/what-we-do/premarital">
+                            <a href="/home/what-we-do/premarital">
                                 <div class="svg-text-container">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Premarital.svg" alt="card-big"/>
                                     <div class="service-name">
@@ -226,7 +226,7 @@
                             </a>
                         </div>
                         <div class="slide">
-                            <a href="/welcome/what-we-do/sex-and-intimacy">
+                            <a href="/home/what-we-do/sex-and-intimacy">
                                 <div class="svg-text-container">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Intimacy.svg" alt="card-big"/>
                                     <div class="service-name">

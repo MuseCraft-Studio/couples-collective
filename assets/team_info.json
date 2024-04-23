@@ -5,7 +5,7 @@
         "services": "Intake Coordinator.",
         "blurb": "As your inital point of contact, I will be assisting you in connecting with an approrpriate clinician and scheduling an initial meeting. I look forward to working with you.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_taylor.jpg",
-        "link": "/welcome/our-team/taylor-walker/"
+        "link": "/home/our-team/taylor-walker/"
     },
     {
         "name": "Kate Evans",
@@ -13,7 +13,7 @@
         "services": "EFT couples therapy, DBT, Psychosynthesis training, Hakomi Essential skills.",
         "blurb": "I believe that relationships offer an opportunity for healing, and by exploring our hurts and needs together in therapy, we can strengthen the loving bond and trust between partners. Drawing from various theories and modalities, I provide a warm and validating approach to help couples break free from negative cycles and build a stronger connection, working with diverse clients across different cultures, identities, and life stages.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_kate.jpg",
-        "link": "/welcome/our-team/kate-evans-lmft/"
+        "link": "/home/our-team/kate-evans-lmft/"
     },
     {
         "name": "Sara Richardson",
@@ -21,7 +21,7 @@
         "services": "EFT couples therapy",
         "blurb": "As a therapist trained in Emotionally Focused Therapy (EFT), I help couples understand that conflict and distress in relationships are often a call for connection. By slowing down and exploring their internal processes, couples can break unhealthy cycles and strengthen their bond. I work alongside individuals and couples to foster a greater sense of belonging, connection, and satisfaction.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_sara.jpg",
-        "link": "/welcome/our-team/sara-richardson-amft/"
+        "link": "/home/our-team/sara-richardson-amft/"
     },
     {
         "name": "Adam Harrison",
@@ -29,7 +29,7 @@
         "services": "EFT couples therapy",
         "blurb": "In my practice, I utilize Emotionally Focused Therapy (EFT) to transform communication, create safety, and foster connection in relationships. EFT is a highly effective approach backed by over 30 years of research, with over 90% of couples experiencing significant improvement and 75% maintaining it for two years. By interrupting cycles of distress and disconnection, EFT helps couples be seen and deeply understood by their partners. Reach out today for an appointment and let's embark on this journey together.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_adam.jpg",
-        "link": "/welcome/our-team/adam-harrison-lcsw/"
+        "link": "/home/our-team/adam-harrison-lcsw/"
     },
     {
         "name": "Jennifer Smith",
@@ -37,7 +37,7 @@
         "services": "EFT couples therapy",
         "blurb": "Utilizing Emotionally Focused Therapy (EFT), I specialize in couples therapy, fostering safety, connection, and healing. With over 30 years of research supporting its effectiveness, EFT helps couples transform communication and interrupt distressing cycles. By addressing deep emotional needs and establishing trust, couples can find profound growth and lasting improvement in their relationships. Reach out today for an appointment and begin your journey towards a stronger and more fulfilling connection.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_jennifer.jpg",
-        "link": "/welcome/our-team/jennifer-smith-amft/"
+        "link": "/home/our-team/jennifer-smith-amft/"
     },
     {
         "name": "Meryl Haggege",
@@ -45,7 +45,7 @@
         "services": "EFT, Psychodynamic therapy, Trauma-informed and culturally responsive framework, Nonviolent Communication",
         "blurb": "In my work as a therapist, I prioritize caring for others and helping them build stronger relationships. Holding a space of love and respect, I witness clients as they integrate trauma, including attachment trauma. Trusting their inner healer, I provide a non-judgmental environment for their experiences.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_meryl.jpg",
-        "link": "/welcome/our-team/meryl-haggege-amft/"
+        "link": "/home/our-team/meryl-haggege-amft/"
     },
     {
         "name": "Gilonne d’Origny",
@@ -53,7 +53,7 @@
         "services": "EFT couples therapy, individuals, and families through a holistic approach",
         "blurb": "Rooted in multicultural expertise, I specialize in navigating complex relationships, addiction, trauma, and parental challenges while blending cutting-edge research to offer remote and in-person sessions with unconditional positive regard.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_gilonne.jpeg",
-        "link": "/welcome/our-team/gilonne-dorigny-amft/"
+        "link": "/home/our-team/gilonne-dorigny-amft/"
     },
     {
         "name": "Danielle Brandon",
@@ -61,7 +61,7 @@
         "services": "EFT couples therapy, Overall emotional health, and identity curiosity and exploration",
         "blurb": "With support, we can all grow, recognize our strengths, and live a more meaningful, connected, and enjoyable life. I approach therapy with curiosity, exploring the unique experiences, backgrounds, identities, and contexts that shape us. I understand that relationships can be both sources of wounds and profound healing. I help couples learn healthy communication, break patterns, and create a safe, caring connection.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_danielle.jpg",
-        "link": "/welcome/our-team/danielle-brandon-amft/"
+        "link": "/home/our-team/danielle-brandon-amft/"
     },
     {
         "name": "Zach Weiss",
@@ -69,7 +69,7 @@
         "services": "EFT couples therapy",
         "blurb": "Relationships are deeply fulfilling at their best, providing safety and connection amidst life’s struggles. They can also be terribly hard—full of miscommunication, frustration, and even hopelessness. In couples therapy, we will slow down, noticing and acknowledging the justifiable wants, needs, and fears driving cycles of disconnection and hurt. Taking our time, tending to these aspects of each of your experiences with gentleness and care, we will uncover new ways of meeting and loving one another.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_zachary.jpg",
-        "link": "/welcome/our-team/zach-weiss-amft/"
+        "link": "/home/our-team/zach-weiss-amft/"
     },
     {
         "name": "Andrew Getz",
@@ -77,7 +77,7 @@
         "services": "EFT couples therapy, Psychosynthesis training, Hakomi Essential skills.",
         "blurb": "As a therapist I have a deep trust in the process of shared discovery and the many ways that it can uncover clarity of the heart that can be transformative for your relationship. My focus is to provide a safe holding environment that welcomes and meets you and your partner where you are in your relationship with one another.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_andrew.jpg",
-        "link": "/welcome/our-team/andrew-getz-lmft/"
+        "link": "/home/our-team/andrew-getz-lmft/"
     },
     {
         "name": "Grady Fort",
@@ -85,6 +85,6 @@
         "services": "EFT Couples therapy, Psychosynthesis training, Hakomi Essential skills.",
         "blurb": "I help couples to realize that the conflicts that they are having with their partners are in fact a protest for greater connection with each other. I am a Certified Emotionally Focused Couples Therapist (EFT) and Supervisor Candidate. I provide both individual and couples therapy as well as supervision to clinicians in the practice of using EFT to transform their work with couples and individuals.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_grady.jpg",
-        "link": "/welcome/our-team/grady-m-fort-lmft-clinical-director/"
+        "link": "/home/our-team/grady-m-fort-lmft-clinical-director/"
     }
 ]
