@@ -51,7 +51,9 @@ Template Name: careers
         <div>
             <p>If you're interested in applying for a position with The Couples Collective, we encourage you to complete our form as the beginning of the application process. Our intake coordinator will respond to you within 2-3 business days after your form has been submitted.</p>
             <div class="interest-form">
-                [gravityform id="2" title="true"]
+                <?php
+                    echo do_shortcode('[gravityform id="2" title="true"]');
+                ?>
             </div>
         </div>
         <div class="standard-footer">

@@ -40,4 +40,6 @@ function cc_register_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'cc_register_scripts');
+
+add_filter( 'widget_text', 'do_shortcode' );
 ?>
