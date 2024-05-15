@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.50
+Version: 0.49
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -1904,19 +1904,19 @@ body {
     display: none;
 }
 
-form {
+#blog-post form {
     border: 2px var(--standard-green) solid;
     border-radius: var(--standard-radius);
     padding: 32px 16px 16px 16px;
     background-color: #fafafa;
 }
 
-form .form-submit {
+#blog-post form .form-submit {
     text-align: right;
     margin: 0;
 }
 
-form .form-submit input {
+#blog-post form .form-submit input {
     text-align: center;
     background-color: var(--standard-green);
     color: white;
@@ -1927,12 +1927,12 @@ form .form-submit input {
     transition: 0.2s all ease-in-out;
 }
 
-form .form-submit input:hover {
+#blog-post form .form-submit input:hover {
     background-color: transparent;
     color: var(--standard-green);
 }
 
-form textarea {
+#blog-post form textarea {
     width: 100%;
     background-color: transparent;
     resize: none;
@@ -1940,33 +1940,33 @@ form textarea {
     font-family: var(--font-work-sans-regular);
 }
 
-form textarea:focus {
+#blog-post form textarea:focus {
     outline: none;
 }
 
-form .comment-form-author input {
+#blog-post form .comment-form-author input {
     border: none;
     background-color: transparent;
 }
 
-form .comment-form-author label {
+#blog-post form .comment-form-author label {
     color: #949494;
 }
 
-form .comment-form-author label:active {
+#blog-post form .comment-form-author label:active {
     outline: none;
 }
 
-form .comment-form-email input {
+#blog-post form .comment-form-email input {
     border: none;
     background-color: transparent;
 }
 
-form .comment-form-email label {
+#blog-post form .comment-form-email label {
     color: #949494;
 }
 
-form .comment-form-email label:active {
+#blog-post form .comment-form-email label:active {
     outline: none;
 }
 
