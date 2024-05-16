@@ -30,7 +30,7 @@ Template Name: careers
         ?>
     </div>
     <div id="full-page">
-        <div class="careers">
+        <div id="work-with-us">
             <h1>Work With Us</h1>
             <h2>Information about our practice</h2>
             <p>Our practice offers in person and telehealth sessions to clients residing in California. Our two office locations make it amenable for clients to be able to attend sessions in person in San Francisco and the Bay Area.</p>
@@ -47,13 +47,13 @@ Template Name: careers
                 <li>Associate clinicians will be offered weekly supervision consisting of triadic sessions, with individual check-ins as needed.</li>
                 <li>Licensed clinicians will have individual check-ins as needed.</li>
             </ul>
-        </div>
-        <div>
-            <p>If you're interested in applying for a position with The Couples Collective, we encourage you to complete our form as the beginning of the application process. Our intake coordinator will respond to you within 2-3 business days after your form has been submitted.</p>
-            <div class="interest-form">
-                <?php
-                    echo do_shortcode('[gravityform id="2" title="true"]');
-                ?>
+            <div>
+                <p>If you're interested in applying for a position with The Couples Collective, we encourage you to complete our form as the beginning of the application process. Our intake coordinator will respond to you within 2-3 business days after your form has been submitted.</p>
+                <div class="interest-form">
+                    <?php
+                        echo do_shortcode('[gravityform id="2" title="true"]');
+                    ?>
+                </div>
             </div>
         </div>
         <div class="standard-footer">

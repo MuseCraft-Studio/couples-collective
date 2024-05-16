@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.49
+Version: 0.50
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -2055,6 +2055,50 @@ body {
     margin-left: 124px;
 }
 
+#work-with-us {
+    max-width: calc(1440px - (2 * var(--standard-padding)));
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 0;
+}
+
+#work-with-us form {
+    border: 2px var(--standard-green) solid;
+    border-radius: var(--standard-radius);
+    padding: 32px 16px 16px 16px;
+    background-color: #fafafa;
+}
+
+#work-with-us form .button {
+    text-align: center;
+    background-color: var(--standard-green);
+    color: white;
+    font-family: var(--font-work-sans-regular);
+    border-radius: var(--standard-radius);
+    padding: 8px 32px;
+    border: 2px var(--standard-green) solid;
+    transition: 0.2s all ease-in-out;
+}
+
+#work-with-us form .button:hover {
+    background-color: transparent;
+    color: var(--standard-green);
+}
+
+#work-with-us form textarea {
+    width: 100%;
+    background-color: transparent;
+    resize: none;
+    border: none;
+    font-family: var(--font-work-sans-regular);
+}
+
+#work-with-us form textarea:focus {
+    outline: none;
+}
+
+
 @media screen and (max-width: 1440px) {
 
     #navigation .title {
@@ -2119,6 +2163,7 @@ body {
         flex: 1;
     }
 
+
     #services-one {
         padding: 0 var(--laptop-padding);
         max-width: none;
@@ -2168,7 +2213,6 @@ body {
         padding: 32px 0;
     }
 
-
     #faq {
         margin: 0;
         padding: 120px var(--laptop-padding);
@@ -2183,6 +2227,11 @@ body {
     #footer .container {
         max-width: none;
         margin: 0;
+    }
+
+    #work-with-us {
+        margin: 0;
+        padding: 120px var(--laptop-padding);
     }
 }
 
@@ -2671,6 +2720,10 @@ body {
     #blog-post .content {
         max-width: 100%;
         padding: 0 var(--mobile-padding);
+    }
+
+    #work-with-us {
+        padding: 0 var(--mobile-padding) 30px var(--mobile-padding);
     }
 }
 
