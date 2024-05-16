@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.50
+Version: 0.51
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -2060,7 +2060,51 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding: 80px 0;
+}
+
+#work-with-us .flex-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+#work-with-us .flex-container-left .flex-item {
+    max-width: 544px;
+    width: 100%;
+}
+
+#work-with-us ul {
+    padding-inline-start: 0px;
+    margin-inline-start: 18px
+}
+
+#work-with-us li {
+    margin-bottom: 8px;
+}
+
+#work-with-us .about {
+    background-color: var(--standard-light-gray);
+    border-radius: var(--standard-radius);
+    padding: 24px;
+    margin: 24px 0;
+}
+
+#work-with-us .about .title {
+    font-family: var(--font-libre-serif);
+    font-size: 26px;
+}
+
+#work-with-us .title {
+    font-family: var(--font-libre-serif);
+    font-size: 26px;
+}
+
+#work-with-us img {
+    border-radius: var(--standard-radius);
+    max-width: 544px;
+    width: 100%;
+    height: auto;
 }
 
 #work-with-us form {
@@ -2070,7 +2114,12 @@ body {
     background-color: #fafafa;
 }
 
-#work-with-us form .button {
+#work #work-with-us form input[type=file] {
+    font-family: var(--font-work-sans-regular)
+}
+
+#work-with-us form .button,
+#work-with-us form #input_2_11::file-selector-button {
     text-align: center;
     background-color: var(--standard-green);
     color: white;
@@ -2081,16 +2130,15 @@ body {
     transition: 0.2s all ease-in-out;
 }
 
-#work-with-us form .button:hover {
+#work-with-us form .button:hover,
+#work-with-us form #input_2_11::file-selector-button:hover {
     background-color: transparent;
     color: var(--standard-green);
 }
 
 #work-with-us form textarea {
     width: 100%;
-    background-color: transparent;
     resize: none;
-    border: none;
     font-family: var(--font-work-sans-regular);
 }
 
@@ -2231,7 +2279,7 @@ body {
 
     #work-with-us {
         margin: 0;
-        padding: 120px var(--laptop-padding);
+        padding: 0 var(--laptop-padding);
     }
 }
 
@@ -2725,6 +2773,21 @@ body {
     #work-with-us {
         padding: 0 var(--mobile-padding) 30px var(--mobile-padding);
     }
+
+    #work-with-us .flex-container-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 16px;
+        column-gap: 0px;
+    }
+
+    #work-with-us .flex-container-left .flex-item,
+    #work-with-us img {
+        max-width: none;
+    }
+
 }
 
 @media only screen and (max-width: 573px) {
