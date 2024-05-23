@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.52
+Version: 0.53
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -202,7 +202,7 @@ body {
     column-gap: 32px;
     font-size: 14px;
     font-family: var(--font-work-sans-regular);
-    max-width: 600px;
+    max-width: 750px;
     width: 100%;
 }
 
@@ -213,7 +213,7 @@ body {
     align-items: center;
     column-gap: 32px;
     justify-content: space-between;
-    max-width: 380px;
+    /* max-width: 380px; */
     white-space: nowrap;
 }
 
@@ -2285,28 +2285,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 1025px) {
-
-    body {
-        overflow-x: hidden;
-    }
-
-    html {
-        overflow: hidden;
-    }
-
-    #media-level::before {
-        content: "Tablet";
-    }
-
-    #navigation .title {
-        font-size: 24px;
-    }
-
-    #navigation .header-flex {
-        padding: var(--mobile-padding);
-        align-items: start;
-    }
+@media only screen and (max-width: 1212px) {
 
     #navigation i {
         font-size: 24px;
@@ -2331,8 +2310,59 @@ body {
         background-color: #145174;
         top: 0;
         right: 0;
-        padding: 60px var(--mobile-padding) var(--mobile-padding) var(--mobile-padding);
+        padding: 80px var(--mobile-padding) var(--mobile-padding) var(--mobile-padding);
         border-bottom-left-radius: var(--standard-radius);
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    html {
+        overflow: hidden;
+    }
+
+    #media-level::before {
+        content: "Tablet";
+    }
+
+    #navigation .title {
+        font-size: 24px;
+    }
+
+    #navigation .header-flex {
+        padding: var(--mobile-padding);
+        align-items: start;
+    }
+
+    /* #navigation i {
+        font-size: 24px;
+    }
+
+    #navigation .right-nav-desktop {
+        display: none;
+    }
+
+    #navigation .tablet-mobile-nav-row {
+        display: block;
+    }
+
+    #navigation .tablet-mobile-nav-row .topnav {
+        z-index: 3;
+    } */
+
+    #navigation .tablet-mobile-nav-row #myLinks {
+        /* transform: translateX(100%);
+        z-index: 2;
+        position: absolute;
+        background-color: #145174;
+        top: 0;
+        right: 0; */
+        padding: 60px var(--mobile-padding) var(--mobile-padding) var(--mobile-padding);
+        /* border-bottom-left-radius: var(--standard-radius); */
     }
 
     #section-one .left-content {
