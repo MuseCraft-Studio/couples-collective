@@ -37,20 +37,6 @@ function responsiveNav() {
     }
 }
 
-function showCouplesForm() {
-    var couplesForm = document.getElementById('google-form-couples');
-    var individualForm = document.getElementById('google-form-individuals');
-    individualForm.style.display = 'none';
-    couplesForm.style.display = 'block';
-}
-
-function showIndividualsForm() {
-    var couplesForm = document.getElementById('google-form-couples');
-    var individualForm = document.getElementById('google-form-individuals');
-    individualForm.style.display = 'block';
-    couplesForm.style.display = 'none';
-}
-
 function fetchTeamData() {
     fetch('/wp-content/themes/couples-collective/assets/team_info.json')
         .then(response => response.json())
@@ -73,37 +59,61 @@ function fetchTeamData() {
                 heading.appendChild(imageContainer);
 
                 const image = document.createElement('img');
-                image.src = data.picture;
+                if (data.picture) {
+                    image.src = data.picture;
+                } else {
+                    image.src = "\\wp-content\\themes\\couples-collective\\assets\\team\\picture_blank.jpg";
+                }
                 imageContainer.appendChild(image);
 
                 // create text content div
-                const textcontent = document.createElement('div');
+                const textcontent = document.createElement('a');
                 textcontent.classList = 'text-content';
+                if (data.link) {
+                    textcontent.href = data.link;
+                } else {
+                    textcontent.href = "https://bayareacouplescollective.com/404";
+                }
                 heading.appendChild(textcontent);
 
                 // create title
-                const title = document.createElement('a');
+                const title = document.createElement('div');
                 title.className = 'title';
-                title.href = data.link;
-                title.innerText = data.name;
+                if (data.name) {
+                    title.innerText = data.name;
+                } else {
+                    title.innerText = "Firstname Lastname";
+                }
                 textcontent.appendChild(title);
+
+                // create pronouns
+                const pronouns = document.createElement('div');
+                pronouns.className = 'pronouns';
+                if (data.pronouns) {
+                    pronouns.innerText = data.pronouns;
+                } else {
+                    pronouns.innerText = "";
+                }
+                textcontent.appendChild(pronouns);
 
                 // create position
                 const position = document.createElement('div');
                 position.className = 'position';
-                position.innerText = data.position;
+                if (data.position) {
+                    position.innerText = data.position;
+                } else {
+                    position.innerText = "";
+                }
                 textcontent.appendChild(position);
-
-                // create services
-                // const services = document.createElement('div');
-                // services.className = 'services';
-                // services.innerText = data.services;
-                // textcontent.appendChild(services);
 
                 // create blurb
                 const blurb = document.createElement('div');
                 blurb.className = 'blurb';
-                blurb.innerText = data.blurb;
+                if (data.blurb) {
+                    blurb.innerText = data.blurb;
+                } else {
+                    blurb.innerText = "";
+                }
                 container.appendChild(blurb);
             });
         })
