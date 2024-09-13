@@ -80,10 +80,19 @@
     },
     {
         "name": "Sara Richardson",
+        "pronouns": "(she/her)",
         "position": "AMFT",
         "blurb": "As a therapist trained in Emotionally Focused Therapy (EFT), I help couples understand that conflict and distress in relationships are often a call for connection. By slowing down and exploring their internal processes, couples can break unhealthy cycles and strengthen their bond. I work alongside individuals and couples to foster a greater sense of belonging, connection, and satisfaction.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_sara.jpg",
         "link": "/home/our-team/sara-richardson-amft/"
+    },
+    {
+        "name": "Sybil Lockhart",
+        "pronouns": "(she/her/they/them)",
+        "position": "LMFT",
+        "blurb": "As a couples therapist I am optimistic but not unrealistic, both collaborative and gently directive. I easily discover people’s strengths, and find inspiration in the way self-understanding opens channels for connection with a partner. We will investigate the repeating cycles that can run a couple ragged; dive into the deeper emotions and defenses driving those cycles; and together create new patterns so partners can find relief and shelter in each other’s care.",
+        "picture": "/wp-content/themes/couples-collective/assets/team/picture_sybil.jpg",
+        "link": "/home/our-team/sybil-lockhart-lmft/"
     },
     {
         "name": "Zach Weiss",
