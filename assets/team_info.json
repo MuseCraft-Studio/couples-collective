@@ -1,11 +1,11 @@
 [
     {
-        "name": "Adam Harrison",
-        "pronouns": "(he/him)",
-        "position": "LCSW",
-        "blurb": "In my practice, I utilize Emotionally Focused Therapy (EFT) to transform communication, create safety, and foster connection in relationships. EFT is a highly effective approach backed by over 30 years of research, with over 90% of couples experiencing significant improvement and 75% maintaining it for two years. By interrupting cycles of distress and disconnection, EFT helps couples be seen and deeply understood by their partners. Reach out today for an appointment and let's embark on this journey together.",
-        "picture": "/wp-content/themes/couples-collective/assets/team/picture_adam.jpg",
-        "link": "/home/our-team/adam-harrison-lcsw/"
+        "name": "Ashlie Bodeau",
+        "pronouns": "(she/her)",
+        "position": "Intake Coordinator",
+        "blurb": "As your inital point of contact, I will be assisting you in connecting with an approrpriate clinician and scheduling an initial meeting. I look forward to working with you.",
+        "picture": "/wp-content/themes/couples-collective/assets/team/picture_ashlie.jpg",
+        "link": "/home/our-team/ashlie-bodeau/"
     },
     {
         "name": "Andrew Getz",
@@ -55,14 +55,6 @@
         "link": "/home/our-team/karina-westrick-lpcc/"
     },
     {
-        "name": "Kate Evans",
-        "pronouns": "(she/they/them)",
-        "position": "LMFT",
-        "blurb": "I believe that relationships offer an opportunity for healing, and by exploring our hurts and needs together in therapy, we can strengthen the loving bond and trust between partners. Drawing from various theories and modalities, I provide a warm and validating approach to help couples break free from negative cycles and build a stronger connection, working with diverse clients across different cultures, identities, and life stages.",
-        "picture": "/wp-content/themes/couples-collective/assets/team/picture_kate.jpg",
-        "link": "/home/our-team/kate-evans-lmft/"
-    },
-    {
         "name": "Lauren King",
         "pronouns": "(she/her/hers)",
         "position": "AMFT",
@@ -105,8 +97,8 @@
     {
         "name": "Taylor Walker",
         "pronouns": "(she/her/hers)",
-        "position": "Intake Coordinator",
-        "blurb": "As your inital point of contact, I will be assisting you in connecting with an approrpriate clinician and scheduling an initial meeting. I look forward to working with you.",
+        "position": "Practice Manager",
+        "blurb": "Taylor is a compassionate Practice Manager with over 11 years of mental health experience, committed to fostering a supportive environment, streamlining operations, and advocating for mental health awareness. She combines leadership with a dedication to professional growth and client care.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_taylor.jpg",
         "link": "/home/our-team/taylor-walker/"
     },
