@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Blog">
-    <?php 
+    <?php
     wp_head();
     ?>
 </head>
@@ -18,30 +18,31 @@
     <!-- <section id="media-level"></section> -->
     <div id="standard-header">
         <?php
-            get_header()
-        ?>
+        get_header()
+            ?>
     </div>
     <div id="blog-list">
         <div class="content">
-        <?php
-            if (have_posts() ) {
-                while (have_posts() ) {
+            <?php
+            if (have_posts()) {
+                while (have_posts()) {
                     the_post();
                     the_content();
                 }
             }
-        ?>
-        <?php
+            ?>
+            <?php
             the_posts_pagination();
-        ?>
+            ?>
         </div>
     </div>
     <div class="standard-footer">
         <?php
-            get_footer()
-        ?>
+        get_footer()
+            ?>
     </div>
-    <script type="text/javascript" src="//cdn.callrail.com/companies/636674144/9a8ff257e0969e4278e2/12/swap.js"></script>
+    <script type="text/javascript"
+        src="//cdn.callrail.com/companies/636674144/9a8ff257e0969e4278e2/12/swap.js"></script>
 </body>
 
 </html>

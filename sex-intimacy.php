@@ -14,8 +14,8 @@ Template Name: sex-intimacy
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sex and Intimacy Therapy">
-    <?php 
-        wp_head();
+    <?php
+    wp_head();
     ?>
 </head>
 
@@ -24,8 +24,8 @@ Template Name: sex-intimacy
     <!-- <section id="media-level"></section> -->
     <div id="standard-header">
         <?php
-            get_header()
-        ?>
+        get_header()
+            ?>
     </div>
     <div class="services">
         <div id="services-five">
@@ -37,7 +37,13 @@ Template Name: sex-intimacy
                 <div class="flex-item">
                     <div class="content">
                         <div class="title">Sex and Intimacy Therapy</div>
-                        <p>Sex and intimacy are fundamental aspects of human relationships, but they can become sources of stress and discord in a partnership. Emotionally Focused Couples Therapy (EFT) has emerged as a powerful approach for addressing these issues; allowing couples to reconnect and revitalize their physical connection. EFT can be an effective tool in healing and improving sexual and intimate aspects of relationships, providing both couples and individuals with the support they need to experience fulfilling, passionate, and connected lives.</p>
+                        <p>Sex and intimacy are fundamental aspects of human relationships, but they can become sources
+                            of stress and discord in a partnership. Emotionally Focused Couples Therapy (EFT) has
+                            emerged as a powerful approach for addressing these issues; allowing couples to reconnect
+                            and revitalize their physical connection. EFT can be an effective tool in healing and
+                            improving sexual and intimate aspects of relationships, providing both couples and
+                            individuals with the support they need to experience fulfilling, passionate, and connected
+                            lives.</p>
                     </div>
                 </div>
             </div>
@@ -50,41 +56,56 @@ Template Name: sex-intimacy
             </div>
             <div class="flex-container-two">
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_1173368.jpg" alt="Two men in love embrace tenderly" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_1173368.jpg"
+                        alt="Two men in love embrace tenderly" />
                     <div class="small-title">Emotional Safety</div>
                     <div>
-                        EFT prioritizes creating a safe emotional space for couples to explore their feelings and vulnerabilities. This emotional safety is crucial for addressing issues related to sex and intimacy, as it allows individuals to express their fears, desires, and concerns without judgment or criticism.
+                        EFT prioritizes creating a safe emotional space for couples to explore their feelings and
+                        vulnerabilities. This emotional safety is crucial for addressing issues related to sex and
+                        intimacy, as it allows individuals to express their fears, desires, and concerns without
+                        judgment or criticism.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2535983.jpg" alt="Young women kissing" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2535983.jpg"
+                        alt="Young women kissing" />
                     <div class="small-title">Understanding Attachment</div>
                     <div>
-                        EFT therapists recognize that our early attachment experiences often shape our ability to connect with others, including in intimate settings. By exploring attachment patterns, EFT helps couples understand the underlying causes of their sexual and intimacy issues.
+                        EFT therapists recognize that our early attachment experiences often shape our ability to
+                        connect with others, including in intimate settings. By exploring attachment patterns, EFT helps
+                        couples understand the underlying causes of their sexual and intimacy issues.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp181f7a45MqN200_Medium_1710039.jpg" alt="Smiling couple at wall" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp181f7a45MqN200_Medium_1710039.jpg"
+                        alt="Smiling couple at wall" />
                     <div class="small-title">Communication Enhancement</div>
                     <div>
-                        Effective communication is at the heart of resolving sexual and intimacy issues. EFT equips couples with the tools to express their needs, desires, and boundaries clearly, fostering better understanding and connection.
+                        Effective communication is at the heart of resolving sexual and intimacy issues. EFT equips
+                        couples with the tools to express their needs, desires, and boundaries clearly, fostering better
+                        understanding and connection.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txpd43da0b5eUQ000_Medium_273418.jpg" alt="Image of group of friends hang out in the city" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txpd43da0b5eUQ000_Medium_273418.jpg"
+                        alt="Image of group of friends hang out in the city" />
                     <div class="small-title">Addressing Negative Patterns</div>
                     <div>
-                        Many couples struggle with negative cycles of interaction that contribute to sexual and intimacy problems. EFT helps identify these patterns and replace them with healthier, more constructive ways of relating to each other.
+                        Many couples struggle with negative cycles of interaction that contribute to sexual and intimacy
+                        problems. EFT helps identify these patterns and replace them with healthier, more constructive
+                        ways of relating to each other.
                     </div>
                 </div>
                 <div class="flex-item">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2621517.jpg" alt="Happy black and white couple having fun outdoors" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Stocksy_txp2c7f6af1x1k200_Small_2621517.jpg"
+                        alt="Happy black and white couple having fun outdoors" />
                     <div class="small-title">Rebuilding Trust</div>
                     <div>
-                        EFT can help rebuild trust, which is often eroded by sexual or intimacy issues. Trust is essential for feeling safe and vulnerable in an intimate relationship.
+                        EFT can help rebuild trust, which is often eroded by sexual or intimacy issues. Trust is
+                        essential for feeling safe and vulnerable in an intimate relationship.
                     </div>
                 </div>
-            </div>      
+            </div>
         </div>
         <div id="services-six">
             <div class="flex-container">
@@ -95,33 +116,38 @@ Template Name: sex-intimacy
                     <div class="flex-item">
                         <div><b>Desire Discrepancy</b></div>
                         <div>
-                            When partners have different levels of desire, EFT helps them understand each other's needs and work together to find a satisfying compromise.
+                            When partners have different levels of desire, EFT helps them understand each other's needs
+                            and work together to find a satisfying compromise.
                         </div>
-                    </div>    
+                    </div>
                     <div class="flex-item">
                         <div><b>Erectile Dysfunction and Performance Anxiety</b></div>
                         <div>
-                            EFT provides a safe environment to discuss and address performance-related concerns, reducing anxiety and increasing sexual confidence.
+                            EFT provides a safe environment to discuss and address performance-related concerns,
+                            reducing anxiety and increasing sexual confidence.
                         </div>
-                    </div>    
+                    </div>
                     <div class="flex-item">
                         <div><b>Past Trauma</b></div>
                         <div>
-                            Individuals who have experienced sexual trauma can benefit from EFT's emphasis on emotional safety and trust-building. It helps partners navigate the healing process together.
+                            Individuals who have experienced sexual trauma can benefit from EFT's emphasis on emotional
+                            safety and trust-building. It helps partners navigate the healing process together.
                         </div>
-                    </div>    
+                    </div>
                     <div class="flex-item">
                         <div><b>Lack of Intimacy</b></div>
                         <div>
-                            For couples feeling emotionally distant, EFT can help them rediscover emotional intimacy, which often leads to improved physical intimacy.
+                            For couples feeling emotionally distant, EFT can help them rediscover emotional intimacy,
+                            which often leads to improved physical intimacy.
                         </div>
-                    </div>    
+                    </div>
                     <div class="flex-item">
                         <div><b>Communication Breakdown</b></div>
                         <div>
-                            EFT's focus on improving communication extends to discussing sexual and intimate issues openly and honestly, reducing misunderstandings and conflicts.
+                            EFT's focus on improving communication extends to discussing sexual and intimate issues
+                            openly and honestly, reducing misunderstandings and conflicts.
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="fill-width-center">
                     <a class="fill-button" href="/contact" target="_blank">Contact us</a>
@@ -180,10 +206,11 @@ Template Name: sex-intimacy
     </div>
     <div class="standard-footer">
         <?php
-            get_footer()
-        ?>
+        get_footer()
+            ?>
     </div>
-    <script type="text/javascript" src="//cdn.callrail.com/companies/636674144/9a8ff257e0969e4278e2/12/swap.js"></script>
+    <script type="text/javascript"
+        src="//cdn.callrail.com/companies/636674144/9a8ff257e0969e4278e2/12/swap.js"></script>
 </body>
 
 </html>

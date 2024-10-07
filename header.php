@@ -8,7 +8,7 @@
             </div>
             <div class="right-nav-desktop">
                 <div class="menu-links">
-                <?php
+                    <?php
                     wp_nav_menu(
                         array(
                             'menu' => 'primary',
@@ -17,7 +17,7 @@
                             'items_wrap' => '%3$s'
                         )
                     );
-                ?>
+                    ?>
                 </div>
                 <div>
                     <a class="fill-button" href="tel:5103739995">Call now: (510) 373-9995</a>
@@ -32,14 +32,14 @@
                 <div id="myLinks">
                     <div class="text-links">
                         <?php
-                            wp_nav_menu(
-                                array(
-                                    'menu' => 'Mobile Menu',
-                                    'container' => '',
-                                    'theme_location' => 'primary',
-                                    'items_wrap' => '%3$s'
-                                )
-                            );
+                        wp_nav_menu(
+                            array(
+                                'menu' => 'Mobile Menu',
+                                'container' => '',
+                                'theme_location' => 'primary',
+                                'items_wrap' => '%3$s'
+                            )
+                        );
                         ?>
                     </div>
                     <div class="button-link">
