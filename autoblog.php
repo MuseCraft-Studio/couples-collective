@@ -32,7 +32,7 @@ Template Name: autoblog
         <div class="auto-blog">
             <h1>AutoBlog</h1>
             <?php
-            the_content();
+                the_content();
             ?>  
         </div>
         <div class="standard-footer">
