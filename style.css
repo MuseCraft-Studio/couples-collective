@@ -1,6 +1,6 @@
 /*
 Theme Name: The Couples Collective
-Version: 0.63
+Version: 0.64
 Description: Updated site for the Bay Area Couples Collective
 Tags: private, static
 Author: Angel Damion Robles and CJ Garcia
@@ -392,6 +392,7 @@ body {
 
 #blog-list img {
   border-radius: var(--standard-radius);
+  max-width: 680px;
 }
 
 #blog-list h2 {
@@ -422,6 +423,7 @@ body {
 
 #blog-post img {
   border-radius: var(--standard-radius);
+  max-width: 680px;
 }
 
 #blog-post h2 {
@@ -2145,7 +2147,7 @@ body {
   border: 2px var(--standard-green) solid;
 }
 
-.auto-blog form input {
+.auto-blog form #chatgpt_prompt {
   /* background-color: var(--standard-green);
   color: white; */
   width: 100%;
@@ -2155,6 +2157,57 @@ body {
   border: 2px var(--standard-green) solid;
 }
 
+.auto-blog .autoblog-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 12px;
+  padding-bottom: 6px;
+}
+
+.auto-blog .autoblog-image label {
+  white-space: nowrap;
+  color: var(--standard-gray);
+}
+
+.auto-blog .autoblog-image label{
+  white-space: nowrap;
+}
+
+.auto-blog .autoblog-image .find-image-input {
+  font-family: var(--font-work-sans-regular);
+  border-radius: var(--standard-radius);
+  padding: 8px 32px;
+  border: 2px var(--standard-green) solid;
+}
+
+.auto-blog .autoblog-image input::file-selector-button {
+  font-family: var(--font-work-sans-regular);
+  white-space: nowrap;
+  background-color: var(--standard-green);
+  border: solid 2px var(--standard-green);
+  color: white;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: var(--font-work-sans-regular);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: var(--standard-radius);
+  transition: 0.2s all ease-in-out;
+}
+
+.auto-blog .autoblog-image input::file-selector-button:hover {
+  color: var(--standard-green);
+  background-color: white;
+  cursor: pointer;
+}
+
+.auto-blog .autoblog-image input[type=file] {
+  font-family: var(--font-work-sans-regular);
+}
 
 @media screen and (max-width: 1440px) {
   #navigation .title {
