@@ -26,10 +26,10 @@
     {
         "name": "Danielle Brandon",
         "pronouns": "(she/they)",
-        "position": "AMFT",
+        "position": "LMFT",
         "blurb": "With support, we can all grow, recognize our strengths, and live a more meaningful, connected, and enjoyable life. I approach therapy with curiosity, exploring the unique experiences, backgrounds, identities, and contexts that shape us. I understand that relationships can be both sources of wounds and profound healing. I help couples learn healthy communication, break patterns, and create a safe, caring connection.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_danielle.jpg",
-        "link": "/home/our-team/danielle-brandon-amft/"
+        "link": "/home/our-team/danielle-brandon-lmft/"
     },
     {
         "name": "Gilonne d’Origny",
@@ -45,6 +45,14 @@
         "blurb": "Utilizing Emotionally Focused Therapy (EFT), I specialize in couples therapy, fostering safety, connection, and healing. With over 30 years of research supporting its effectiveness, EFT helps couples transform communication and interrupt distressing cycles. By addressing deep emotional needs and establishing trust, couples can find profound growth and lasting improvement in their relationships. Reach out today for an appointment and begin your journey towards a stronger and more fulfilling connection.",
         "picture": "/wp-content/themes/couples-collective/assets/team/picture_jennifer.jpg",
         "link": "/home/our-team/jennifer-smith-lmft/"
+    },
+    {
+        "name": "Jess Butler",
+        "pronouns": "(she/they)",
+        "position": "AMFT",
+        "blurb": "You're not really fighting about the dishes. When partners get stuck in an endless loop of disappointment, frustration, criticism, anxiety, and withdrawal, it can be hard to see what's happening and even harder to see a way out. We'll use Emotionally Focused Couples Therapy to learn new ways of relating to old patterns so you can find more space in your relationship for communication and connection. If you're ready to get started, reach out—I'd love to meet you.",
+        "picture": "/wp-content/themes/couples-collective/assets/team/picture_jess.jpg",
+        "link": "/home/our-team/jess-butler-amft/"
     },
     {
         "name": "Karina Westrick",
